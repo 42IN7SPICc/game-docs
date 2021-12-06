@@ -80,21 +80,21 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for game::HeroPrefabFactory:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1HeroPrefabFactory__coll__graph.svg" width="258" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1HeroPrefabFactory__coll__graph.svg" width="222" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aca56fd7baf41823ac74231f649741811"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HeroPrefabFactory.html#aca56fd7baf41823ac74231f649741811">CreateHero</a> (<a class="el" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a> name)</td></tr>
-<tr class="memdesc:aca56fd7baf41823ac74231f649741811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new hero based on the given name.  <a href="classgame_1_1HeroPrefabFactory.html#aca56fd7baf41823ac74231f649741811">More...</a><br /></td></tr>
-<tr class="separator:aca56fd7baf41823ac74231f649741811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a12f7b16e2ebe3538e820019228e787"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HeroPrefabFactory.html#a2a12f7b16e2ebe3538e820019228e787">CreateHero</a> (<a class="el" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a> name, bool hasHealthBar=false)</td></tr>
+<tr class="memdesc:a2a12f7b16e2ebe3538e820019228e787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new hero based on the given name.  <a href="classgame_1_1HeroPrefabFactory.html#a2a12f7b16e2ebe3538e820019228e787">More...</a><br /></td></tr>
+<tr class="separator:a2a12f7b16e2ebe3538e820019228e787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Factory for heroes. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aca56fd7baf41823ac74231f649741811"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca56fd7baf41823ac74231f649741811">&#9670;&nbsp;</a></span>CreateHero()</h2>
+<a id="a2a12f7b16e2ebe3538e820019228e787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a12f7b16e2ebe3538e820019228e787">&#9670;&nbsp;</a></span>CreateHero()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -106,8 +106,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt; game::HeroPrefabFactory::CreateHero </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a>&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hasHealthBar</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -121,6 +131,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the hero. </td></tr>
+    <tr><td class="paramname">hasHealthBar</td><td>Whether the hero has a health bar above themself. </td></tr>
   </table>
   </dd>
 </dl>

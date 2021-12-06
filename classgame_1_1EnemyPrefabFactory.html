@@ -80,21 +80,21 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for game::EnemyPrefabFactory:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1EnemyPrefabFactory__coll__graph.svg" width="279" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1EnemyPrefabFactory__coll__graph.svg" width="240" height="132"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a242c75e7460eb830c4e54a3a4e00dddc"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1EnemyPrefabFactory.html#a242c75e7460eb830c4e54a3a4e00dddc">CreateEnemy</a> (<a class="el" href="namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af">game::EnemyName</a> name)</td></tr>
-<tr class="memdesc:a242c75e7460eb830c4e54a3a4e00dddc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new enemy based on the given name.  <a href="classgame_1_1EnemyPrefabFactory.html#a242c75e7460eb830c4e54a3a4e00dddc">More...</a><br /></td></tr>
-<tr class="separator:a242c75e7460eb830c4e54a3a4e00dddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e1e457fc7ba34c32f57794e1e6ec87"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1EnemyPrefabFactory.html#af2e1e457fc7ba34c32f57794e1e6ec87">CreateEnemy</a> (<a class="el" href="namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af">game::EnemyName</a> name, bool hasHealthBar=false)</td></tr>
+<tr class="memdesc:af2e1e457fc7ba34c32f57794e1e6ec87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new enemy based on the given name.  <a href="classgame_1_1EnemyPrefabFactory.html#af2e1e457fc7ba34c32f57794e1e6ec87">More...</a><br /></td></tr>
+<tr class="separator:af2e1e457fc7ba34c32f57794e1e6ec87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Factory for enemies. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a242c75e7460eb830c4e54a3a4e00dddc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a242c75e7460eb830c4e54a3a4e00dddc">&#9670;&nbsp;</a></span>CreateEnemy()</h2>
+<a id="af2e1e457fc7ba34c32f57794e1e6ec87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2e1e457fc7ba34c32f57794e1e6ec87">&#9670;&nbsp;</a></span>CreateEnemy()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -106,8 +106,18 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt; EnemyPrefabFactory::CreateEnemy </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af">game::EnemyName</a>&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hasHealthBar</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -121,6 +131,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the enemy. </td></tr>
+    <tr><td class="paramname">hasHealthBar</td><td>Whether the hero has a health bar above themself. </td></tr>
   </table>
   </dd>
 </dl>

@@ -84,33 +84,33 @@ $(function() {
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classgame_1_1EnemyPrefabFactory.html">   16</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1EnemyPrefabFactory.html">EnemyPrefabFactory</a></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; <a class="code" href="classgame_1_1EnemyPrefabFactory.html#a242c75e7460eb830c4e54a3a4e00dddc">CreateEnemy</a>(<a class="code" href="namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af">game::EnemyName</a> name);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreatePanzer();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateGruppenfuhrer();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateSchutze();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateErkunder();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateGhillieAnzugSchutze();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateStabsarzt();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateRaupenschlepper();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateBaseEnemy(<span class="keywordtype">int</span> attack, <span class="keywordtype">int</span> health, <span class="keyword">const</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&amp; idleSprites, <span class="keyword">const</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&amp; walkingSprites, <span class="keyword">const</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&amp; diedSprites);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    };</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; <a class="code" href="classgame_1_1EnemyPrefabFactory.html#af2e1e457fc7ba34c32f57794e1e6ec87">CreateEnemy</a>(<a class="code" href="namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af">game::EnemyName</a> name, <span class="keywordtype">bool</span> hasHealthBar = <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreatePanzer();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateGruppenfuhrer();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateSchutze();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateErkunder();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateGhillieAnzugSchutze();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateStabsarzt();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateRaupenschlepper();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateBaseEnemy(<span class="keywordtype">int</span> attack, <span class="keywordtype">int</span> health, <span class="keyword">const</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&amp; idleSprites, <span class="keyword">const</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&amp; walkingSprites, <span class="keyword">const</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&amp; diedSprites);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    };</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_ENEMYPREFABFACTORY_HPP</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_ENEMYPREFABFACTORY_HPP</span></div>
 <div class="ttc" id="aGameObject_8hpp_html"><div class="ttname"><a href="GameObject_8hpp.html">GameObject.hpp</a></div></div>
 <div class="ttc" id="aSprite_8hpp_html"><div class="ttname"><a href="Sprite_8hpp.html">Sprite.hpp</a></div></div>
 <div class="ttc" id="aclassgame_1_1EnemyPrefabFactory_html"><div class="ttname"><a href="classgame_1_1EnemyPrefabFactory.html">game::EnemyPrefabFactory</a></div><div class="ttdoc">Factory for enemies.</div><div class="ttdef"><b>Definition:</b> EnemyPrefabFactory.hpp:17</div></div>
-<div class="ttc" id="aclassgame_1_1EnemyPrefabFactory_html_a242c75e7460eb830c4e54a3a4e00dddc"><div class="ttname"><a href="classgame_1_1EnemyPrefabFactory.html#a242c75e7460eb830c4e54a3a4e00dddc">game::EnemyPrefabFactory::CreateEnemy</a></div><div class="ttdeci">static std::shared_ptr&lt; spic::GameObject &gt; CreateEnemy(game::EnemyName name)</div><div class="ttdoc">Create a new enemy based on the given name.</div><div class="ttdef"><b>Definition:</b> EnemyPrefabFactory.cpp:19</div></div>
+<div class="ttc" id="aclassgame_1_1EnemyPrefabFactory_html_af2e1e457fc7ba34c32f57794e1e6ec87"><div class="ttname"><a href="classgame_1_1EnemyPrefabFactory.html#af2e1e457fc7ba34c32f57794e1e6ec87">game::EnemyPrefabFactory::CreateEnemy</a></div><div class="ttdeci">static std::shared_ptr&lt; spic::GameObject &gt; CreateEnemy(game::EnemyName name, bool hasHealthBar=false)</div><div class="ttdoc">Create a new enemy based on the given name.</div><div class="ttdef"><b>Definition:</b> EnemyPrefabFactory.cpp:19</div></div>
 <div class="ttc" id="anamespacegame_1_1types_html_a45f01ce73c860544f42f770d91cc43eb"><div class="ttname"><a href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">game::types::sprite_vector</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; spic::Sprite &gt; &gt; sprite_vector</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.hpp:14</div></div>
 <div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> LevelController.hpp:19</div></div>
 <div class="ttc" id="anamespacegame_html_afb72ed4034fa83d241a5874b0e61a9af"><div class="ttname"><a href="namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af">game::EnemyName</a></div><div class="ttdeci">EnemyName</div><div class="ttdoc">Enum for enemy names.</div><div class="ttdef"><b>Definition:</b> EnemyName.hpp:10</div></div>
