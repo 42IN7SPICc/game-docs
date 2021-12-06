@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g_351',['G',['../classspic_1_1Color.html#a521c745ac1a029bc0bda5bca6446ff8d',1,'spic::Color::G()'],['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2adfcf28d0734569a6a693bc8194de62bf',1,'spic::Input::G()']]],
+  ['g_351',['G',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2adfcf28d0734569a6a693bc8194de62bf',1,'spic::Input::G()'],['../classspic_1_1Color.html#a521c745ac1a029bc0bda5bca6446ff8d',1,'spic::Color::G()']]],
   ['game_352',['Game',['../namespacegame.html#a0948dcfcb993397486973759731fe8f8aa94cd2fee9a63fd46d13fb5910e98a14',1,'game::Game()'],['../namespacegame.html#a0948dcfcb993397486973759731fe8f8a63d72051e901c069f8aa1b32aa0c43bb',1,'game::Game()']]],
   ['game_353',['game',['../namespacegame.html',1,'']]],
   ['gamelostbehaviour_354',['GameLostBehaviour',['../classgame_1_1GameLostBehaviour.html',1,'game::GameLostBehaviour'],['../classgame_1_1GameLostBehaviour.html#a5fc7cf2d0e1b352840187ee984a0a05a',1,'game::GameLostBehaviour::GameLostBehaviour()']]],
@@ -28,7 +28,7 @@ var searchData=
   ['generatewave_376',['GenerateWave',['../classgame_1_1WavePrefabFactory.html#a88914839fbaeee2a68bb617a07db6196',1,'game::WavePrefabFactory']]],
   ['generatewaves_377',['GenerateWaves',['../classgame_1_1WavePrefabFactory.html#a4f070b2519999c2eb13795d08ef15c50',1,'game::WavePrefabFactory']]],
   ['get_378',['Get',['../classengine_1_1Texture.html#a98ca46816071ab8a0282bea2efc941e5',1,'engine::Texture']]],
-  ['getall_379',['GetAll',['../classgame_1_1LevelManager.html#acaef4bd7eca445be2981c5872844766e',1,'game::LevelManager::GetAll()'],['../classgame_1_1SaveGameManager.html#ae9406c6480ece36d3bec35d0e6d92796',1,'game::SaveGameManager::GetAll()']]],
+  ['getall_379',['GetAll',['../classgame_1_1SaveGameManager.html#ae9406c6480ece36d3bec35d0e6d92796',1,'game::SaveGameManager::GetAll()'],['../classgame_1_1LevelManager.html#acaef4bd7eca445be2981c5872844766e',1,'game::LevelManager::GetAll()']]],
   ['getaxis_380',['GetAxis',['../namespacespic_1_1Input.html#af84f2a1210eb3cb6d231186bc32c9693',1,'spic::Input']]],
   ['getcenter_381',['GetCenter',['../classengine_1_1ZoneUtil.html#a51f7ff59c958d4adc1ea5490f758c22e',1,'engine::ZoneUtil']]],
   ['getchannelname_382',['getChannelName',['../AudioManager_8cpp.html#afea1c9b6e4067bd668a15848379daa81',1,'AudioManager.cpp']]],
@@ -57,9 +57,9 @@ var searchData=
   ['gettiletype_405',['GetTileType',['../classgame_1_1TileUtil.html#a94874d2e39598301fa7491bdbecf9d82',1,'game::TileUtil']]],
   ['ghillieanzugschutze_406',['GhillieAnzugSchutze',['../namespacegame.html#afb72ed4034fa83d241a5874b0e61a9afaf28c85904b1db69cf2d5a4c854576e73',1,'game']]],
   ['graph_407',['Graph',['../structgame_1_1LevelData.html#a9b74b96d3c05d4914113b3099d1bb9f7',1,'game::LevelData']]],
-  ['grass_408',['Grass',['../namespacegame.html#a9fb4c421008a80703a39c1ec82f3059da8664afff38fd3443e8f2601b52a36cf4',1,'game']]],
+  ['grass_408',['Grass',['../structgame_1_1TilesAmount.html#a90eb81512f920f63b39e18e5c7fa3dca',1,'game::TilesAmount::Grass()'],['../namespacegame.html#a9fb4c421008a80703a39c1ec82f3059da8664afff38fd3443e8f2601b52a36cf4',1,'game::Grass()']]],
   ['grave_5faccent_5fand_5ftilde_409',['GRAVE_ACCENT_AND_TILDE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a85d96861c533b803fadc36d0db7e144b',1,'spic::Input']]],
-  ['gravityscale_410',['GravityScale',['../classspic_1_1RigidBody.html#a09281f5be8c83d322d3a3064276c3702',1,'spic::RigidBody::GravityScale(double newGravityScale)'],['../classspic_1_1RigidBody.html#a18b18d41e77fa57761a42bc447b8a6cf',1,'spic::RigidBody::GravityScale() const'],['../PhysicsSubsystem_8cpp.html#a56adfe7297ad6e15e4b27df7e05c9414',1,'GravityScale():&#160;PhysicsSubsystem.cpp']]],
+  ['gravityscale_410',['GravityScale',['../classspic_1_1RigidBody.html#a09281f5be8c83d322d3a3064276c3702',1,'spic::RigidBody::GravityScale()'],['../PhysicsSubsystem_8cpp.html#a56adfe7297ad6e15e4b27df7e05c9414',1,'GravityScale():&#160;PhysicsSubsystem.cpp'],['../classspic_1_1RigidBody.html#a18b18d41e77fa57761a42bc447b8a6cf',1,'spic::RigidBody::GravityScale()']]],
   ['green_411',['green',['../classspic_1_1Color.html#a74d06b658618c2533d6fdd32f7f855aa',1,'spic::Color']]],
   ['gruppenfuhrer_412',['Gruppenfuhrer',['../namespacegame.html#afb72ed4034fa83d241a5874b0e61a9afab1372fbcfaac4ab71c30a5e5ed674333',1,'game']]],
   ['types_413',['types',['../namespacegame_1_1types.html',1,'game']]]
