@@ -33,7 +33,7 @@ var searchData=
   ['getmousebuttonup_1423',['GetMouseButtonUp',['../namespacespic_1_1Input.html#a41b9e6bb5007fa8716c5a1464d5473d3',1,'spic::Input']]],
   ['getpath_1424',['GetPath',['../classgame_1_1LevelController.html#a5ffdca0ce723a7c7adbdaca7ae95e468',1,'game::LevelController']]],
   ['getsprite_1425',['GetSprite',['../classgame_1_1TileUtil.html#a935c0d0588bab2d42d6030a1306c5436',1,'game::TileUtil']]],
-  ['gettexture_1426',['GetTexture',['../classengine_1_1TextureManager.html#a4372c18667f2e8d3858bc6fad17b111d',1,'engine::TextureManager']]],
+  ['gettexture_1426',['GetTexture',['../classengine_1_1TextureManager.html#ac450abc0a750680eca6621aa62f69b95',1,'engine::TextureManager']]],
   ['gettiletype_1427',['GetTileType',['../classgame_1_1TileUtil.html#a94874d2e39598301fa7491bdbecf9d82',1,'game::TileUtil']]],
   ['gravityscale_1428',['GravityScale',['../classspic_1_1RigidBody.html#a09281f5be8c83d322d3a3064276c3702',1,'spic::RigidBody::GravityScale(double newGravityScale)'],['../classspic_1_1RigidBody.html#a18b18d41e77fa57761a42bc447b8a6cf',1,'spic::RigidBody::GravityScale() const']]],
   ['green_1429',['green',['../classspic_1_1Color.html#a74d06b658618c2533d6fdd32f7f855aa',1,'spic::Color']]]
