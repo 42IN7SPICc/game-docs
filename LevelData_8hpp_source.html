@@ -88,14 +88,15 @@ $(function() {
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structgame_1_1LevelData.html#ae2d751f526fc43c323047880b0f774b9">   20</a></span>&#160;        std::queue&lt;WaveData&gt; <a class="code" href="structgame_1_1LevelData.html#ae2d751f526fc43c323047880b0f774b9">Waves</a>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structgame_1_1LevelData.html#a9b74b96d3c05d4914113b3099d1bb9f7">   21</a></span>&#160;        std::map&lt;std::string, game::MapNode&gt; <a class="code" href="structgame_1_1LevelData.html#a9b74b96d3c05d4914113b3099d1bb9f7">Graph</a>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structgame_1_1LevelData.html#af2a5209f7c28892786c7a792cf55bb40">   22</a></span>&#160;        std::queue&lt;std::string&gt; <a class="code" href="structgame_1_1LevelData.html#af2a5209f7c28892786c7a792cf55bb40">Path</a>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        [[nodiscard]] <span class="keywordtype">size_t</span> <a class="code" href="structgame_1_1LevelData.html#add5559578b9e2eb7731d2c46ab6986ca">CurrentWave</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structgame_1_1LevelData.html#a169a6dc387967018697546db34cd84fb">ClearDeadEnemies</a>(<a class="code" href="structgame_1_1WaveData.html">WaveData</a>&amp; wave);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_LEVELDATA_HPP</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structgame_1_1LevelData.html#aebc76e0f8a07d2b58b17046f158f0517">   23</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="structgame_1_1LevelData.html#aebc76e0f8a07d2b58b17046f158f0517">WavesStarted</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        [[nodiscard]] <span class="keywordtype">size_t</span> <a class="code" href="structgame_1_1LevelData.html#add5559578b9e2eb7731d2c46ab6986ca">CurrentWave</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="structgame_1_1LevelData.html#a169a6dc387967018697546db34cd84fb">ClearDeadEnemies</a>(<a class="code" href="structgame_1_1WaveData.html">WaveData</a>&amp; wave);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    };</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_LEVELDATA_HPP</span></div>
 <div class="ttc" id="aMapNode_8hpp_html"><div class="ttname"><a href="MapNode_8hpp.html">MapNode.hpp</a></div></div>
 <div class="ttc" id="aWaveData_8hpp_html"><div class="ttname"><a href="WaveData_8hpp.html">WaveData.hpp</a></div></div>
 <div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> LevelController.hpp:19</div></div>
@@ -108,6 +109,7 @@ $(function() {
 <div class="ttc" id="astructgame_1_1LevelData_html_ad93aee68c818e2246bc7285faf4ca53d"><div class="ttname"><a href="structgame_1_1LevelData.html#ad93aee68c818e2246bc7285faf4ca53d">game::LevelData::MilitaryBaseHealth</a></div><div class="ttdeci">std::shared_ptr&lt; game::HealthBehaviour &gt; MilitaryBaseHealth</div><div class="ttdef"><b>Definition:</b> LevelData.hpp:17</div></div>
 <div class="ttc" id="astructgame_1_1LevelData_html_add5559578b9e2eb7731d2c46ab6986ca"><div class="ttname"><a href="structgame_1_1LevelData.html#add5559578b9e2eb7731d2c46ab6986ca">game::LevelData::CurrentWave</a></div><div class="ttdeci">size_t CurrentWave() const</div><div class="ttdoc">The current wave.</div><div class="ttdef"><b>Definition:</b> LevelData.cpp:6</div></div>
 <div class="ttc" id="astructgame_1_1LevelData_html_ae2d751f526fc43c323047880b0f774b9"><div class="ttname"><a href="structgame_1_1LevelData.html#ae2d751f526fc43c323047880b0f774b9">game::LevelData::Waves</a></div><div class="ttdeci">std::queue&lt; WaveData &gt; Waves</div><div class="ttdef"><b>Definition:</b> LevelData.hpp:20</div></div>
+<div class="ttc" id="astructgame_1_1LevelData_html_aebc76e0f8a07d2b58b17046f158f0517"><div class="ttname"><a href="structgame_1_1LevelData.html#aebc76e0f8a07d2b58b17046f158f0517">game::LevelData::WavesStarted</a></div><div class="ttdeci">bool WavesStarted</div><div class="ttdef"><b>Definition:</b> LevelData.hpp:23</div></div>
 <div class="ttc" id="astructgame_1_1LevelData_html_af2a5209f7c28892786c7a792cf55bb40"><div class="ttname"><a href="structgame_1_1LevelData.html#af2a5209f7c28892786c7a792cf55bb40">game::LevelData::Path</a></div><div class="ttdeci">std::queue&lt; std::string &gt; Path</div><div class="ttdef"><b>Definition:</b> LevelData.hpp:22</div></div>
 <div class="ttc" id="astructgame_1_1WaveData_html"><div class="ttname"><a href="structgame_1_1WaveData.html">game::WaveData</a></div><div class="ttdoc">A model for storing about the wave.</div><div class="ttdef"><b>Definition:</b> WaveData.hpp:15</div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -80,7 +80,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for game::AnimatorUtil:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1AnimatorUtil__coll__graph.svg" width="214" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1AnimatorUtil__coll__graph.svg" width="214" height="294"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -89,12 +89,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae56d0a6f283990af7c8acbaa6823458d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">CreateSpriteVector</a> (int max, const std::string &amp;prefix, int sortingLayer=0, const std::string &amp;extension=&quot;.png&quot;, bool flipX=false, bool flipY=false, int orderLayer=0)</td></tr>
 <tr class="memdesc:ae56d0a6f283990af7c8acbaa6823458d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a list of sprites by a given file template.  <a href="classgame_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">More...</a><br /></td></tr>
 <tr class="separator:ae56d0a6f283990af7c8acbaa6823458d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace34174e43b523aff3fb32d66de1ab11"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AnimatorUtil.html#ace34174e43b523aff3fb32d66de1ab11">CreateSpriteVector</a> (int max, const std::string &amp;prefix, <a class="el" href="classspic_1_1Color.html">spic::Color</a> color, int sortingLayer=0, const std::string &amp;extension=&quot;.png&quot;, bool flipX=false, bool flipY=false, int orderLayer=0)</td></tr>
+<tr class="memdesc:ace34174e43b523aff3fb32d66de1ab11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a list of sprites by a given file template and color.  <a href="classgame_1_1AnimatorUtil.html#ace34174e43b523aff3fb32d66de1ab11">More...</a><br /></td></tr>
+<tr class="separator:ace34174e43b523aff3fb32d66de1ab11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A util for animators. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae56d0a6f283990af7c8acbaa6823458d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae56d0a6f283990af7c8acbaa6823458d">&#9670;&nbsp;</a></span>CreateSpriteVector()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56d0a6f283990af7c8acbaa6823458d">&#9670;&nbsp;</a></span>CreateSpriteVector() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,6 +165,94 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">max</td><td>The amount of sprites. </td></tr>
     <tr><td class="paramname">prefix</td><td>The path to put in front of the index. </td></tr>
+    <tr><td class="paramname">sortingLayer</td><td>The sorting layer for the sprites. </td></tr>
+    <tr><td class="paramname">extension</td><td>The file extension to place after the prefix and index. </td></tr>
+    <tr><td class="paramname">flipX</td><td>Whether to flip to sprite on the X-axis. </td></tr>
+    <tr><td class="paramname">flipY</td><td>Whether to flip to sprite on the Y-axis. </td></tr>
+    <tr><td class="paramname">orderLayer</td><td>The order layer for the sprites. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of sprites. </dd></dl>
+
+</div>
+</div>
+<a id="ace34174e43b523aff3fb32d66de1ab11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace34174e43b523aff3fb32d66de1ab11">&#9670;&nbsp;</a></span>CreateSpriteVector() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classspic_1_1Sprite.html">spic::Sprite</a> &gt; &gt; AnimatorUtil::CreateSpriteVector </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classspic_1_1Color.html">spic::Color</a>&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sortingLayer</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>extension</em> = <code>&quot;.png&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flipX</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>flipY</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>orderLayer</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a list of sprites by a given file template and color. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">max</td><td>The amount of sprites. </td></tr>
+    <tr><td class="paramname">prefix</td><td>The path to put in front of the index. </td></tr>
+    <tr><td class="paramname">color</td><td>The color change for the sprite </td></tr>
     <tr><td class="paramname">sortingLayer</td><td>The sorting layer for the sprites. </td></tr>
     <tr><td class="paramname">extension</td><td>The file extension to place after the prefix and index. </td></tr>
     <tr><td class="paramname">flipX</td><td>Whether to flip to sprite on the X-axis. </td></tr>
