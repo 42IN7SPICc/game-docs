@@ -515,55 +515,57 @@
 <g id="node16" class="node">
 <title>Node16</title>
 <g id="a_node16"><a xlink:href="classgame_1_1LevelController.html" target="_top" xlink:title="A controller to handle changes in the Level.">
-<polygon fill="none" stroke="black" points="2224.5,-99.5 2224.5,-552.5 2415.5,-552.5 2415.5,-99.5 2224.5,-99.5"/>
-<text text-anchor="middle" x="2320" y="-540.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::LevelController</text>
-<polyline fill="none" stroke="black" points="2224.5,-533.5 2415.5,-533.5 "/>
-<text text-anchor="middle" x="2320" y="-521.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="2224.5,-514.5 2415.5,-514.5 "/>
-<text text-anchor="start" x="2232.5" y="-502.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ LevelController(game</text>
-<text text-anchor="start" x="2232.5" y="-491.5" font-family="Helvetica,sans-Serif" font-size="10.00">::LevelWithTiles level,</text>
-<text text-anchor="start" x="2232.5" y="-480.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; game</text>
-<text text-anchor="start" x="2232.5" y="-469.5" font-family="Helvetica,sans-Serif" font-size="10.00">::HealthBehaviour &gt; heroHealth,</text>
-<text text-anchor="start" x="2232.5" y="-458.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; game::HealthBehaviour</text>
-<text text-anchor="start" x="2232.5" y="-447.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; militaryBaseHealth, std::queue&lt;</text>
-<text text-anchor="start" x="2232.5" y="-436.5" font-family="Helvetica,sans-Serif" font-size="10.00"> game::WaveData &gt; waves)</text>
-<text text-anchor="start" x="2232.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
-<text text-anchor="start" x="2232.5" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
-<text text-anchor="start" x="2232.5" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
-<text text-anchor="start" x="2232.5" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2232.5" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2232.5" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
-<text text-anchor="start" x="2232.5" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2232.5" y="-348.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2232.5" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
-<text text-anchor="start" x="2232.5" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2232.5" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2232.5" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::shared_ptr&lt; spic</text>
-<text text-anchor="start" x="2232.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GameObject &gt; BuildLevel</text>
-<text text-anchor="start" x="2232.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::shared_ptr&lt;</text>
-<text text-anchor="start" x="2232.5" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00"> game::HealthBehaviour &gt;</text>
-<text text-anchor="start" x="2232.5" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;endTowerHealthBehaviour)</text>
-<text text-anchor="start" x="2232.5" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::shared_ptr&lt; spic</text>
-<text text-anchor="start" x="2232.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GameObject &gt; CreateHUD()</text>
-<text text-anchor="start" x="2232.5" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::shared_ptr&lt; spic</text>
-<text text-anchor="start" x="2232.5" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GameObject &gt; CreateMapButton()</text>
-<text text-anchor="start" x="2232.5" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetUnlimitedPath()</text>
-<text text-anchor="start" x="2232.5" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetStrongPath()</text>
-<text text-anchor="start" x="2232.5" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetUnlimitedMoney()</text>
-<text text-anchor="start" x="2232.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetInvincibility</text>
-<text text-anchor="start" x="2232.5" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">() const</text>
-<text text-anchor="start" x="2232.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::map&lt; std::string,</text>
-<text text-anchor="start" x="2232.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00"> MapNode &gt; &amp; GetGraph()</text>
-<text text-anchor="start" x="2232.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::queue&lt; std::string</text>
-<text text-anchor="start" x="2232.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; GetPath() const</text>
-<text text-anchor="start" x="2232.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void ButcherEnemies()</text>
+<polygon fill="none" stroke="black" points="2224.5,-88.5 2224.5,-563.5 2415.5,-563.5 2415.5,-88.5 2224.5,-88.5"/>
+<text text-anchor="middle" x="2320" y="-551.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::LevelController</text>
+<polyline fill="none" stroke="black" points="2224.5,-544.5 2415.5,-544.5 "/>
+<text text-anchor="middle" x="2320" y="-532.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="2224.5,-525.5 2415.5,-525.5 "/>
+<text text-anchor="start" x="2232.5" y="-513.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ LevelController(game</text>
+<text text-anchor="start" x="2232.5" y="-502.5" font-family="Helvetica,sans-Serif" font-size="10.00">::LevelWithTiles level,</text>
+<text text-anchor="start" x="2232.5" y="-491.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; game</text>
+<text text-anchor="start" x="2232.5" y="-480.5" font-family="Helvetica,sans-Serif" font-size="10.00">::HealthBehaviour &gt; heroHealth,</text>
+<text text-anchor="start" x="2232.5" y="-469.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; game::HealthBehaviour</text>
+<text text-anchor="start" x="2232.5" y="-458.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; militaryBaseHealth, std::queue&lt;</text>
+<text text-anchor="start" x="2232.5" y="-447.5" font-family="Helvetica,sans-Serif" font-size="10.00"> game::WaveData &gt; waves)</text>
+<text text-anchor="start" x="2232.5" y="-436.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
+<text text-anchor="start" x="2232.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<text text-anchor="start" x="2232.5" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
+<text text-anchor="start" x="2232.5" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2232.5" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2232.5" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
+<text text-anchor="start" x="2232.5" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2232.5" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2232.5" y="-348.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
+<text text-anchor="start" x="2232.5" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2232.5" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2232.5" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::shared_ptr&lt; spic</text>
+<text text-anchor="start" x="2232.5" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GameObject &gt; BuildLevel</text>
+<text text-anchor="start" x="2232.5" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::shared_ptr&lt;</text>
+<text text-anchor="start" x="2232.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00"> game::HealthBehaviour &gt;</text>
+<text text-anchor="start" x="2232.5" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;endTowerHealthBehaviour)</text>
+<text text-anchor="start" x="2232.5" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::shared_ptr&lt; spic</text>
+<text text-anchor="start" x="2232.5" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GameObject &gt; CreateHUD()</text>
+<text text-anchor="start" x="2232.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::shared_ptr&lt; spic</text>
+<text text-anchor="start" x="2232.5" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GameObject &gt; CreateMapButton()</text>
+<text text-anchor="start" x="2232.5" y="-216.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetUnlimitedPath()</text>
+<text text-anchor="start" x="2232.5" y="-205.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetStrongPath()</text>
+<text text-anchor="start" x="2232.5" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetUnlimitedMoney()</text>
+<text text-anchor="start" x="2232.5" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void SetInvincibility</text>
+<text text-anchor="start" x="2232.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">() const</text>
+<text text-anchor="start" x="2232.5" y="-161.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::map&lt; std::string,</text>
+<text text-anchor="start" x="2232.5" y="-150.5" font-family="Helvetica,sans-Serif" font-size="10.00"> MapNode &gt; &amp; GetGraph()</text>
+<text text-anchor="start" x="2232.5" y="-139.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::queue&lt; std::string</text>
+<text text-anchor="start" x="2232.5" y="-128.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; GetPath() const</text>
+<text text-anchor="start" x="2232.5" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void ButcherEnemies()</text>
+<text text-anchor="start" x="2232.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ game::LevelMode GetLevel</text>
+<text text-anchor="start" x="2232.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">Mode() const</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
 <title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M1712.1,-764.42C1855.09,-751.37 2141.62,-717.6 2215,-652 2244.84,-625.32 2266.24,-590.12 2281.58,-552.74"/>
+<path fill="none" stroke="midnightblue" d="M1712.1,-764.42C1855.09,-751.37 2141.62,-717.6 2215,-652 2241.85,-627.99 2261.88,-597.08 2276.8,-563.88"/>
 <polygon fill="none" stroke="midnightblue" points="1711.7,-760.94 1702.05,-765.33 1712.33,-767.92 1711.7,-760.94"/>
 </g>
 <!-- Node17 -->

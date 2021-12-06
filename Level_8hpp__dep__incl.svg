@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 998;
+var viewWidth = 1167;
 var viewHeight = 274;
 var sectionId = 'dynsection-1';
 </script>
@@ -144,16 +144,16 @@ var sectionId = 'dynsection-1';
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="LevelScene_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="718,-0.5 718,-19.5 857,-19.5 857,-0.5 718,-0.5"/>
-<text text-anchor="middle" x="787.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scenes/LevelScene.cpp</text>
+<polygon fill="none" stroke="black" points="551,-0.5 551,-19.5 690,-19.5 690,-0.5 551,-0.5"/>
+<text text-anchor="middle" x="620.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scenes/LevelScene.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M474.91,-60.13C482.82,-58.71 490.86,-57.3 498.5,-56 578.6,-42.42 671.47,-28.23 729.85,-19.51"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="474.21,-56.7 465,-61.93 475.46,-63.59 474.21,-56.7"/>
+<path fill="none" stroke="midnightblue" d="M458.25,-59.03C497.32,-47.46 556.7,-29.88 591.76,-19.51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="456.89,-55.78 448.3,-61.98 458.88,-62.49 456.89,-55.78"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
@@ -192,19 +192,19 @@ var sectionId = 'dynsection-1';
 <polygon fill="midnightblue" stroke="midnightblue" points="168.28,-126.66 178.66,-128.73 171.84,-120.63 168.28,-126.66"/>
 </g>
 <!-- Node9&#45;&gt;Node2 -->
-<g id="edge15" class="edge">
+<g id="edge16" class="edge">
 <title>Node9&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M405.62,-182.81C397.77,-173.65 388.05,-162.3 380.52,-153.52"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="403.03,-185.16 412.19,-190.48 408.34,-180.6 403.03,-185.16"/>
 </g>
 <!-- Node9&#45;&gt;Node4 -->
-<g id="edge17" class="edge">
+<g id="edge18" class="edge">
 <title>Node9&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M434.48,-182.47C440.72,-174.48 447.27,-164.38 450.5,-154 454.59,-140.84 454.24,-136.26 450.5,-123 445.91,-106.76 434.48,-90.6 426.86,-81.09"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="431.71,-180.32 427.98,-190.23 437.08,-184.81 431.71,-180.32"/>
 </g>
 <!-- Node9&#45;&gt;Node7 -->
-<g id="edge16" class="edge">
+<g id="edge17" class="edge">
 <title>Node9&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M377.32,-187.9C333.43,-176.34 265.65,-158.5 225.82,-148.01"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="376.56,-191.31 387.12,-190.48 378.34,-184.54 376.56,-191.31"/>
@@ -213,69 +213,85 @@ var sectionId = 'dynsection-1';
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="LevelController_8hpp.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="661.5,-129 661.5,-148 827.5,-148 827.5,-129 661.5,-129"/>
-<text text-anchor="middle" x="744.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">src/Controllers/LevelController.hpp</text>
+<polygon fill="none" stroke="black" points="638.5,-129 638.5,-148 804.5,-148 804.5,-129 638.5,-129"/>
+<text text-anchor="middle" x="721.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">src/Controllers/LevelController.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge10" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M476.21,-188.62C539.15,-177.09 639.54,-158.72 698.02,-148.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="475.27,-185.23 466.06,-190.48 476.53,-192.12 475.27,-185.23"/>
+<path fill="none" stroke="midnightblue" d="M472.93,-188.47C531.45,-176.94 624.19,-158.67 678.31,-148.01"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="471.9,-185.11 462.77,-190.48 473.26,-191.98 471.9,-185.11"/>
 </g>
 <!-- Node10&#45;&gt;Node5 -->
 <g id="edge12" class="edge">
 <title>Node10&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M837.69,-129.46C895.61,-122.31 962.38,-109.41 980.5,-87 1017.92,-40.73 926.61,-22.53 857.17,-15.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="837.26,-125.99 827.74,-130.64 838.08,-132.94 837.26,-125.99"/>
+<path fill="none" stroke="midnightblue" d="M708.31,-120.97C686.62,-93.82 644.19,-40.67 627.49,-19.76"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="705.58,-123.17 714.56,-128.81 711.05,-118.81 705.58,-123.17"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="LevelController_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="507.5,-62 507.5,-81 673.5,-81 673.5,-62 507.5,-62"/>
-<text text-anchor="middle" x="590.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">src/Controllers/LevelController.cpp</text>
+<polygon fill="none" stroke="black" points="694.5,-62 694.5,-81 860.5,-81 860.5,-62 694.5,-62"/>
+<text text-anchor="middle" x="777.5" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">src/Controllers/LevelController.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge11" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M714.76,-124.95C684.27,-112.08 637.66,-92.4 611.03,-81.17"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="713.48,-128.2 724.05,-128.87 716.2,-121.76 713.48,-128.2"/>
+<path fill="none" stroke="midnightblue" d="M735.6,-121.13C746.55,-108.42 761.3,-91.3 770.07,-81.13"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="732.93,-118.87 729.05,-128.73 738.23,-123.44 732.93,-118.87"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="CheatManager_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="691.5,-56.5 691.5,-86.5 797.5,-86.5 797.5,-56.5 691.5,-56.5"/>
-<text text-anchor="start" x="699.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scripts/Common</text>
-<text text-anchor="middle" x="744.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/CheatManager.cpp</text>
+<polygon fill="none" stroke="black" points="878.5,-56.5 878.5,-86.5 984.5,-86.5 984.5,-56.5 878.5,-56.5"/>
+<text text-anchor="start" x="886.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scripts/Common</text>
+<text text-anchor="middle" x="931.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/CheatManager.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node12 -->
 <g id="edge13" class="edge">
 <title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M744.5,-118.41C744.5,-108.22 744.5,-95.9 744.5,-86.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="741,-118.73 744.5,-128.73 748,-118.73 741,-118.73"/>
+<path fill="none" stroke="midnightblue" d="M759.38,-125.77C794.99,-114.75 848.33,-98.24 886.18,-86.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="757.9,-122.57 749.39,-128.87 759.97,-129.26 757.9,-122.57"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="EnemyMovementBehaviour_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="815.5,-56.5 815.5,-86.5 971.5,-86.5 971.5,-56.5 815.5,-56.5"/>
-<text text-anchor="start" x="823.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scripts/Enemies</text>
-<text text-anchor="middle" x="893.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/EnemyMovementBehaviour.cpp</text>
+<polygon fill="none" stroke="black" points="1002.5,-56.5 1002.5,-86.5 1158.5,-86.5 1158.5,-56.5 1002.5,-56.5"/>
+<text text-anchor="start" x="1010.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scripts/Enemies</text>
+<text text-anchor="middle" x="1080.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/EnemyMovementBehaviour.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node13 -->
 <g id="edge14" class="edge">
 <title>Node10&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M773.69,-124.77C798.91,-113.77 835.29,-97.89 861.34,-86.53"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="772.05,-121.66 764.29,-128.87 774.85,-128.08 772.05,-121.66"/>
+<path fill="none" stroke="midnightblue" d="M778.96,-127.1C839.59,-116.12 935.51,-98.75 1002.85,-86.56"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="778.02,-123.71 768.8,-128.94 779.27,-130.6 778.02,-123.71"/>
+</g>
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:href="UserAttackBehaviour_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="507,-56.5 507,-86.5 638,-86.5 638,-56.5 507,-56.5"/>
+<text text-anchor="start" x="515" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/Scripts/Heroes</text>
+<text text-anchor="middle" x="572.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">/UserAttackBehaviour.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node10&#45;&gt;Node14 -->
+<g id="edge15" class="edge">
+<title>Node10&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M692.31,-124.77C667.09,-113.77 630.71,-97.89 604.66,-86.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="691.15,-128.08 701.71,-128.87 693.95,-121.66 691.15,-128.08"/>
 </g>
 </g>
 </svg>
