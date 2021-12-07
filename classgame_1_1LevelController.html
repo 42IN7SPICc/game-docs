@@ -110,9 +110,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aef4cc8358e1cf75f60dc271b1bef78d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#aef4cc8358e1cf75f60dc271b1bef78d7">OnTriggerStay2D</a> (const <a class="el" href="classspic_1_1Collider.html">spic::Collider</a> &amp;collider) override</td></tr>
 <tr class="memdesc:aef4cc8358e1cf75f60dc271b1bef78d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers while an collider is colliding with a collider.  <a href="classgame_1_1LevelController.html#aef4cc8358e1cf75f60dc271b1bef78d7">More...</a><br /></td></tr>
 <tr class="separator:aef4cc8358e1cf75f60dc271b1bef78d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad656bb6c02c60c2a8ab5169ef36d30c3"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#ad656bb6c02c60c2a8ab5169ef36d30c3">BuildLevel</a> (const std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; &amp;endTowerHealthBehaviour)</td></tr>
-<tr class="memdesc:ad656bb6c02c60c2a8ab5169ef36d30c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a level with a given health for the end tower.  <a href="classgame_1_1LevelController.html#ad656bb6c02c60c2a8ab5169ef36d30c3">More...</a><br /></td></tr>
-<tr class="separator:ad656bb6c02c60c2a8ab5169ef36d30c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ef5fe2b6732ac8dae8b6e1deb92c301"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a1ef5fe2b6732ac8dae8b6e1deb92c301">BuildLevel</a> (const std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; &amp;endTowerHealthBehaviour, const std::shared_ptr&lt; <a class="el" href="classspic_1_1Animator.html">spic::Animator</a> &gt; &amp;animator)</td></tr>
+<tr class="memdesc:a1ef5fe2b6732ac8dae8b6e1deb92c301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a level with a given health for the end tower.  <a href="classgame_1_1LevelController.html#a1ef5fe2b6732ac8dae8b6e1deb92c301">More...</a><br /></td></tr>
+<tr class="separator:a1ef5fe2b6732ac8dae8b6e1deb92c301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6cb000537e06503b4d1a81d3a839221"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#ac6cb000537e06503b4d1a81d3a839221">CreateHUD</a> ()</td></tr>
 <tr class="memdesc:ac6cb000537e06503b4d1a81d3a839221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a HUD for the level.  <a href="classgame_1_1LevelController.html#ac6cb000537e06503b4d1a81d3a839221">More...</a><br /></td></tr>
 <tr class="separator:ac6cb000537e06503b4d1a81d3a839221"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,8 +227,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad656bb6c02c60c2a8ab5169ef36d30c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad656bb6c02c60c2a8ab5169ef36d30c3">&#9670;&nbsp;</a></span>BuildLevel()</h2>
+<a id="a1ef5fe2b6732ac8dae8b6e1deb92c301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ef5fe2b6732ac8dae8b6e1deb92c301">&#9670;&nbsp;</a></span>BuildLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,8 +237,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt; LevelController::BuildLevel </td>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>endTowerHealthBehaviour</em></td><td>)</td>
+          <td class="paramname"><em>endTowerHealthBehaviour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classspic_1_1Animator.html">spic::Animator</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>animator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -247,6 +257,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">endTowerHealthBehaviour</td><td>The health of the end tower. </td></tr>
+    <tr><td class="paramname">animator</td><td>The animator for the end tile. </td></tr>
   </table>
   </dd>
 </dl>
