@@ -1,6 +1,20 @@
 var searchData=
 [
-  ['graph_1796',['Graph',['../structgame_1_1LevelData.html#a9b74b96d3c05d4914113b3099d1bb9f7',1,'game::LevelData']]],
-  ['grass_1797',['Grass',['../structgame_1_1TilesAmount.html#a90eb81512f920f63b39e18e5c7fa3dca',1,'game::TilesAmount']]],
-  ['gravityscale_1798',['GravityScale',['../PhysicsSubsystem_8cpp.html#a56adfe7297ad6e15e4b27df7e05c9414',1,'PhysicsSubsystem.cpp']]]
+  ['ghillieanzugschutzeenemybulletspeed_1858',['GhillieAnzugSchutzeEnemyBulletSpeed',['../Constants_8hpp.html#ae1ded39be1eb67c2ac95247ea482079c',1,'Constants.hpp']]],
+  ['ghillieanzugschutzeenemydamage_1859',['GhillieAnzugSchutzeEnemyDamage',['../Constants_8hpp.html#a2006d520cb1932e18474fdacb55f2b74',1,'Constants.hpp']]],
+  ['ghillieanzugschutzeenemyfirerate_1860',['GhillieAnzugSchutzeEnemyFireRate',['../Constants_8hpp.html#a448988f1dad34dcec2444c562d597537',1,'Constants.hpp']]],
+  ['ghillieanzugschutzeenemyhealth_1861',['GhillieAnzugSchutzeEnemyHealth',['../Constants_8hpp.html#af4bec81f285b11e296c5dde0b26e18e2',1,'Constants.hpp']]],
+  ['ghillieanzugschutzeenemyrange_1862',['GhillieAnzugSchutzeEnemyRange',['../Constants_8hpp.html#a8915651876c75b8dc9d94eb3acd2a821',1,'Constants.hpp']]],
+  ['graph_1863',['Graph',['../structgame_1_1LevelData.html#a9b74b96d3c05d4914113b3099d1bb9f7',1,'game::LevelData']]],
+  ['grass_1864',['Grass',['../structgame_1_1TilesAmount.html#a90eb81512f920f63b39e18e5c7fa3dca',1,'game::TilesAmount']]],
+  ['gravityscale_1865',['GravityScale',['../PhysicsSubsystem_8cpp.html#a56adfe7297ad6e15e4b27df7e05c9414',1,'PhysicsSubsystem.cpp']]],
+  ['gruppenfuhrerenemyboostcooldown_1866',['GruppenfuhrerEnemyBoostCoolDown',['../Constants_8hpp.html#a2f046aac628d5ff50261d87bcffa2ada',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemyboostrange_1867',['GruppenfuhrerEnemyBoostRange',['../Constants_8hpp.html#a44bf1a9cf0ca9809f34644750c928379',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemyboosttime_1868',['GruppenfuhrerEnemyBoostTime',['../Constants_8hpp.html#a711169953ef73ab500b6215874ee5975',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemybulletspeed_1869',['GruppenfuhrerEnemyBulletSpeed',['../Constants_8hpp.html#a545c70ae7ea1ec9c7f9fd2f13de53fae',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemydamage_1870',['GruppenfuhrerEnemyDamage',['../Constants_8hpp.html#a5d83172f342391d8f6da0b6e21e0d5d9',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemyfirerate_1871',['GruppenfuhrerEnemyFireRate',['../Constants_8hpp.html#aed0d094967fc0490136659f691bca4cf',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemyhealth_1872',['GruppenfuhrerEnemyHealth',['../Constants_8hpp.html#abc6efc9da6a459cc74b7f79bbe64e170',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemyrange_1873',['GruppenfuhrerEnemyRange',['../Constants_8hpp.html#a6eeb67d217b5c1deac2e4a6e11fbc972',1,'Constants.hpp']]],
+  ['gruppenfuhrerenemyspeedboost_1874',['GruppenfuhrerEnemySpeedBoost',['../Constants_8hpp.html#a9f114877cdfa763f7456c0e06fa6f2bf',1,'Constants.hpp']]]
 ];

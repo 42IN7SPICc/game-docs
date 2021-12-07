@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['amountofconfetti_1748',['AmountOfConfetti',['../Constants_8hpp.html#a1b132803f4ad8cf398399d5a1070bb7b',1,'Constants.hpp']]],
-  ['amountsgiven_1749',['AmountsGiven',['../structgame_1_1Level.html#ae38f5223a4c36f9a74b21654984efbda',1,'game::Level::AmountsGiven()'],['../structgame_1_1LevelWithTiles.html#a2b48cec0fc6b234a27acb1d2cd45a65e',1,'game::LevelWithTiles::AmountsGiven()']]],
-  ['arial_1750',['Arial',['../classgame_1_1Font.html#adf5043e94cd4c2742d5dd2cc83d19d3f',1,'game::Font']]]
+  ['amountofconfetti_1804',['AmountOfConfetti',['../Constants_8hpp.html#a1b132803f4ad8cf398399d5a1070bb7b',1,'Constants.hpp']]],
+  ['amountsgiven_1805',['AmountsGiven',['../structgame_1_1Level.html#ae38f5223a4c36f9a74b21654984efbda',1,'game::Level::AmountsGiven()'],['../structgame_1_1LevelWithTiles.html#a2b48cec0fc6b234a27acb1d2cd45a65e',1,'game::LevelWithTiles::AmountsGiven()']]],
+  ['arial_1806',['Arial',['../classgame_1_1Font.html#adf5043e94cd4c2742d5dd2cc83d19d3f',1,'game::Font']]]
 ];
