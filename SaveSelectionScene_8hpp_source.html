@@ -81,18 +81,20 @@ $(function() {
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classgame_1_1SaveSelectionScene.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1SaveSelectionScene.html">SaveSelectionScene</a> : <span class="keyword">public</span> <a class="code" href="classgame_1_1MenuScene.html">MenuScene</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="classgame_1_1SaveSelectionScene.html#a0a389705f75c14d82abcc446ec4142b4">SaveSelectionScene</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> LoadSave(<span class="keyword">const</span> std::string&amp; saveName);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_SAVESELECTIONSCENE_HPP</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keyword">explicit</span> <a class="code" href="classgame_1_1SaveSelectionScene.html#ad68d67c90b39b1a81877a30d9927a2d2">SaveSelectionScene</a>(<span class="keyword">const</span> std::shared_ptr&lt;spic::GameObject&gt;&amp; audio);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            std::shared_ptr&lt;spic::GameObject&gt; _mainMenuAudio;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordtype">void</span> LoadSave(<span class="keyword">const</span> std::string&amp; saveName);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    };</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_SAVESELECTIONSCENE_HPP</span></div>
 <div class="ttc" id="aMenuScene_8hpp_html"><div class="ttname"><a href="MenuScene_8hpp.html">MenuScene.hpp</a></div></div>
 <div class="ttc" id="aclassgame_1_1MenuScene_html"><div class="ttname"><a href="classgame_1_1MenuScene.html">game::MenuScene</a></div><div class="ttdoc">A abstract scene to use for the scene that require menu functionality.</div><div class="ttdef"><b>Definition:</b> MenuScene.hpp:16</div></div>
 <div class="ttc" id="aclassgame_1_1SaveSelectionScene_html"><div class="ttname"><a href="classgame_1_1SaveSelectionScene.html">game::SaveSelectionScene</a></div><div class="ttdoc">Scene for selection which save the user wants to play.</div><div class="ttdef"><b>Definition:</b> SaveSelectionScene.hpp:14</div></div>
-<div class="ttc" id="aclassgame_1_1SaveSelectionScene_html_a0a389705f75c14d82abcc446ec4142b4"><div class="ttname"><a href="classgame_1_1SaveSelectionScene.html#a0a389705f75c14d82abcc446ec4142b4">game::SaveSelectionScene::SaveSelectionScene</a></div><div class="ttdeci">SaveSelectionScene()</div><div class="ttdoc">Constructs a new instance of a Save Selection Scene.</div><div class="ttdef"><b>Definition:</b> SaveSelectionScene.cpp:11</div></div>
+<div class="ttc" id="aclassgame_1_1SaveSelectionScene_html_ad68d67c90b39b1a81877a30d9927a2d2"><div class="ttname"><a href="classgame_1_1SaveSelectionScene.html#ad68d67c90b39b1a81877a30d9927a2d2">game::SaveSelectionScene::SaveSelectionScene</a></div><div class="ttdeci">SaveSelectionScene(const std::shared_ptr&lt; spic::GameObject &gt; &amp;audio)</div><div class="ttdoc">Constructs a new instance of a Save Selection Scene.</div><div class="ttdef"><b>Definition:</b> SaveSelectionScene.cpp:11</div></div>
 <div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> LevelController.hpp:19</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

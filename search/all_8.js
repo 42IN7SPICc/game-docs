@@ -20,7 +20,7 @@ var searchData=
   ['height_442',['Height',['../classspic_1_1BoxCollider.html#a64ae756636a8c9b4a8e86ceca40f55c9',1,'spic::BoxCollider::Height(double newHeight)'],['../classspic_1_1BoxCollider.html#aa0ee9fe58bec5a47947ac0d551660444',1,'spic::BoxCollider::Height() const'],['../classengine_1_1Texture.html#acf8ceb13cd06f365ba10612fe6c2408f',1,'engine::Texture::Height()'],['../classspic_1_1UIObject.html#a39ba874d812479d2300f7f555e564603',1,'spic::UIObject::Height() const'],['../classspic_1_1UIObject.html#a515cd0b921f598f079b4811861916ea5',1,'spic::UIObject::Height(double newHeight)']]],
   ['height_443',['height',['../structspic_1_1WindowConfig.html#a46da98ec36d9a1658f5f320b35b12f4c',1,'spic::WindowConfig']]],
   ['help_444',['HELP',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a4fc963e213bba362778f5c175eb4d5ff',1,'spic::Input']]],
-  ['helpscene_445',['HelpScene',['../classgame_1_1HelpScene.html',1,'game::HelpScene'],['../classgame_1_1HelpScene.html#a616601eabe6200ca08480a4539a85985',1,'game::HelpScene::HelpScene()']]],
+  ['helpscene_445',['HelpScene',['../classgame_1_1HelpScene.html',1,'game::HelpScene'],['../classgame_1_1HelpScene.html#a578a95ae5088a9897932adb1b8976292',1,'game::HelpScene::HelpScene()']]],
   ['helpscene_2ecpp_446',['HelpScene.cpp',['../HelpScene_8cpp.html',1,'']]],
   ['helpscene_2ehpp_447',['HelpScene.hpp',['../HelpScene_8hpp.html',1,'']]],
   ['hero_448',['Hero',['../namespacegame.html#a951d768577e153b2f8685e510c887f2ca326a9970d6a1ec55733f7b69470c7a1c',1,'game']]],

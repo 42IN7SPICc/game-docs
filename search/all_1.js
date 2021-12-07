@@ -39,7 +39,7 @@ var searchData=
   ['audioclip_2ehpp_52',['AudioClip.hpp',['../AudioClip_8hpp.html',1,'']]],
   ['audioclipname_53',['AudioClipName',['../namespacegame.html#a1af0f48deb664b3da117cc7a1f0add60',1,'game']]],
   ['audioclipname_2ehpp_54',['AudioClipName.hpp',['../AudioClipName_8hpp.html',1,'']]],
-  ['audiomanager_55',['AudioManager',['../classengine_1_1AudioManager.html',1,'engine']]],
+  ['audiomanager_55',['AudioManager',['../classengine_1_1AudioManager.html#a3f4c6c55939026220f7ecca9988ee363',1,'engine::AudioManager::AudioManager()=default'],['../classengine_1_1AudioManager.html#a8bdc41450ca3132df1b84822020c29b0',1,'engine::AudioManager::AudioManager(const AudioManager &amp;manager)=delete'],['../classengine_1_1AudioManager.html#a0ed69a62fdf03209e8a0d905b52d5c81',1,'engine::AudioManager::AudioManager(AudioManager &amp;&amp;manager)=delete'],['../classengine_1_1AudioManager.html',1,'engine::AudioManager']]],
   ['audiomanager_2ecpp_56',['AudioManager.cpp',['../AudioManager_8cpp.html',1,'']]],
   ['audiomanager_2ehpp_57',['AudioManager.hpp',['../AudioManager_8hpp.html',1,'']]],
   ['audiosource_58',['AudioSource',['../classspic_1_1AudioSource.html#a4ae180a58117fce615d7759e1923173f',1,'spic::AudioSource::AudioSource()'],['../classspic_1_1AudioSource.html',1,'spic::AudioSource']]],

@@ -72,27 +72,33 @@ $(function() {
 <a href="AudioSubsystem_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_ENGINE_AUDIOSUBSYSTEM_HPP</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_ENGINE_AUDIOSUBSYSTEM_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ISubsystem_8hpp.html">ISubsystem.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceengine.html">engine</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classengine_1_1AudioSubsystem.html">   11</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classengine_1_1AudioSubsystem.html">AudioSubsystem</a> : <span class="keyword">public</span> <a class="code" href="classengine_1_1ISubsystem.html">ISubsystem</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <a class="code" href="classengine_1_1AudioSubsystem.html#ac06b60015e786eeec02e2542afb43b5d">AudioSubsystem</a>();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classengine_1_1AudioSubsystem.html#aae96420b927353c7609a6c6d96f0e5d4">StopAllAudioPlayback</a>();</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="Scene_8hpp.html">Scene.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ISubsystem_8hpp.html">ISubsystem.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceengine.html">engine</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classengine_1_1AudioSubsystem.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classengine_1_1AudioSubsystem.html">AudioSubsystem</a> : <span class="keyword">public</span> <a class="code" href="classengine_1_1ISubsystem.html">ISubsystem</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            std::shared_ptr&lt;spic::Scene&gt; _previousScene;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="classengine_1_1AudioSubsystem.html#ac06b60015e786eeec02e2542afb43b5d">AudioSubsystem</a>();</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classengine_1_1AudioSubsystem.html#a132e1100dcee0c49c8b9473e5372cc32">Update</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_ENGINE_AUDIOSUBSYSTEM_HPP</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classengine_1_1AudioSubsystem.html#af0bf5d76963d6333ab9db28011787620">PauseAllAudioPlayback</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classengine_1_1AudioSubsystem.html#a132e1100dcee0c49c8b9473e5372cc32">Update</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_ENGINE_AUDIOSUBSYSTEM_HPP</span></div>
 <div class="ttc" id="aISubsystem_8hpp_html"><div class="ttname"><a href="ISubsystem_8hpp.html">ISubsystem.hpp</a></div></div>
-<div class="ttc" id="aclassengine_1_1AudioSubsystem_html"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html">engine::AudioSubsystem</a></div><div class="ttdoc">Subsystem to handle AudioSource components.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.hpp:12</div></div>
-<div class="ttc" id="aclassengine_1_1AudioSubsystem_html_a132e1100dcee0c49c8b9473e5372cc32"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html#a132e1100dcee0c49c8b9473e5372cc32">engine::AudioSubsystem::Update</a></div><div class="ttdeci">void Update() override</div><div class="ttdoc">Starts all AudioSource that need to be started during this update.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.cpp:11</div></div>
-<div class="ttc" id="aclassengine_1_1AudioSubsystem_html_aae96420b927353c7609a6c6d96f0e5d4"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html#aae96420b927353c7609a6c6d96f0e5d4">engine::AudioSubsystem::StopAllAudioPlayback</a></div><div class="ttdeci">static void StopAllAudioPlayback()</div><div class="ttdoc">Stops all audio playback for all AudioSource components currently playing.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.cpp:32</div></div>
-<div class="ttc" id="aclassengine_1_1AudioSubsystem_html_ac06b60015e786eeec02e2542afb43b5d"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html#ac06b60015e786eeec02e2542afb43b5d">engine::AudioSubsystem::AudioSubsystem</a></div><div class="ttdeci">AudioSubsystem()</div><div class="ttdoc">Constructs a new instance of a AudioSubsystem.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.cpp:47</div></div>
+<div class="ttc" id="aScene_8hpp_html"><div class="ttname"><a href="Scene_8hpp.html">Scene.hpp</a></div></div>
+<div class="ttc" id="aclassengine_1_1AudioSubsystem_html"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html">engine::AudioSubsystem</a></div><div class="ttdoc">Subsystem to handle AudioSource components.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.hpp:14</div></div>
+<div class="ttc" id="aclassengine_1_1AudioSubsystem_html_a132e1100dcee0c49c8b9473e5372cc32"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html#a132e1100dcee0c49c8b9473e5372cc32">engine::AudioSubsystem::Update</a></div><div class="ttdeci">void Update() override</div><div class="ttdoc">Starts all AudioSource that need to be started during this update.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.cpp:12</div></div>
+<div class="ttc" id="aclassengine_1_1AudioSubsystem_html_ac06b60015e786eeec02e2542afb43b5d"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html#ac06b60015e786eeec02e2542afb43b5d">engine::AudioSubsystem::AudioSubsystem</a></div><div class="ttdeci">AudioSubsystem()</div><div class="ttdoc">Constructs a new instance of a AudioSubsystem.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.cpp:67</div></div>
+<div class="ttc" id="aclassengine_1_1AudioSubsystem_html_af0bf5d76963d6333ab9db28011787620"><div class="ttname"><a href="classengine_1_1AudioSubsystem.html#af0bf5d76963d6333ab9db28011787620">engine::AudioSubsystem::PauseAllAudioPlayback</a></div><div class="ttdeci">static void PauseAllAudioPlayback()</div><div class="ttdoc">Pauses all audio playback for all AudioSource components currently playing.</div><div class="ttdef"><b>Definition:</b> AudioSubsystem.cpp:52</div></div>
 <div class="ttc" id="aclassengine_1_1ISubsystem_html"><div class="ttname"><a href="classengine_1_1ISubsystem.html">engine::ISubsystem</a></div><div class="ttdoc">Interface for subsystems.</div><div class="ttdef"><b>Definition:</b> ISubsystem.hpp:10</div></div>
 <div class="ttc" id="anamespaceengine_html"><div class="ttname"><a href="namespaceengine.html">engine</a></div><div class="ttdef"><b>Definition:</b> EngineException.hpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->

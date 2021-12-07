@@ -1,13 +1,13 @@
 <map id="game::MenuScene" name="game::MenuScene">
-<area shape="rect" id="node1" title="A abstract scene to use for the scene that require menu functionality." alt="" coords="629,189,910,311"/>
-<area shape="rect" id="node3" href="$classgame_1_1CreditScene.html" title="A scene that contains credits to the developers." alt="" coords="5,359,136,436"/>
-<area shape="rect" id="node4" href="$classgame_1_1GameOverScene.html" title="A scene that contains a game over screen." alt="" coords="160,359,320,436"/>
-<area shape="rect" id="node5" href="$classgame_1_1HelpScene.html" title="A scene that contains help for the user." alt="" coords="343,359,467,436"/>
-<area shape="rect" id="node6" href="$classgame_1_1LevelSelectionScene.html" title="A scene that contains all the levels." alt="" coords="491,359,674,436"/>
-<area shape="rect" id="node7" href="$classgame_1_1LoadingScene.html" title="Scene for the loading screen of the game." alt="" coords="698,359,841,436"/>
-<area shape="rect" id="node8" href="$classgame_1_1MainScene.html" title="A scene that show the title of the game and some information." alt="" coords="865,359,991,436"/>
-<area shape="rect" id="node9" href="$classgame_1_1PauseScene.html" title="A scene that contains functionality for pausing the game." alt="" coords="1015,359,1150,436"/>
-<area shape="rect" id="node10" href="$classgame_1_1SaveSelectionScene.html" title="Scene for selection which save the user wants to play." alt="" coords="1175,359,1356,436"/>
-<area shape="rect" id="node11" href="$classgame_1_1VictoryScene.html" title="A scene that contains a victory screen." alt="" coords="1381,359,1518,436"/>
-<area shape="rect" id="node2" href="$classspic_1_1Scene.html" title="Class representing a scene which can be rendered by the Camera. @spicapi." alt="" coords="686,5,853,141"/>
+<area shape="rect" id="node1" title="A abstract scene to use for the scene that require menu functionality." alt="" coords="749,189,1031,311"/>
+<area shape="rect" id="node3" href="$classgame_1_1CreditScene.html" title="A scene that contains credits to the developers." alt="" coords="5,359,164,465"/>
+<area shape="rect" id="node4" href="$classgame_1_1GameOverScene.html" title="A scene that contains a game over screen." alt="" coords="189,373,349,451"/>
+<area shape="rect" id="node5" href="$classgame_1_1HelpScene.html" title="A scene that contains help for the user." alt="" coords="373,359,575,465"/>
+<area shape="rect" id="node6" href="$classgame_1_1LevelSelectionScene.html" title="A scene that contains all the levels." alt="" coords="599,359,794,465"/>
+<area shape="rect" id="node7" href="$classgame_1_1LoadingScene.html" title="Scene for the loading screen of the game." alt="" coords="819,373,961,451"/>
+<area shape="rect" id="node8" href="$classgame_1_1MainScene.html" title="A scene that show the title of the game and some information." alt="" coords="986,359,1189,465"/>
+<area shape="rect" id="node9" href="$classgame_1_1PauseScene.html" title="A scene that contains functionality for pausing the game." alt="" coords="1213,373,1348,451"/>
+<area shape="rect" id="node10" href="$classgame_1_1SaveSelectionScene.html" title="Scene for selection which save the user wants to play." alt="" coords="1373,359,1567,465"/>
+<area shape="rect" id="node11" href="$classgame_1_1VictoryScene.html" title="A scene that contains a victory screen." alt="" coords="1592,373,1729,451"/>
+<area shape="rect" id="node2" href="$classspic_1_1Scene.html" title="Class representing a scene which can be rendered by the Camera. @spicapi." alt="" coords="807,5,973,141"/>
 </map>

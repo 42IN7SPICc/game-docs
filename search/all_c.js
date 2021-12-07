@@ -39,7 +39,7 @@ var searchData=
   ['levelselectioncontroller_618',['LevelSelectionController',['../classgame_1_1LevelSelectionController.html',1,'game']]],
   ['levelselectioncontroller_2ecpp_619',['LevelSelectionController.cpp',['../LevelSelectionController_8cpp.html',1,'']]],
   ['levelselectioncontroller_2ehpp_620',['LevelSelectionController.hpp',['../LevelSelectionController_8hpp.html',1,'']]],
-  ['levelselectionscene_621',['LevelSelectionScene',['../classgame_1_1LevelSelectionScene.html',1,'game::LevelSelectionScene'],['../classgame_1_1LevelSelectionScene.html#a1eed1d6a3e3081e6cd142479946ffe3e',1,'game::LevelSelectionScene::LevelSelectionScene()']]],
+  ['levelselectionscene_621',['LevelSelectionScene',['../classgame_1_1LevelSelectionScene.html',1,'game::LevelSelectionScene'],['../classgame_1_1LevelSelectionScene.html#ac9b348e4c4188afc80282f71bea5d1c4',1,'game::LevelSelectionScene::LevelSelectionScene()']]],
   ['levelselectionscene_2ecpp_622',['LevelSelectionScene.cpp',['../LevelSelectionScene_8cpp.html',1,'']]],
   ['levelselectionscene_2ehpp_623',['LevelSelectionScene.hpp',['../LevelSelectionScene_8hpp.html',1,'']]],
   ['levelthreshold_624',['LevelThreshold',['../structgame_1_1LevelData.html#a7d23ef66a97c1b31cf4a5fb8922ca114',1,'game::LevelData']]],
