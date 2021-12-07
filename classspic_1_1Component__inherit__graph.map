@@ -1,11 +1,11 @@
 <map id="spic::Component" name="spic::Component">
-<area shape="rect" id="node1" title="Base class for all components. @spicapi." alt="" coords="2388,5,2583,229"/>
-<area shape="rect" id="node2" href="$classspic_1_1Animator.html" title="A component which can play animated sequences of sprites. @spicapi." alt="" coords="1918,431,2079,611"/>
-<area shape="rect" id="node3" href="$classspic_1_1AudioSource.html" title="Component which can play audio. @spicapi." alt="" coords="2104,424,2267,619"/>
-<area shape="rect" id="node4" href="$classspic_1_1BehaviourScript.html" title=" " alt="" coords="2291,409,2483,633"/>
-<area shape="rect" id="node24" href="$classspic_1_1Collider.html" title="The base class for all colliders. @spicapi." alt="" coords="2507,461,2661,582"/>
-<area shape="rect" id="node27" href="$classspic_1_1RigidBody.html" title="A component representing a rigid body. @spicapi." alt="" coords="2685,387,2883,655"/>
-<area shape="rect" id="node28" href="$classspic_1_1Sprite.html" title="A component representing a sprite (small image) @spicapi." alt="" coords="2907,277,3093,765"/>
+<area shape="rect" id="node1" title="Base class for all components. @spicapi." alt="" coords="2284,5,2479,229"/>
+<area shape="rect" id="node2" href="$classspic_1_1Animator.html" title="A component which can play animated sequences of sprites. @spicapi." alt="" coords="1814,431,1975,611"/>
+<area shape="rect" id="node3" href="$classspic_1_1AudioSource.html" title="Component which can play audio. @spicapi." alt="" coords="2000,424,2163,619"/>
+<area shape="rect" id="node4" href="$classspic_1_1BehaviourScript.html" title=" " alt="" coords="2187,409,2379,633"/>
+<area shape="rect" id="node23" href="$classspic_1_1Collider.html" title="The base class for all colliders. @spicapi." alt="" coords="2403,461,2557,582"/>
+<area shape="rect" id="node26" href="$classspic_1_1RigidBody.html" title="A component representing a rigid body. @spicapi." alt="" coords="2581,387,2779,655"/>
+<area shape="rect" id="node27" href="$classspic_1_1Sprite.html" title="A component representing a sprite (small image) @spicapi." alt="" coords="2803,277,2989,765"/>
 <area shape="rect" id="node5" href="$classgame_1_1AttackBehaviour.html" title="A script to attack other game objects containing a health script." alt="" coords="5,813,277,1683"/>
 <area shape="rect" id="node6" href="$classgame_1_1BulletBehaviour.html" title="A script to that handles bullets." alt="" coords="301,1107,520,1389"/>
 <area shape="rect" id="node7" href="$classgame_1_1CheatManager.html" title="A script to handle different cheats." alt="" coords="544,1136,720,1360"/>
@@ -22,9 +22,8 @@
 <area shape="rect" id="node18" href="$classgame_1_1LevelController.html" title="A controller to handle changes in the Level." alt="" coords="2971,931,3226,1565"/>
 <area shape="rect" id="node19" href="$classgame_1_1LevelSelectionController.html" title="A script to handle level loading and selection." alt="" coords="3250,1173,3451,1323"/>
 <area shape="rect" id="node20" href="$classgame_1_1PauseSceneBehaviour.html" title="A script to pause the game when pressing the ESC key." alt="" coords="3476,1136,3668,1360"/>
-<area shape="rect" id="node21" href="$classgame_1_1SaveGameController.html" title="A controller to handle saving the game." alt="" coords="3693,1107,3873,1389"/>
-<area shape="rect" id="node22" href="$classgame_1_1UserAttackBehaviour.html" title="A script to let the user attack." alt="" coords="3897,1107,4175,1389"/>
-<area shape="rect" id="node23" href="$classgame_1_1UserMovementBehaviour.html" title="A script to allow the user to move the hero thru the level." alt="" coords="4199,1055,4454,1441"/>
-<area shape="rect" id="node25" href="$classspic_1_1BoxCollider.html" title="A collider which represents a rectangular collision area. @spicapi." alt="" coords="4478,1158,4677,1338"/>
-<area shape="rect" id="node26" href="$classspic_1_1CircleCollider.html" title="A collider which represents a circular collision area. @spicapi." alt="" coords="4701,1173,4859,1323"/>
+<area shape="rect" id="node21" href="$classgame_1_1UserAttackBehaviour.html" title="A script to let the user attack." alt="" coords="3693,1107,3971,1389"/>
+<area shape="rect" id="node22" href="$classgame_1_1UserMovementBehaviour.html" title="A script to allow the user to move the hero thru the level." alt="" coords="3995,1055,4250,1441"/>
+<area shape="rect" id="node24" href="$classspic_1_1BoxCollider.html" title="A collider which represents a rectangular collision area. @spicapi." alt="" coords="4274,1158,4473,1338"/>
+<area shape="rect" id="node25" href="$classspic_1_1CircleCollider.html" title="A collider which represents a circular collision area. @spicapi." alt="" coords="4497,1173,4655,1323"/>
 </map>

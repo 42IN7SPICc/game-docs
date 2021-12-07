@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 708;
+var viewWidth = 988;
 var viewHeight = 331;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,15 +58,15 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="A abstract scene to use for the scene that require menu functionality.">
-<polygon fill="#bfbfbf" stroke="black" points="250.5,-94.5 250.5,-184.5 461.5,-184.5 461.5,-94.5 250.5,-94.5"/>
-<text text-anchor="middle" x="356" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::MenuScene</text>
-<polyline fill="none" stroke="black" points="250.5,-165.5 461.5,-165.5 "/>
-<text text-anchor="middle" x="356" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="250.5,-146.5 461.5,-146.5 "/>
-<text text-anchor="start" x="258.5" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MenuScene(const std</text>
-<text text-anchor="start" x="258.5" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00">::string &amp;title, bool</text>
-<text text-anchor="start" x="258.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00"> hasBackButton, BackgroundName</text>
-<text text-anchor="start" x="258.5" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00"> backgroundName=BackgroundName::Menu)</text>
+<polygon fill="#bfbfbf" stroke="black" points="371.5,-94.5 371.5,-184.5 582.5,-184.5 582.5,-94.5 371.5,-94.5"/>
+<text text-anchor="middle" x="477" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::MenuScene</text>
+<polyline fill="none" stroke="black" points="371.5,-165.5 582.5,-165.5 "/>
+<text text-anchor="middle" x="477" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="371.5,-146.5 582.5,-146.5 "/>
+<text text-anchor="start" x="379.5" y="-134.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MenuScene(const std</text>
+<text text-anchor="start" x="379.5" y="-123.5" font-family="Helvetica,sans-Serif" font-size="10.00">::string &amp;title, bool</text>
+<text text-anchor="start" x="379.5" y="-112.5" font-family="Helvetica,sans-Serif" font-size="10.00"> hasBackButton, BackgroundName</text>
+<text text-anchor="start" x="379.5" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00"> backgroundName=BackgroundName::Menu)</text>
 </a>
 </g>
 </g>
@@ -86,8 +86,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M240.56,-104.8C198.11,-91.47 149.94,-75.21 107,-58 104.09,-56.84 101.13,-55.59 98.15,-54.3"/>
-<polygon fill="none" stroke="midnightblue" points="239.78,-108.23 250.37,-107.86 241.87,-101.54 239.78,-108.23"/>
+<path fill="none" stroke="midnightblue" d="M360.86,-120.48C286.98,-107.26 189.95,-86.6 107,-58 104.04,-56.98 101.03,-55.85 98.03,-54.64"/>
+<polygon fill="none" stroke="midnightblue" points="360.67,-124 371.13,-122.3 361.89,-117.11 360.67,-124"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -105,8 +105,8 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M274.02,-89.09C256.07,-78.27 237.69,-67.19 221.77,-57.59"/>
-<polygon fill="none" stroke="midnightblue" points="272.42,-92.2 282.79,-94.37 276.03,-86.21 272.42,-92.2"/>
+<path fill="none" stroke="midnightblue" d="M361.79,-100.17C324.08,-87.24 282.1,-72.41 244,-58 241.49,-57.05 238.94,-56.07 236.36,-55.07"/>
+<polygon fill="none" stroke="midnightblue" points="360.68,-103.49 371.28,-103.42 362.95,-96.87 360.68,-103.49"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -124,88 +124,126 @@ var sectionId = 'dynsection-0';
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M328.51,-85.24C323.57,-75.67 318.61,-66.05 314.24,-57.59"/>
-<polygon fill="none" stroke="midnightblue" points="325.53,-87.09 333.22,-94.37 331.75,-83.88 325.53,-87.09"/>
+<path fill="none" stroke="midnightblue" d="M396.39,-89.09C378.74,-78.27 360.66,-67.19 345.01,-57.59"/>
+<polygon fill="none" stroke="midnightblue" points="394.65,-92.13 405.01,-94.37 398.31,-86.16 394.65,-92.13"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classgame_1_1MainScene.html" target="_top" xlink:title="A scene that show the title of the game and some information.">
-<polygon fill="none" stroke="black" points="365,-0.5 365,-57.5 459,-57.5 459,-0.5 365,-0.5"/>
-<text text-anchor="middle" x="412" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::MainScene</text>
-<polyline fill="none" stroke="black" points="365,-38.5 459,-38.5 "/>
-<text text-anchor="middle" x="412" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="365,-19.5 459,-19.5 "/>
-<text text-anchor="start" x="373" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MainScene()</text>
+<g id="a_node6"><a xlink:href="classgame_1_1LoadingScene.html" target="_top" xlink:title="Scene for the loading screen of the game.">
+<polygon fill="none" stroke="black" points="364.5,-0.5 364.5,-57.5 471.5,-57.5 471.5,-0.5 364.5,-0.5"/>
+<text text-anchor="middle" x="418" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::LoadingScene</text>
+<polyline fill="none" stroke="black" points="364.5,-38.5 471.5,-38.5 "/>
+<text text-anchor="middle" x="418" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="364.5,-19.5 471.5,-19.5 "/>
+<text text-anchor="start" x="372.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ LoadingScene()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M383.49,-85.24C388.43,-75.67 393.39,-66.05 397.76,-57.59"/>
-<polygon fill="none" stroke="midnightblue" points="380.25,-83.88 378.78,-94.37 386.47,-87.09 380.25,-83.88"/>
+<path fill="none" stroke="midnightblue" d="M448.2,-85.54C442.94,-75.87 437.65,-66.14 433,-57.59"/>
+<polygon fill="none" stroke="midnightblue" points="445.15,-87.26 453,-94.37 451.3,-83.91 445.15,-87.26"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classgame_1_1PauseScene.html" target="_top" xlink:title="A scene that contains functionality for pausing the game.">
-<polygon fill="none" stroke="black" points="477.5,-0.5 477.5,-57.5 578.5,-57.5 578.5,-0.5 477.5,-0.5"/>
-<text text-anchor="middle" x="528" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::PauseScene</text>
-<polyline fill="none" stroke="black" points="477.5,-38.5 578.5,-38.5 "/>
-<text text-anchor="middle" x="528" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="477.5,-19.5 578.5,-19.5 "/>
-<text text-anchor="start" x="485.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ PauseScene()</text>
+<g id="a_node7"><a xlink:href="classgame_1_1MainScene.html" target="_top" xlink:title="A scene that show the title of the game and some information.">
+<polygon fill="none" stroke="black" points="490,-0.5 490,-57.5 584,-57.5 584,-0.5 490,-0.5"/>
+<text text-anchor="middle" x="537" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::MainScene</text>
+<polyline fill="none" stroke="black" points="490,-38.5 584,-38.5 "/>
+<text text-anchor="middle" x="537" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="490,-19.5 584,-19.5 "/>
+<text text-anchor="start" x="498" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ MainScene()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M434.8,-88.79C451.81,-78.06 469.19,-67.1 484.26,-57.59"/>
-<polygon fill="none" stroke="midnightblue" points="432.55,-86.07 425.96,-94.37 436.28,-91.99 432.55,-86.07"/>
+<path fill="none" stroke="midnightblue" d="M506.29,-85.54C511.64,-75.87 517.01,-66.14 521.74,-57.59"/>
+<polygon fill="none" stroke="midnightblue" points="503.18,-83.92 501.4,-94.37 509.31,-87.31 503.18,-83.92"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classgame_1_1VictoryScene.html" target="_top" xlink:title="A scene that contains a victory screen.">
-<polygon fill="none" stroke="black" points="596.5,-0.5 596.5,-57.5 699.5,-57.5 699.5,-0.5 596.5,-0.5"/>
-<text text-anchor="middle" x="648" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::VictoryScene</text>
-<polyline fill="none" stroke="black" points="596.5,-38.5 699.5,-38.5 "/>
-<text text-anchor="middle" x="648" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="596.5,-19.5 699.5,-19.5 "/>
-<text text-anchor="start" x="604.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ VictoryScene()</text>
+<g id="a_node8"><a xlink:href="classgame_1_1PauseScene.html" target="_top" xlink:title="A scene that contains functionality for pausing the game.">
+<polygon fill="none" stroke="black" points="602.5,-0.5 602.5,-57.5 703.5,-57.5 703.5,-0.5 602.5,-0.5"/>
+<text text-anchor="middle" x="653" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::PauseScene</text>
+<polyline fill="none" stroke="black" points="602.5,-38.5 703.5,-38.5 "/>
+<text text-anchor="middle" x="653" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="602.5,-19.5 703.5,-19.5 "/>
+<text text-anchor="start" x="610.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ PauseScene()</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M471.59,-101C509.03,-88.16 550.55,-73.19 588,-58 590.77,-56.88 593.6,-55.69 596.44,-54.47"/>
-<polygon fill="none" stroke="midnightblue" points="469.99,-97.85 461.66,-104.39 472.25,-104.48 469.99,-97.85"/>
+<path fill="none" stroke="midnightblue" d="M557.16,-89.09C574.71,-78.27 592.68,-67.19 608.25,-57.59"/>
+<polygon fill="none" stroke="midnightblue" points="555.26,-86.14 548.59,-94.37 558.94,-92.1 555.26,-86.14"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="classgame_1_1SaveSelectionScene.html" target="_top" xlink:title="Scene for selection which save the user wants to play.">
+<polygon fill="none" stroke="black" points="722,-0.5 722,-57.5 858,-57.5 858,-0.5 722,-0.5"/>
+<text text-anchor="middle" x="790" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::SaveSelectionScene</text>
+<polyline fill="none" stroke="black" points="722,-38.5 858,-38.5 "/>
+<text text-anchor="middle" x="790" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="722,-19.5 858,-19.5 "/>
+<text text-anchor="start" x="730" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ SaveSelectionScene()</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node1&#45;&gt;Node9</title>
+<path fill="none" stroke="midnightblue" d="M592.27,-99.7C630.72,-86.62 673.76,-71.83 713,-58 715.82,-57.01 718.69,-55.99 721.59,-54.96"/>
+<polygon fill="none" stroke="midnightblue" points="590.94,-96.45 582.6,-102.99 593.19,-103.08 590.94,-96.45"/>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="classgame_1_1VictoryScene.html" target="_top" xlink:title="A scene that contains a victory screen.">
+<polygon fill="none" stroke="black" points="876.5,-0.5 876.5,-57.5 979.5,-57.5 979.5,-0.5 876.5,-0.5"/>
+<text text-anchor="middle" x="928" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::VictoryScene</text>
+<polyline fill="none" stroke="black" points="876.5,-38.5 979.5,-38.5 "/>
+<text text-anchor="middle" x="928" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="876.5,-19.5 979.5,-19.5 "/>
+<text text-anchor="start" x="884.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ VictoryScene()</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge">
+<title>Node1&#45;&gt;Node10</title>
+<path fill="none" stroke="midnightblue" d="M592.48,-121.73C671.06,-108.61 776.76,-87.6 867,-58 870.1,-56.98 873.25,-55.85 876.41,-54.65"/>
+<polygon fill="none" stroke="midnightblue" points="591.85,-118.29 582.55,-123.37 592.99,-125.19 591.85,-118.29"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classspic_1_1Scene.html" target="_top" xlink:title="Class representing a scene which can be rendered by the Camera. @spicapi.">
-<polygon fill="none" stroke="black" points="293.5,-221.5 293.5,-322.5 418.5,-322.5 418.5,-221.5 293.5,-221.5"/>
-<text text-anchor="middle" x="356" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">spic::Scene</text>
-<polyline fill="none" stroke="black" points="293.5,-303.5 418.5,-303.5 "/>
-<text text-anchor="middle" x="356" y="-291.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="293.5,-284.5 418.5,-284.5 "/>
-<text text-anchor="start" x="301.5" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Scene()</text>
-<text text-anchor="start" x="301.5" y="-261.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void RenderScene()</text>
-<text text-anchor="start" x="301.5" y="-250.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::vector&lt; std::shared</text>
-<text text-anchor="start" x="301.5" y="-239.5" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; GameObject &gt; &gt; &amp;</text>
-<text text-anchor="start" x="301.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Contents()</text>
+<polygon fill="none" stroke="black" points="414.5,-221.5 414.5,-322.5 539.5,-322.5 539.5,-221.5 414.5,-221.5"/>
+<text text-anchor="middle" x="477" y="-310.5" font-family="Helvetica,sans-Serif" font-size="10.00">spic::Scene</text>
+<polyline fill="none" stroke="black" points="414.5,-303.5 539.5,-303.5 "/>
+<text text-anchor="middle" x="477" y="-291.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="414.5,-284.5 539.5,-284.5 "/>
+<text text-anchor="start" x="422.5" y="-272.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ Scene()</text>
+<text text-anchor="start" x="422.5" y="-261.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void RenderScene()</text>
+<text text-anchor="start" x="422.5" y="-250.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::vector&lt; std::shared</text>
+<text text-anchor="start" x="422.5" y="-239.5" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; GameObject &gt; &gt; &amp;</text>
+<text text-anchor="start" x="422.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00"> Contents()</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M356,-211.23C356,-202.24 356,-193.1 356,-184.52"/>
-<polygon fill="none" stroke="midnightblue" points="352.5,-211.29 356,-221.29 359.5,-211.29 352.5,-211.29"/>
+<path fill="none" stroke="midnightblue" d="M477,-211.23C477,-202.24 477,-193.1 477,-184.52"/>
+<polygon fill="none" stroke="midnightblue" points="473.5,-211.29 477,-221.29 480.5,-211.29 473.5,-211.29"/>
 </g>
 </g>
 </svg>
