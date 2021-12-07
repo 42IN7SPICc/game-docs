@@ -801,24 +801,26 @@ var sectionId = 'dynsection-0';
 <g id="node19" class="node">
 <title>Node19</title>
 <g id="a_node19"><a xlink:href="classgame_1_1LevelSelectionController.html" target="_top" xlink:title="A script to handle level loading and selection.">
-<polygon fill="none" stroke="black" points="2433.5,-270 2433.5,-382 2584.5,-382 2584.5,-270 2433.5,-270"/>
-<text text-anchor="middle" x="2509" y="-370" font-family="Helvetica,sans-Serif" font-size="10.00">game::LevelSelectionController</text>
-<polyline fill="none" stroke="black" points="2433.5,-363 2584.5,-363 "/>
-<text text-anchor="middle" x="2509" y="-351" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="2433.5,-344 2584.5,-344 "/>
-<text text-anchor="start" x="2441.5" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00">+ void InitializeLevels()</text>
-<text text-anchor="start" x="2441.5" y="-321" font-family="Helvetica,sans-Serif" font-size="10.00">+ LevelWithTiles LoadLevel</text>
-<text text-anchor="start" x="2441.5" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;file) const</text>
-<text text-anchor="start" x="2441.5" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00">+ Level GetLevelDto(const</text>
-<text text-anchor="start" x="2441.5" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00"> std::string &amp;levelName)</text>
-<text text-anchor="start" x="2441.5" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00"> const</text>
+<polygon fill="none" stroke="black" points="2433.5,-259 2433.5,-393 2584.5,-393 2584.5,-259 2433.5,-259"/>
+<text text-anchor="middle" x="2509" y="-381" font-family="Helvetica,sans-Serif" font-size="10.00">game::LevelSelectionController</text>
+<polyline fill="none" stroke="black" points="2433.5,-374 2584.5,-374 "/>
+<text text-anchor="middle" x="2509" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="2433.5,-355 2584.5,-355 "/>
+<text text-anchor="start" x="2441.5" y="-343" font-family="Helvetica,sans-Serif" font-size="10.00">+ void InitializeLevels()</text>
+<text text-anchor="start" x="2441.5" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00">+ LevelWithTiles LoadLevel</text>
+<text text-anchor="start" x="2441.5" y="-321" font-family="Helvetica,sans-Serif" font-size="10.00">(const std::string &amp;file) const</text>
+<text text-anchor="start" x="2441.5" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">+ Level GetLevelDto(const</text>
+<text text-anchor="start" x="2441.5" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00"> std::string &amp;levelName)</text>
+<text text-anchor="start" x="2441.5" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00"> const</text>
+<text text-anchor="start" x="2441.5" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00">+ std::vector&lt; Level</text>
+<text text-anchor="start" x="2441.5" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; GetLevels() const</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node19 -->
 <g id="edge18" class="edge">
 <title>Node4&#45;&gt;Node19</title>
-<path fill="none" stroke="#8b1a1a" d="M1727.76,-777.26C1739.75,-743.64 1758.82,-708.84 1789,-688 1905.49,-607.57 2315.57,-741.8 2425,-652 2504.74,-586.56 2514.37,-456.25 2512.72,-382.05"/>
+<path fill="none" stroke="#8b1a1a" d="M1727.76,-777.26C1739.75,-743.64 1758.82,-708.84 1789,-688 1905.49,-607.57 2315.57,-741.8 2425,-652 2500.91,-589.71 2513.28,-468.62 2512.87,-393.12"/>
 <polygon fill="none" stroke="#8b1a1a" points="1724.29,-776.57 1724.41,-787.16 1730.92,-778.81 1724.29,-776.57"/>
 </g>
 <!-- Node20 -->
