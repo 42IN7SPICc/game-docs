@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['originaltiletype_1783',['OriginalTileType',['../structgame_1_1MapNode.html#a28a0a14985aab0a9a5e40864c70bce6b',1,'game::MapNode']]]
+  ['name_1815',['Name',['../structgame_1_1FolderFile.html#aa149417de4d4dc318d6ffb3ebb7e85db',1,'game::FolderFile']]],
+  ['neighbourstrings_1816',['NeighbourStrings',['../structgame_1_1MapNode.html#a51d3b19c80b8cdd27d46dc3a909eaac4',1,'game::MapNode']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_7ecomponent_1695',['~Component',['../classspic_1_1Component.html#a3507a84730510403c771bbb1b4e533c3',1,'spic::Component']]],
-  ['_7egameobject_1696',['~GameObject',['../classspic_1_1GameObject.html#aff28fe97660b4e4db7a7baf4e1dc0abb',1,'spic::GameObject']]]
+  ['yellow_1722',['yellow',['../classspic_1_1Color.html#acbf3cb80e1a31b2251c8abc8ee29fd11',1,'spic::Color']]]
 ];

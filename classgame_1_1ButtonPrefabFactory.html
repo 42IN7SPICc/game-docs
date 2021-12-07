@@ -80,7 +80,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for game::ButtonPrefabFactory:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1ButtonPrefabFactory__coll__graph.svg" width="196" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1ButtonPrefabFactory__coll__graph.svg" width="212" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -98,6 +98,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a96cd18c234c6a0eb0472334c3288c052"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1Button.html">spic::Button</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1ButtonPrefabFactory.html#a96cd18c234c6a0eb0472334c3288c052">CreateCloseButton</a> (const <a class="el" href="structspic_1_1Point.html">spic::Point</a> &amp;position={49, 49})</td></tr>
 <tr class="memdesc:a96cd18c234c6a0eb0472334c3288c052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a button with a script that closes the current scene.  <a href="classgame_1_1ButtonPrefabFactory.html#a96cd18c234c6a0eb0472334c3288c052">More...</a><br /></td></tr>
 <tr class="separator:a96cd18c234c6a0eb0472334c3288c052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a057eaa08b2ba7422f299d7875d59da5d"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1Button.html">spic::Button</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1ButtonPrefabFactory.html#a057eaa08b2ba7422f299d7875d59da5d">CreateSwitchHeroButton</a> (const <a class="el" href="structspic_1_1Point.html">spic::Point</a> &amp;position, std::function&lt; void()&gt; callback)</td></tr>
+<tr class="memdesc:a057eaa08b2ba7422f299d7875d59da5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a button for the hero switching.  <a href="classgame_1_1ButtonPrefabFactory.html#a057eaa08b2ba7422f299d7875d59da5d">More...</a><br /></td></tr>
+<tr class="separator:a057eaa08b2ba7422f299d7875d59da5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Factory for buttons. </p>
@@ -247,6 +250,52 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The button object. </dd></dl>
+
+</div>
+</div>
+<a id="a057eaa08b2ba7422f299d7875d59da5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a057eaa08b2ba7422f299d7875d59da5d">&#9670;&nbsp;</a></span>CreateSwitchHeroButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classspic_1_1Button.html">spic::Button</a> &gt; ButtonPrefabFactory::CreateSwitchHeroButton </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structspic_1_1Point.html">spic::Point</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void()&gt;&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a button for the hero switching. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>The screen position for the button </td></tr>
+    <tr><td class="paramname">callback</td><td>The onlick action for the button </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The button object </dd></dl>
 
 </div>
 </div>

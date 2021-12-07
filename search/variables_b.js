@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['mapx_1777',['MapX',['../Constants_8hpp.html#a53d5b1cbdf975182318867eede39b3a6',1,'Constants.hpp']]],
-  ['mapy_1778',['MapY',['../Constants_8hpp.html#ab46824fb07e7f128310b746ebdaf19d0',1,'Constants.hpp']]],
-  ['max_5fdelta_5ftime_1779',['MAX_DELTA_TIME',['../TimeManager_8cpp.html#a75436f355a0821b26300a6958cb204f9',1,'TimeManager.cpp']]],
-  ['militarybasehealth_1780',['MilitaryBaseHealth',['../structgame_1_1LevelData.html#ad93aee68c818e2246bc7285faf4ca53d',1,'game::LevelData']]]
+  ['levelscompleted_1808',['LevelsCompleted',['../structgame_1_1PlayerData.html#a9f259aa30be541686cf1d88652158719',1,'game::PlayerData']]],
+  ['levelthreshold_1809',['LevelThreshold',['../structgame_1_1LevelData.html#a7d23ef66a97c1b31cf4a5fb8922ca114',1,'game::LevelData']]],
+  ['looping_1810',['Looping',['../Animator__public_8hpp.html#aaade1c32ad11c04e3c577ce2e7c6937c',1,'Animator_public.hpp']]]
 ];

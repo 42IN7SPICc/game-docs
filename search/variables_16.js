@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['y_1835',['y',['../structspic_1_1Point.html#a471ba3cfcc8275ed11a1cca5d45b9d88',1,'spic::Point']]],
-  ['y_1836',['Y',['../structgame_1_1MapNode.html#a53b84be656a8881b6b529fd7540c5dc0',1,'game::MapNode::Y()'],['../structgame_1_1Tile.html#a335fefed4c17cf619d41e2604467ace7',1,'game::Tile::Y()']]]
+  ['x_1870',['x',['../structspic_1_1Point.html#abfa15f71a5ca95c07e83bfa54286934a',1,'spic::Point']]],
+  ['x_1871',['X',['../structgame_1_1MapNode.html#af13b1c03946fdb4894d17b7be9e33a75',1,'game::MapNode::X()'],['../structgame_1_1Tile.html#a7b8aee11390333139a251a23a825e968',1,'game::Tile::X()']]]
 ];
