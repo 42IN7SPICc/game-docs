@@ -80,21 +80,21 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for game::BulletFactory:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1BulletFactory__coll__graph.svg" width="278" height="191"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1BulletFactory__coll__graph.svg" width="258" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a44f05beef55a35e28d26820ca785bc65"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1BulletFactory.html#a44f05beef55a35e28d26820ca785bc65">CreateBullet</a> (<a class="el" href="namespacegame.html#aa55c9d017973af7646d9f46bff0af608">BulletType</a> bulletType, const <a class="el" href="structspic_1_1Point.html">spic::Point</a> &amp;position, const std::string &amp;targetTag, const <a class="el" href="structspic_1_1Point.html">spic::Point</a> &amp;direction, int range, int damage, double bombRadius=0)</td></tr>
-<tr class="memdesc:a44f05beef55a35e28d26820ca785bc65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a bullet with given settings.  <a href="classgame_1_1BulletFactory.html#a44f05beef55a35e28d26820ca785bc65">More...</a><br /></td></tr>
-<tr class="separator:a44f05beef55a35e28d26820ca785bc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a773e3305031913f07d0bbcb6444b6f39"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1BulletFactory.html#a773e3305031913f07d0bbcb6444b6f39">CreateBullet</a> (<a class="el" href="namespacegame.html#aa55c9d017973af7646d9f46bff0af608">BulletType</a> bulletType, const <a class="el" href="structspic_1_1Point.html">spic::Point</a> &amp;position, const std::string &amp;targetTag, const <a class="el" href="structspic_1_1Point.html">spic::Point</a> &amp;direction, int range, int damage, double bombRadius=0, int maxPenetrating=1)</td></tr>
+<tr class="memdesc:a773e3305031913f07d0bbcb6444b6f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a bullet with given settings.  <a href="classgame_1_1BulletFactory.html#a773e3305031913f07d0bbcb6444b6f39">More...</a><br /></td></tr>
+<tr class="separator:a773e3305031913f07d0bbcb6444b6f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Factory for bullets. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a44f05beef55a35e28d26820ca785bc65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44f05beef55a35e28d26820ca785bc65">&#9670;&nbsp;</a></span>CreateBullet()</h2>
+<a id="a773e3305031913f07d0bbcb6444b6f39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a773e3305031913f07d0bbcb6444b6f39">&#9670;&nbsp;</a></span>CreateBullet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,7 +142,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>bombRadius</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>bombRadius</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxPenetrating</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -167,6 +173,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">range</td><td>The maximum range the bullet can travel. </td></tr>
     <tr><td class="paramname">damage</td><td>The damage the bullet does on impact. </td></tr>
     <tr><td class="paramname">bombRadius</td><td>The radius of the bomb on impact (only bulletType = bomb). </td></tr>
+    <tr><td class="paramname">maxPenetrating</td><td>How many enemies a single bullet can passthrough before disappearing </td></tr>
   </table>
   </dd>
 </dl>

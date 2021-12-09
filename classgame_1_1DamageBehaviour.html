@@ -92,9 +92,9 @@ Collaboration diagram for game::DamageBehaviour:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ada7cfb527a033b6bac67497dcdc9d12d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1DamageBehaviour.html#ada7cfb527a033b6bac67497dcdc9d12d">DamageBehaviour</a> (int damage, const std::string &amp;targetTag=&quot;&quot;, int radius=0)</td></tr>
-<tr class="memdesc:ada7cfb527a033b6bac67497dcdc9d12d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of a <a class="el" href="classgame_1_1DamageBehaviour.html" title="A script that handles damage on health scripts.">DamageBehaviour</a> with given values.  <a href="classgame_1_1DamageBehaviour.html#ada7cfb527a033b6bac67497dcdc9d12d">More...</a><br /></td></tr>
-<tr class="separator:ada7cfb527a033b6bac67497dcdc9d12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5d0b8b9caff33abd7dfba3830e7b8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1DamageBehaviour.html#a7d5d0b8b9caff33abd7dfba3830e7b8a">DamageBehaviour</a> (int damage, const std::string &amp;targetTag, int radius, int maxPenetrating)</td></tr>
+<tr class="memdesc:a7d5d0b8b9caff33abd7dfba3830e7b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of a <a class="el" href="classgame_1_1DamageBehaviour.html" title="A script that handles damage on health scripts.">DamageBehaviour</a> with given values.  <a href="classgame_1_1DamageBehaviour.html#a7d5d0b8b9caff33abd7dfba3830e7b8a">More...</a><br /></td></tr>
+<tr class="separator:a7d5d0b8b9caff33abd7dfba3830e7b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32e120f9cd387cd87da470e72f0a146a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1DamageBehaviour.html#a32e120f9cd387cd87da470e72f0a146a">Damage</a> (const std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; &amp;gameObject)</td></tr>
 <tr class="memdesc:a32e120f9cd387cd87da470e72f0a146a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Give damage to a given health script.  <a href="classgame_1_1DamageBehaviour.html#a32e120f9cd387cd87da470e72f0a146a">More...</a><br /></td></tr>
 <tr class="separator:a32e120f9cd387cd87da470e72f0a146a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,8 +167,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A script that handles damage on health scripts. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ada7cfb527a033b6bac67497dcdc9d12d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada7cfb527a033b6bac67497dcdc9d12d">&#9670;&nbsp;</a></span>DamageBehaviour()</h2>
+<a id="a7d5d0b8b9caff33abd7dfba3830e7b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5d0b8b9caff33abd7dfba3830e7b8a">&#9670;&nbsp;</a></span>DamageBehaviour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,13 +186,19 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>targetTag</em> = <code>&quot;&quot;</code>, </td>
+          <td class="paramname"><em>targetTag</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>radius</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxPenetrating</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -213,6 +219,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">damage</td><td>The damage to deal on impact. </td></tr>
     <tr><td class="paramname">targetTag</td><td>The tag to deal damage to. </td></tr>
     <tr><td class="paramname">radius</td><td>The radius to deal damage in. </td></tr>
+    <tr><td class="paramname">maxPenetrating</td><td>How many enemies a single bullet can passthrough before disappearing </td></tr>
   </table>
   </dd>
 </dl>

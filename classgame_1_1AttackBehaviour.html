@@ -92,9 +92,9 @@ Collaboration diagram for game::AttackBehaviour:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afeadd616ec5f537508ba28c8f9d4f555"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AttackBehaviour.html#afeadd616ec5f537508ba28c8f9d4f555">AttackBehaviour</a> (const std::string &amp;targetTag, <a class="el" href="namespacegame.html#aa55c9d017973af7646d9f46bff0af608">game::BulletType</a> bulletType, double fireRate, int range, int damage, double bulletSpeed, double damageRadius=0, bool followTarget=false, std::shared_ptr&lt; <a class="el" href="classspic_1_1Animator.html">spic::Animator</a> &gt; animator={})</td></tr>
-<tr class="memdesc:afeadd616ec5f537508ba28c8f9d4f555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of an <a class="el" href="classgame_1_1AttackBehaviour.html" title="A script to attack other game objects containing a health script.">AttackBehaviour</a> with given settings.  <a href="classgame_1_1AttackBehaviour.html#afeadd616ec5f537508ba28c8f9d4f555">More...</a><br /></td></tr>
-<tr class="separator:afeadd616ec5f537508ba28c8f9d4f555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b1a59fc0071a6a8b76ebb3d1941de8f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AttackBehaviour.html#a1b1a59fc0071a6a8b76ebb3d1941de8f">AttackBehaviour</a> (const std::string &amp;targetTag, <a class="el" href="namespacegame.html#aa55c9d017973af7646d9f46bff0af608">game::BulletType</a> bulletType, double fireRate, int range, int damage, double bulletSpeed, int maxPenetrating=1, double damageRadius=0, bool followTarget=false, std::shared_ptr&lt; <a class="el" href="classspic_1_1Animator.html">spic::Animator</a> &gt; animator={})</td></tr>
+<tr class="memdesc:a1b1a59fc0071a6a8b76ebb3d1941de8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of an <a class="el" href="classgame_1_1AttackBehaviour.html" title="A script to attack other game objects containing a health script.">AttackBehaviour</a> with given settings.  <a href="classgame_1_1AttackBehaviour.html#a1b1a59fc0071a6a8b76ebb3d1941de8f">More...</a><br /></td></tr>
+<tr class="separator:a1b1a59fc0071a6a8b76ebb3d1941de8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe7f7760732fd8fa8e2f77402e7abfb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AttackBehaviour.html#abe7f7760732fd8fa8e2f77402e7abfb4">OnStart</a> () override</td></tr>
 <tr class="memdesc:abe7f7760732fd8fa8e2f77402e7abfb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers when the scripts starts for the first time.  <a href="classgame_1_1AttackBehaviour.html#abe7f7760732fd8fa8e2f77402e7abfb4">More...</a><br /></td></tr>
 <tr class="separator:abe7f7760732fd8fa8e2f77402e7abfb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,8 +200,8 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A script to attack other game objects containing a health script. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="afeadd616ec5f537508ba28c8f9d4f555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeadd616ec5f537508ba28c8f9d4f555">&#9670;&nbsp;</a></span>AttackBehaviour()</h2>
+<a id="a1b1a59fc0071a6a8b76ebb3d1941de8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b1a59fc0071a6a8b76ebb3d1941de8f">&#9670;&nbsp;</a></span>AttackBehaviour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -245,6 +245,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxPenetrating</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>damageRadius</em> = <code>0</code>, </td>
         </tr>
@@ -277,6 +283,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">range</td><td>The maximum distance a bullet can travel. </td></tr>
     <tr><td class="paramname">damage</td><td>The damage the bullet does on impact. </td></tr>
     <tr><td class="paramname">bulletSpeed</td><td>The speed to bullet travels at. </td></tr>
+    <tr><td class="paramname">maxPenetrating</td><td>How many enemies a single bullet can passthrough before disappearing </td></tr>
     <tr><td class="paramname">damageRadius</td><td>The radius a bullet does damage in (only bulletType = bomb). </td></tr>
     <tr><td class="paramname">followTarget</td><td>Whether to rotate the game object to face the nearest target. </td></tr>
     <tr><td class="paramname">animator</td><td>The animator used when shooting. </td></tr>

@@ -37,7 +37,7 @@ var searchData=
   ['arial_50',['Arial',['../classgame_1_1Font.html#adf5043e94cd4c2742d5dd2cc83d19d3f',1,'game::Font']]],
   ['aspectheight_51',['AspectHeight',['../classspic_1_1Camera.html#a386f4df55ff10886a4f0c7f2fa42cab4',1,'spic::Camera::AspectHeight(double newAspectHeight)'],['../classspic_1_1Camera.html#a8f0a1139a7f108b91a4a070ded6ffe5c',1,'spic::Camera::AspectHeight() const']]],
   ['aspectwidth_52',['AspectWidth',['../classspic_1_1Camera.html#a1bcb155ebb6442b1fa5117ce7fcfa124',1,'spic::Camera::AspectWidth() const'],['../classspic_1_1Camera.html#adf2016459c06cc8ca9e927ba2b852d8f',1,'spic::Camera::AspectWidth(double newAspectWidth)']]],
-  ['attackbehaviour_53',['AttackBehaviour',['../classgame_1_1AttackBehaviour.html#afeadd616ec5f537508ba28c8f9d4f555',1,'game::AttackBehaviour::AttackBehaviour()'],['../classgame_1_1AttackBehaviour.html',1,'game::AttackBehaviour']]],
+  ['attackbehaviour_53',['AttackBehaviour',['../classgame_1_1AttackBehaviour.html#a1b1a59fc0071a6a8b76ebb3d1941de8f',1,'game::AttackBehaviour::AttackBehaviour()'],['../classgame_1_1AttackBehaviour.html',1,'game::AttackBehaviour']]],
   ['attackbehaviour_2ecpp_54',['AttackBehaviour.cpp',['../AttackBehaviour_8cpp.html',1,'']]],
   ['attackbehaviour_2ehpp_55',['AttackBehaviour.hpp',['../AttackBehaviour_8hpp.html',1,'']]],
   ['audioclip_56',['AudioClip',['../classengine_1_1AudioClip.html#a54cce2e9556f71eb7fbf92f2843141a0',1,'engine::AudioClip::AudioClip()'],['../classengine_1_1AudioClip.html',1,'engine::AudioClip']]],
