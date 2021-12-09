@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classgame_1_1LevelController-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">game::LevelController Class Reference</div>  </div>
@@ -174,6 +175,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a86339f17fe05195dd5e0d5c402af9bef inherit pub_methods_classspic_1_1Component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1Component.html#a86339f17fe05195dd5e0d5c402af9bef">GameObject</a> (std::weak_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt; gameObject)</td></tr>
 <tr class="memdesc:a86339f17fe05195dd5e0d5c402af9bef inherit pub_methods_classspic_1_1Component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classspic_1_1GameObject.html" title="Any object which should be represented on screen. @spicapi.">GameObject</a> this component belongs to.  <a href="classspic_1_1Component.html#a86339f17fe05195dd5e0d5c402af9bef">More...</a><br /></td></tr>
 <tr class="separator:a86339f17fe05195dd5e0d5c402af9bef inherit pub_methods_classspic_1_1Component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a295e3bf278da7dcdcceba0adef880cc1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a295e3bf278da7dcdcceba0adef880cc1">Walkable</a> (const <a class="el" href="namespacegame.html#a9fb4c421008a80703a39c1ec82f3059d">TileType</a> &amp;tileType)</td></tr>
+<tr class="memdesc:a295e3bf278da7dcdcceba0adef880cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the a given tile is walkable.  <a href="classgame_1_1LevelController.html#a295e3bf278da7dcdcceba0adef880cc1">More...</a><br /></td></tr>
+<tr class="separator:a295e3bf278da7dcdcceba0adef880cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85e6a360f08352cf01cada1da7db450"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#ad85e6a360f08352cf01cada1da7db450">CreateLevelBorder</a> (double x, double y, double width, double height)</td></tr>
+<tr class="memdesc:ad85e6a360f08352cf01cada1da7db450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a border for the level with given settings.  <a href="classgame_1_1LevelController.html#ad85e6a360f08352cf01cada1da7db450">More...</a><br /></td></tr>
+<tr class="separator:ad85e6a360f08352cf01cada1da7db450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A controller to handle changes in the <a class="el" href="structgame_1_1Level.html" title="A model for storing level data.">Level</a>. </p>
@@ -330,6 +340,66 @@ Public Member Functions</h2></td></tr>
 
 <p>Creates a HUD for the level. </p>
 <dl class="section return"><dt>Returns</dt><dd>The game object containing the hud. </dd></dl>
+
+</div>
+</div>
+<a id="ad85e6a360f08352cf01cada1da7db450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad85e6a360f08352cf01cada1da7db450">&#9670;&nbsp;</a></span>CreateLevelBorder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt; LevelController::CreateLevelBorder </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate a border for the level with given settings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>The X position of the border. </td></tr>
+    <tr><td class="paramname">y</td><td>The Y position of the border. </td></tr>
+    <tr><td class="paramname">width</td><td>The width of the border. </td></tr>
+    <tr><td class="paramname">height</td><td>The height of the border. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A game object containing a border. </dd></dl>
 
 </div>
 </div>
@@ -649,6 +719,35 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The cheat for unlimited path tiles. </p>
+
+</div>
+</div>
+<a id="a295e3bf278da7dcdcceba0adef880cc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a295e3bf278da7dcdcceba0adef880cc1">&#9670;&nbsp;</a></span>Walkable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LevelController::Walkable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacegame.html#a9fb4c421008a80703a39c1ec82f3059d">TileType</a> &amp;&#160;</td>
+          <td class="paramname"><em>tileType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the a given tile is walkable. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether the tile is walkable. </dd></dl>
 
 </div>
 </div>
