@@ -1,33 +1,38 @@
 <map id="spic::Component" name="spic::Component">
-<area shape="rect" id="node1" title="Base class for all components. @spicapi." alt="" coords="2816,5,3011,229"/>
-<area shape="rect" id="node2" href="$classspic_1_1Animator.html" title="A component which can play animated sequences of sprites. @spicapi." alt="" coords="2346,431,2507,611"/>
-<area shape="rect" id="node3" href="$classspic_1_1AudioSource.html" title="Component which can play audio. @spicapi." alt="" coords="2532,424,2695,619"/>
-<area shape="rect" id="node4" href="$classspic_1_1BehaviourScript.html" title=" " alt="" coords="2719,409,2911,633"/>
-<area shape="rect" id="node27" href="$classspic_1_1Collider.html" title="The base class for all colliders. @spicapi." alt="" coords="2935,461,3089,582"/>
-<area shape="rect" id="node30" href="$classspic_1_1RigidBody.html" title="A component representing a rigid body. @spicapi." alt="" coords="3113,387,3311,655"/>
-<area shape="rect" id="node31" href="$classspic_1_1Sprite.html" title="A component representing a sprite (small image) @spicapi." alt="" coords="3335,277,3521,765"/>
-<area shape="rect" id="node5" href="$classgame_1_1AttackBehaviour.html" title="A script to attack other game objects containing a health script." alt="" coords="5,813,277,1683"/>
-<area shape="rect" id="node6" href="$classgame_1_1BulletBehaviour.html" title="A script to that handles bullets." alt="" coords="301,1107,520,1389"/>
-<area shape="rect" id="node7" href="$classgame_1_1CheatManager.html" title="A script to handle different cheats." alt="" coords="544,1136,720,1360"/>
-<area shape="rect" id="node8" href="$classgame_1_1CloseSceneBehaviour.html" title="A script to close the scene when pressing the ESC ky." alt="" coords="745,1136,933,1360"/>
-<area shape="rect" id="node9" href="$classgame_1_1ConfettiBehaviour.html" title=" " alt="" coords="957,1136,1133,1360"/>
-<area shape="rect" id="node10" href="$classgame_1_1CoolDownBehaviour.html" title="A script to handle a cool down for other scripts." alt="" coords="1158,1048,1341,1448"/>
-<area shape="rect" id="node11" href="$classgame_1_1DamageBehaviour.html" title="A script that handles damage on health scripts." alt="" coords="1365,1019,1600,1477"/>
-<area shape="rect" id="node12" href="$classgame_1_1EnemyInvisibleBehaviour.html" title=" " alt="" coords="1624,1121,1843,1375"/>
-<area shape="rect" id="node13" href="$classgame_1_1EnemyMedicBehaviour.html" title="A behaviour that heals other enemies in a certain range." alt="" coords="1867,1107,2059,1389"/>
-<area shape="rect" id="node14" href="$classgame_1_1EnemyMovementBehaviour.html" title="A script to handle movement for the enemy." alt="" coords="2083,1055,2301,1441"/>
-<area shape="rect" id="node15" href="$classgame_1_1EnemySpeedBoostBehaviour.html" title="A behaviour script to boost other enemies in a certain range." alt="" coords="2326,1107,2554,1389"/>
-<area shape="rect" id="node16" href="$classgame_1_1EnemyTroopTruckBehaviour.html" title="A behaviour script that spawns a given amount of enemies when the current entity dies." alt="" coords="2578,1121,2814,1375"/>
-<area shape="rect" id="node17" href="$classgame_1_1GameLostBehaviour.html" title="The script the handle the game lost screen." alt="" coords="2838,1099,3031,1397"/>
-<area shape="rect" id="node18" href="$classgame_1_1GameWonBehaviour.html" title="A script that handles the game won screen." alt="" coords="3055,1107,3243,1389"/>
-<area shape="rect" id="node19" href="$classgame_1_1HealAbilityBehaviour.html" title="A script to heal a hero when activated." alt="" coords="3267,1129,3447,1367"/>
-<area shape="rect" id="node20" href="$classgame_1_1HealthBarBehaviour.html" title="A script to render a health bar linked to a health behaviour." alt="" coords="3472,1114,3691,1382"/>
-<area shape="rect" id="node21" href="$classgame_1_1HealthBehaviour.html" title="A script to handle health on a entity." alt="" coords="3715,1048,3917,1448"/>
-<area shape="rect" id="node22" href="$classgame_1_1LevelController.html" title="A controller to handle changes in the Level." alt="" coords="3942,843,4197,1653"/>
-<area shape="rect" id="node23" href="$classgame_1_1LevelSelectionController.html" title="A script to handle level loading and selection." alt="" coords="4221,1158,4422,1338"/>
-<area shape="rect" id="node24" href="$classgame_1_1PauseSceneBehaviour.html" title="A script to pause the game when pressing the ESC key." alt="" coords="4447,1136,4639,1360"/>
-<area shape="rect" id="node25" href="$classgame_1_1UserAttackBehaviour.html" title="A script to let the user attack." alt="" coords="4663,1107,4942,1389"/>
-<area shape="rect" id="node26" href="$classgame_1_1UserMovementBehaviour.html" title="A script to allow the user to move the hero thru the level." alt="" coords="4966,1055,5221,1441"/>
-<area shape="rect" id="node28" href="$classspic_1_1BoxCollider.html" title="A collider which represents a rectangular collision area. @spicapi." alt="" coords="5245,1158,5443,1338"/>
-<area shape="rect" id="node29" href="$classspic_1_1CircleCollider.html" title="A collider which represents a circular collision area. @spicapi." alt="" coords="5468,1173,5625,1323"/>
+<area shape="rect" id="node1" title="Base class for all components. @spicapi." alt="" coords="3403,5,3598,229"/>
+<area shape="rect" id="node2" href="$classspic_1_1Animator.html" title="A component which can play animated sequences of sprites. @spicapi." alt="" coords="2933,431,3095,611"/>
+<area shape="rect" id="node3" href="$classspic_1_1AudioSource.html" title="Component which can play audio. @spicapi." alt="" coords="3119,424,3282,619"/>
+<area shape="rect" id="node4" href="$classspic_1_1BehaviourScript.html" title=" " alt="" coords="3306,409,3498,633"/>
+<area shape="rect" id="node32" href="$classspic_1_1Collider.html" title="The base class for all colliders. @spicapi." alt="" coords="3522,461,3677,582"/>
+<area shape="rect" id="node35" href="$classspic_1_1RigidBody.html" title="A component representing a rigid body. @spicapi." alt="" coords="3701,387,3898,655"/>
+<area shape="rect" id="node36" href="$classspic_1_1Sprite.html" title="A component representing a sprite (small image) @spicapi." alt="" coords="3923,277,4108,765"/>
+<area shape="rect" id="node5" href="$classgame_1_1AirstrikeAbilityBehaviour.html" title="A script for handling the airstrike ability for Franklin D Roosevelt." alt="" coords="5,1129,207,1367"/>
+<area shape="rect" id="node6" href="$classgame_1_1AttackBehaviour.html" title="A script to attack other game objects containing a health script." alt="" coords="231,813,503,1683"/>
+<area shape="rect" id="node7" href="$classgame_1_1BulletBehaviour.html" title="A script to that handles bullets." alt="" coords="527,1107,746,1389"/>
+<area shape="rect" id="node8" href="$classgame_1_1CheatManager.html" title="A script to handle different cheats." alt="" coords="770,1136,946,1360"/>
+<area shape="rect" id="node9" href="$classgame_1_1CloseSceneBehaviour.html" title="A script to close the scene when pressing the ESC ky." alt="" coords="971,1136,1159,1360"/>
+<area shape="rect" id="node10" href="$classgame_1_1ConfettiBehaviour.html" title=" " alt="" coords="1183,1136,1359,1360"/>
+<area shape="rect" id="node11" href="$classgame_1_1CoolDownBehaviour.html" title="A script to handle a cool down for other scripts." alt="" coords="1384,1048,1567,1448"/>
+<area shape="rect" id="node12" href="$classgame_1_1DamageBehaviour.html" title="A script that handles damage on health scripts." alt="" coords="1591,1019,1826,1477"/>
+<area shape="rect" id="node13" href="$classgame_1_1EnemyInvisibleBehaviour.html" title=" " alt="" coords="1850,1121,2069,1375"/>
+<area shape="rect" id="node14" href="$classgame_1_1EnemyMedicBehaviour.html" title="A behaviour that heals other enemies in a certain range." alt="" coords="2093,1107,2285,1389"/>
+<area shape="rect" id="node15" href="$classgame_1_1EnemyMovementBehaviour.html" title="A script to handle movement for the enemy." alt="" coords="2309,1055,2527,1441"/>
+<area shape="rect" id="node16" href="$classgame_1_1EnemySpeedBoostBehaviour.html" title="A behaviour script to boost other enemies in a certain range." alt="" coords="2552,1107,2780,1389"/>
+<area shape="rect" id="node17" href="$classgame_1_1EnemySuicideAbilityBehaviour.html" title="A script for handling the Enemy Suidcide ability for Joseph Stalin." alt="" coords="2805,1121,3021,1375"/>
+<area shape="rect" id="node18" href="$classgame_1_1EnemyTroopTruckBehaviour.html" title="A behaviour script that spawns a given amount of enemies when the current entity dies." alt="" coords="3045,1121,3281,1375"/>
+<area shape="rect" id="node19" href="$classgame_1_1GameLostBehaviour.html" title="The script the handle the game lost screen." alt="" coords="3305,1099,3499,1397"/>
+<area shape="rect" id="node20" href="$classgame_1_1GameWonBehaviour.html" title="A script that handles the game won screen." alt="" coords="3523,1107,3711,1389"/>
+<area shape="rect" id="node21" href="$classgame_1_1HealAbilityBehaviour.html" title="A script to heal a hero when activated." alt="" coords="3735,1129,3915,1367"/>
+<area shape="rect" id="node22" href="$classgame_1_1HealthBarBehaviour.html" title="A script to render a health bar linked to a health behaviour." alt="" coords="3939,1114,4158,1382"/>
+<area shape="rect" id="node23" href="$classgame_1_1HealthBehaviour.html" title="A script to handle health on a entity." alt="" coords="4182,1048,4385,1448"/>
+<area shape="rect" id="node24" href="$classgame_1_1IncreaseTowerFireRateAbilityBehaviour.html" title="A script for handling the Tower Fire Rate Ability for Winston Churchill." alt="" coords="4409,1114,4611,1382"/>
+<area shape="rect" id="node25" href="$classgame_1_1IncreaseTowerRangeAbilityBehaviour.html" title="A script for handling the Tower Range ability for Franklin D Roosevelt." alt="" coords="4636,1114,4827,1382"/>
+<area shape="rect" id="node26" href="$classgame_1_1InvisibilityAbilityBehaviour.html" title="A script for handling the invisibility ability for Bernard IJzerdraat." alt="" coords="4851,1121,5041,1375"/>
+<area shape="rect" id="node27" href="$classgame_1_1LevelController.html" title="A controller to handle changes in the Level." alt="" coords="5065,843,5320,1653"/>
+<area shape="rect" id="node28" href="$classgame_1_1LevelSelectionController.html" title="A script to handle level loading and selection." alt="" coords="5344,1158,5545,1338"/>
+<area shape="rect" id="node29" href="$classgame_1_1PauseSceneBehaviour.html" title="A script to pause the game when pressing the ESC key." alt="" coords="5570,1136,5762,1360"/>
+<area shape="rect" id="node30" href="$classgame_1_1UserAttackBehaviour.html" title="A script to let the user attack." alt="" coords="5787,1107,6065,1389"/>
+<area shape="rect" id="node31" href="$classgame_1_1UserMovementBehaviour.html" title="A script to allow the user to move the hero thru the level." alt="" coords="6089,1055,6344,1441"/>
+<area shape="rect" id="node33" href="$classspic_1_1BoxCollider.html" title="A collider which represents a rectangular collision area. @spicapi." alt="" coords="6368,1158,6567,1338"/>
+<area shape="rect" id="node34" href="$classspic_1_1CircleCollider.html" title="A collider which represents a circular collision area. @spicapi." alt="" coords="6591,1173,6749,1323"/>
 </map>
