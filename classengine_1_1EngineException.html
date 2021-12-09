@@ -73,6 +73,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>An exception to throw when something errors in the engine.  
+ <a href="classengine_1_1EngineException.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="EngineException_8hpp_source.html">EngineException.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for engine::EngineException:</div>
@@ -90,11 +93,15 @@ Collaboration diagram for engine::EngineException:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c96fcd7a15fa2957843af3fadfc5902"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1EngineException.html#a9c96fcd7a15fa2957843af3fadfc5902">EngineException</a> (const std::string &amp;message, const std::string &amp;innerMessage=&quot;&quot;)</td></tr>
+<tr class="memdesc:a9c96fcd7a15fa2957843af3fadfc5902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of an exception with a message and innermessage.  <a href="classengine_1_1EngineException.html#a9c96fcd7a15fa2957843af3fadfc5902">More...</a><br /></td></tr>
 <tr class="separator:a9c96fcd7a15fa2957843af3fadfc5902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51592bff44da695f1b98347b010bf650"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">what</a> () const  throw ()</td></tr>
+<tr class="memdesc:a51592bff44da695f1b98347b010bf650"><td class="mdescLeft">&#160;</td><td class="mdescRight">The what part of the exception.  <a href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">More...</a><br /></td></tr>
 <tr class="separator:a51592bff44da695f1b98347b010bf650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>An exception to throw when something errors in the engine. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9c96fcd7a15fa2957843af3fadfc5902"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c96fcd7a15fa2957843af3fadfc5902">&#9670;&nbsp;</a></span>EngineException()</h2>
 
@@ -129,6 +136,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructs a new instance of an exception with a message and innermessage. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>The message describing the error. </td></tr>
+    <tr><td class="paramname">innerMessage</td><td>The inner message for developers (empty to disable). </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -160,6 +176,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The what part of the exception. </p>
+<dl class="section return"><dt>Returns</dt><dd>The message of the exception. </dd></dl>
 
 </div>
 </div>

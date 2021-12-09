@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="An exception to throw when something errors in the engine.">
 <polygon fill="#bfbfbf" stroke="black" points="194.5,-105.5 194.5,-206.5 366.5,-206.5 366.5,-105.5 194.5,-105.5"/>
 <text text-anchor="middle" x="280.5" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00">engine::EngineException</text>
 <polyline fill="none" stroke="black" points="194.5,-187.5 366.5,-187.5 "/>
@@ -28,7 +28,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classengine_1_1SDLException.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classengine_1_1SDLException.html" target="_top" xlink:title="An exception that handles errors for SDL.">
 <polygon fill="none" stroke="black" points="0,-0.5 0,-68.5 113,-68.5 113,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="56.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">engine::SDLException</text>
 <polyline fill="none" stroke="black" points="0,-49.5 113,-49.5 "/>
@@ -48,7 +48,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classengine_1_1SDLImageException.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classengine_1_1SDLImageException.html" target="_top" xlink:title="An exception that handles errors for SDL Image.">
 <polygon fill="none" stroke="black" points="131.5,-0.5 131.5,-68.5 271.5,-68.5 271.5,-0.5 131.5,-0.5"/>
 <text text-anchor="middle" x="201.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">engine::SDLImageException</text>
 <polyline fill="none" stroke="black" points="131.5,-49.5 271.5,-49.5 "/>
@@ -68,7 +68,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classengine_1_1SDLMixerException.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classengine_1_1SDLMixerException.html" target="_top" xlink:title="An exception that handles errors for SDL Mixer.">
 <polygon fill="none" stroke="black" points="289.5,-0.5 289.5,-68.5 429.5,-68.5 429.5,-0.5 289.5,-0.5"/>
 <text text-anchor="middle" x="359.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">engine::SDLMixerException</text>
 <polyline fill="none" stroke="black" points="289.5,-49.5 429.5,-49.5 "/>
@@ -88,7 +88,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classengine_1_1SDLTTFException.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classengine_1_1SDLTTFException.html" target="_top" xlink:title="An exception that handles errors for SDL TTF.">
 <polygon fill="none" stroke="black" points="448,-0.5 448,-68.5 579,-68.5 579,-0.5 448,-0.5"/>
 <text text-anchor="middle" x="513.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">engine::SDLTTFException</text>
 <polyline fill="none" stroke="black" points="448,-49.5 579,-49.5 "/>

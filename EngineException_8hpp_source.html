@@ -77,25 +77,25 @@ $(function() {
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespaceengine.html">    7</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceengine.html">engine</a></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classengine_1_1EngineException.html">    9</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classengine_1_1EngineException.html">EngineException</a> : <span class="keyword">public</span> std::exception</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            std::string _message;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <span class="keyword">explicit</span> <a class="code" href="classengine_1_1EngineException.html#a9c96fcd7a15fa2957843af3fadfc5902">EngineException</a>(<span class="keyword">const</span> std::string&amp; message, <span class="keyword">const</span> std::string&amp; innerMessage = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classengine_1_1EngineException.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classengine_1_1EngineException.html">EngineException</a> : <span class="keyword">public</span> std::exception</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            std::string _message;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">   17</a></span>&#160;            <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">what</a>() <span class="keyword">const</span> throw()</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">return</span> _message.c_str();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            }</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_ENGINE_ENGINEEXCEPTION_HPP</span></div>
-<div class="ttc" id="aclassengine_1_1EngineException_html"><div class="ttname"><a href="classengine_1_1EngineException.html">engine::EngineException</a></div><div class="ttdef"><b>Definition:</b> EngineException.hpp:10</div></div>
-<div class="ttc" id="aclassengine_1_1EngineException_html_a51592bff44da695f1b98347b010bf650"><div class="ttname"><a href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">engine::EngineException::what</a></div><div class="ttdeci">const char * what() const</div><div class="ttdef"><b>Definition:</b> EngineException.hpp:17</div></div>
-<div class="ttc" id="aclassengine_1_1EngineException_html_a9c96fcd7a15fa2957843af3fadfc5902"><div class="ttname"><a href="classengine_1_1EngineException.html#a9c96fcd7a15fa2957843af3fadfc5902">engine::EngineException::EngineException</a></div><div class="ttdeci">EngineException(const std::string &amp;message, const std::string &amp;innerMessage=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> EngineException.cpp:3</div></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keyword">explicit</span> <a class="code" href="classengine_1_1EngineException.html#a9c96fcd7a15fa2957843af3fadfc5902">EngineException</a>(<span class="keyword">const</span> std::string&amp; message, <span class="keyword">const</span> std::string&amp; innerMessage = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">   29</a></span>&#160;            <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">what</a>() <span class="keyword">const</span> throw()</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">return</span> _message.c_str();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_ENGINE_ENGINEEXCEPTION_HPP</span></div>
+<div class="ttc" id="aclassengine_1_1EngineException_html"><div class="ttname"><a href="classengine_1_1EngineException.html">engine::EngineException</a></div><div class="ttdoc">An exception to throw when something errors in the engine.</div><div class="ttdef"><b>Definition:</b> EngineException.hpp:13</div></div>
+<div class="ttc" id="aclassengine_1_1EngineException_html_a51592bff44da695f1b98347b010bf650"><div class="ttname"><a href="classengine_1_1EngineException.html#a51592bff44da695f1b98347b010bf650">engine::EngineException::what</a></div><div class="ttdeci">const char * what() const</div><div class="ttdoc">The what part of the exception.</div><div class="ttdef"><b>Definition:</b> EngineException.hpp:29</div></div>
+<div class="ttc" id="aclassengine_1_1EngineException_html_a9c96fcd7a15fa2957843af3fadfc5902"><div class="ttname"><a href="classengine_1_1EngineException.html#a9c96fcd7a15fa2957843af3fadfc5902">engine::EngineException::EngineException</a></div><div class="ttdeci">EngineException(const std::string &amp;message, const std::string &amp;innerMessage=&quot;&quot;)</div><div class="ttdoc">Constructs a new instance of an exception with a message and innermessage.</div><div class="ttdef"><b>Definition:</b> EngineException.cpp:3</div></div>
 <div class="ttc" id="anamespaceengine_html"><div class="ttname"><a href="namespaceengine.html">engine</a></div><div class="ttdef"><b>Definition:</b> EngineException.hpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
