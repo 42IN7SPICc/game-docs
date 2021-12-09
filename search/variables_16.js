@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['x_1964',['X',['../structgame_1_1MapNode.html#af13b1c03946fdb4894d17b7be9e33a75',1,'game::MapNode::X()'],['../structgame_1_1Tile.html#a7b8aee11390333139a251a23a825e968',1,'game::Tile::X()']]],
-  ['x_1965',['x',['../structspic_1_1Point.html#abfa15f71a5ca95c07e83bfa54286934a',1,'spic::Point']]]
+  ['waves_1974',['Waves',['../structgame_1_1LevelData.html#ae2d751f526fc43c323047880b0f774b9',1,'game::LevelData']]],
+  ['wavesplayed_1975',['WavesPlayed',['../structgame_1_1PlayerData.html#a4e0416d4ecb8705b448f6fd05471a67c',1,'game::PlayerData']]],
+  ['width_1976',['width',['../structspic_1_1WindowConfig.html#aea1d68ef9b1d06825a7d4e0b00c18ed9',1,'spic::WindowConfig']]],
+  ['window_1977',['window',['../structspic_1_1EngineConfig.html#af9a2e3cdb00ada101b1f630d20a00ec4',1,'spic::EngineConfig']]],
+  ['winstonchurchilldamage_1978',['WinstonChurchillDamage',['../Constants_8hpp.html#af1842c5b9b70d4311ab7d7bb4461589e',1,'Constants.hpp']]],
+  ['winstonchurchilldefense_1979',['WinstonChurchillDefense',['../Constants_8hpp.html#ae0dc4831174c9c2978768d3c2ca9dc7c',1,'Constants.hpp']]]
 ];
