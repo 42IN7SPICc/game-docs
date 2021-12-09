@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['activecolor_1903',['ActiveColor',['../EnemyInvisibleBehaviour_8cpp.html#ad0c877af202f19e0e5b85fc667acf9f2',1,'EnemyInvisibleBehaviour.cpp']]],
-  ['amountofconfetti_1904',['AmountOfConfetti',['../Constants_8hpp.html#a1b132803f4ad8cf398399d5a1070bb7b',1,'Constants.hpp']]],
-  ['amountsgiven_1905',['AmountsGiven',['../structgame_1_1Level.html#ae38f5223a4c36f9a74b21654984efbda',1,'game::Level::AmountsGiven()'],['../structgame_1_1LevelWithTiles.html#a2b48cec0fc6b234a27acb1d2cd45a65e',1,'game::LevelWithTiles::AmountsGiven()']]],
-  ['arial_1906',['Arial',['../classgame_1_1Font.html#adf5043e94cd4c2742d5dd2cc83d19d3f',1,'game::Font']]]
+  ['activecolor_1902',['ActiveColor',['../EnemyInvisibleBehaviour_8cpp.html#ad0c877af202f19e0e5b85fc667acf9f2',1,'EnemyInvisibleBehaviour.cpp']]],
+  ['amountofconfetti_1903',['AmountOfConfetti',['../Constants_8hpp.html#a1b132803f4ad8cf398399d5a1070bb7b',1,'Constants.hpp']]],
+  ['amountsgiven_1904',['AmountsGiven',['../structgame_1_1Level.html#ae38f5223a4c36f9a74b21654984efbda',1,'game::Level::AmountsGiven()'],['../structgame_1_1LevelWithTiles.html#a2b48cec0fc6b234a27acb1d2cd45a65e',1,'game::LevelWithTiles::AmountsGiven()']]],
+  ['arial_1905',['Arial',['../classgame_1_1Font.html#adf5043e94cd4c2742d5dd2cc83d19d3f',1,'game::Font']]]
 ];
