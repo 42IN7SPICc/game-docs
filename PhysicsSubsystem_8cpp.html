@@ -90,15 +90,17 @@ Include dependency graph for PhysicsSubsystem.cpp:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab55fcb3cb9cfb9ca105aa9d73f0e01e5"><td class="memItemLeft" align="right" valign="top">const int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#ab55fcb3cb9cfb9ca105aa9d73f0e01e5">VelocityIterations</a> = 24</td></tr>
+<tr class="memitem:a8130eb2f930edc9a3612af2a810f1b9e"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#a8130eb2f930edc9a3612af2a810f1b9e">TimeStep</a> = 1.0f / 60.0f</td></tr>
+<tr class="separator:a8130eb2f930edc9a3612af2a810f1b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab55fcb3cb9cfb9ca105aa9d73f0e01e5"><td class="memItemLeft" align="right" valign="top">const int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#ab55fcb3cb9cfb9ca105aa9d73f0e01e5">VelocityIterations</a> = 12</td></tr>
 <tr class="separator:ab55fcb3cb9cfb9ca105aa9d73f0e01e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addd04b0fb4a6e45c0035a79a4aa0cbcf"><td class="memItemLeft" align="right" valign="top">const int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#addd04b0fb4a6e45c0035a79a4aa0cbcf">PositionIterations</a> = 8</td></tr>
+<tr class="memitem:addd04b0fb4a6e45c0035a79a4aa0cbcf"><td class="memItemLeft" align="right" valign="top">const int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#addd04b0fb4a6e45c0035a79a4aa0cbcf">PositionIterations</a> = 4</td></tr>
 <tr class="separator:addd04b0fb4a6e45c0035a79a4aa0cbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c173a1ae5d3d7784dabe318d3edb39b"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#a7c173a1ae5d3d7784dabe318d3edb39b">TimeIterations</a> = 60</td></tr>
 <tr class="separator:a7c173a1ae5d3d7784dabe318d3edb39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a607b78e8e64b67a5d65d3d726e49d24b"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#a607b78e8e64b67a5d65d3d726e49d24b">PixelScale</a> = 0.5</td></tr>
 <tr class="separator:a607b78e8e64b67a5d65d3d726e49d24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56adfe7297ad6e15e4b27df7e05c9414"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#a56adfe7297ad6e15e4b27df7e05c9414">GravityScale</a> = 3.0</td></tr>
+<tr class="memitem:a56adfe7297ad6e15e4b27df7e05c9414"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="PhysicsSubsystem_8cpp.html#a56adfe7297ad6e15e4b27df7e05c9414">GravityScale</a> = 10.0</td></tr>
 <tr class="separator:a56adfe7297ad6e15e4b27df7e05c9414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -109,7 +111,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double GravityScale = 3.0</td>
+          <td class="memname">const double GravityScale = 10.0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -137,7 +139,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int32 PositionIterations = 8</td>
+          <td class="memname">const int32 PositionIterations = 4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -158,6 +160,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a8130eb2f930edc9a3612af2a810f1b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8130eb2f930edc9a3612af2a810f1b9e">&#9670;&nbsp;</a></span>TimeStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float TimeStep = 1.0f / 60.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab55fcb3cb9cfb9ca105aa9d73f0e01e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab55fcb3cb9cfb9ca105aa9d73f0e01e5">&#9670;&nbsp;</a></span>VelocityIterations</h2>
 
@@ -165,7 +181,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int32 VelocityIterations = 24</td>
+          <td class="memname">const int32 VelocityIterations = 12</td>
         </tr>
       </table>
 </div><div class="memdoc">

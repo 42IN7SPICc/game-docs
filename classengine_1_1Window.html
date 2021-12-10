@@ -80,7 +80,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for engine::Window:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1Window__coll__graph.svg" width="236" height="484"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1Window__coll__graph.svg" width="236" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -95,6 +95,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb93f30775ddf8ebe1c5e0f5f8298dac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1Window.html#acb93f30775ddf8ebe1c5e0f5f8298dac">RenderText</a> (const std::string &amp;text, const <a class="el" href="structspic_1_1Transform.html">spic::Transform</a> &amp;transform, const std::string &amp;fontPath, int size, <a class="el" href="namespacespic.html#aaa0301faebebc81988adda719b02a0fe">spic::Alignment</a> alignment, <a class="el" href="classspic_1_1Color.html">spic::Color</a> color, double maxWidth)</td></tr>
 <tr class="memdesc:acb93f30775ddf8ebe1c5e0f5f8298dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render a string of text on the window at a given location.  <a href="classengine_1_1Window.html#acb93f30775ddf8ebe1c5e0f5f8298dac">More...</a><br /></td></tr>
 <tr class="separator:acb93f30775ddf8ebe1c5e0f5f8298dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af439ac2d2cceaed7c11abc0c219d812b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1Window.html#af439ac2d2cceaed7c11abc0c219d812b">RenderLine</a> (double fromX, double fromY, double toX, double toY, const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;color)</td></tr>
+<tr class="memdesc:af439ac2d2cceaed7c11abc0c219d812b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render a line on the window between points.  <a href="classengine_1_1Window.html#af439ac2d2cceaed7c11abc0c219d812b">More...</a><br /></td></tr>
+<tr class="separator:af439ac2d2cceaed7c11abc0c219d812b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57c8af08428acef0bab3954a9923b073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1Window.html#a57c8af08428acef0bab3954a9923b073">RenderTextRaw</a> (const std::string &amp;text, double x, double y, const std::string &amp;fontPath, int size)</td></tr>
 <tr class="memdesc:a57c8af08428acef0bab3954a9923b073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render a string of the on the window at a given location.  <a href="classengine_1_1Window.html#a57c8af08428acef0bab3954a9923b073">More...</a><br /></td></tr>
 <tr class="separator:a57c8af08428acef0bab3954a9923b073"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,6 +247,64 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">transform</td><td>The location where the texture needs to be placed. </td></tr>
     <tr><td class="paramname">flip</td><td>In which directions the textures needs to be flipped (horizontal, vertical, both). </td></tr>
     <tr><td class="paramname">color</td><td>The color to render over the texture (transparent to disable). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af439ac2d2cceaed7c11abc0c219d812b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af439ac2d2cceaed7c11abc0c219d812b">&#9670;&nbsp;</a></span>RenderLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Window::RenderLine </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fromX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fromY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>toX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>toY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Render a line on the window between points. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fromX</td><td>The first x coord </td></tr>
+    <tr><td class="paramname">fromY</td><td>The first y coord </td></tr>
+    <tr><td class="paramname">toX</td><td>The seconds x coord </td></tr>
+    <tr><td class="paramname">toY</td><td>The second y coord </td></tr>
+    <tr><td class="paramname">color</td><td>The color of the line </td></tr>
   </table>
   </dd>
 </dl>
