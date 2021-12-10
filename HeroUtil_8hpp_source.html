@@ -73,22 +73,27 @@ $(function() {
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAME_HEROUTIL_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;../Enums/HeroName.hpp&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classgame_1_1HeroUtil.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1HeroUtil.html">HeroUtil</a></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keyword">static</span> std::string <a class="code" href="classgame_1_1HeroUtil.html#a69b4b0f3f6ee474c94d34ab65a42fc7e">NameToString</a>(<a class="code" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a> heroName);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../Enums/HeroName.hpp&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../Scripts/Common/CoolDownBehaviour.hpp&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classgame_1_1HeroUtil.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1HeroUtil.html">HeroUtil</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">static</span> std::string <a class="code" href="classgame_1_1HeroUtil.html#a69b4b0f3f6ee474c94d34ab65a42fc7e">NameToString</a>(<a class="code" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a> heroName);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassgame_1_1HeroUtil_html"><div class="ttname"><a href="classgame_1_1HeroUtil.html">game::HeroUtil</a></div><div class="ttdoc">A Utility for Heroes.</div><div class="ttdef"><b>Definition:</b> HeroUtil.hpp:13</div></div>
-<div class="ttc" id="aclassgame_1_1HeroUtil_html_a69b4b0f3f6ee474c94d34ab65a42fc7e"><div class="ttname"><a href="classgame_1_1HeroUtil.html#a69b4b0f3f6ee474c94d34ab65a42fc7e">game::HeroUtil::NameToString</a></div><div class="ttdeci">static std::string NameToString(game::HeroName heroName)</div><div class="ttdoc">Turns hero enum into std::string.</div><div class="ttdef"><b>Definition:</b> HeroUtil.cpp:4</div></div>
-<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> LevelController.hpp:20</div></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;game::CoolDownBehaviour&gt; <a class="code" href="classgame_1_1HeroUtil.html#a6c68233e7abcfcdeb5abf59e02cc0df4">GetAbilityCoolDownBehaviour</a>(std::shared_ptr&lt;spic::GameObject&gt; hero);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    };</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassgame_1_1HeroUtil_html"><div class="ttname"><a href="classgame_1_1HeroUtil.html">game::HeroUtil</a></div><div class="ttdoc">A Utility for Heroes.</div><div class="ttdef"><b>Definition:</b> HeroUtil.hpp:15</div></div>
+<div class="ttc" id="aclassgame_1_1HeroUtil_html_a69b4b0f3f6ee474c94d34ab65a42fc7e"><div class="ttname"><a href="classgame_1_1HeroUtil.html#a69b4b0f3f6ee474c94d34ab65a42fc7e">game::HeroUtil::NameToString</a></div><div class="ttdeci">static std::string NameToString(game::HeroName heroName)</div><div class="ttdoc">Turns hero enum into std::string.</div><div class="ttdef"><b>Definition:</b> HeroUtil.cpp:11</div></div>
+<div class="ttc" id="aclassgame_1_1HeroUtil_html_a6c68233e7abcfcdeb5abf59e02cc0df4"><div class="ttname"><a href="classgame_1_1HeroUtil.html#a6c68233e7abcfcdeb5abf59e02cc0df4">game::HeroUtil::GetAbilityCoolDownBehaviour</a></div><div class="ttdeci">static std::shared_ptr&lt; game::CoolDownBehaviour &gt; GetAbilityCoolDownBehaviour(std::shared_ptr&lt; spic::GameObject &gt; hero)</div><div class="ttdoc">Get the abilityCooldownBehaviour of a hero.</div><div class="ttdef"><b>Definition:</b> HeroUtil.cpp:30</div></div>
+<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
 <div class="ttc" id="anamespacegame_html_a25df4723bfcfbc50fff6c76512bc4145"><div class="ttname"><a href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a></div><div class="ttdeci">HeroName</div><div class="ttdoc">Enum for hero names.</div><div class="ttdef"><b>Definition:</b> HeroName.hpp:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

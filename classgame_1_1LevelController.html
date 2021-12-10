@@ -93,9 +93,9 @@ Collaboration diagram for game::LevelController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9ecd25510f63e855fd5def2480d59227"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a9ecd25510f63e855fd5def2480d59227">LevelController</a> (<a class="el" href="structgame_1_1LevelWithTiles.html">game::LevelWithTiles</a> level, std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; heroHealth, std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; militaryBaseHealth, std::queue&lt; <a class="el" href="structgame_1_1WaveData.html">game::WaveData</a> &gt; waves)</td></tr>
-<tr class="memdesc:a9ecd25510f63e855fd5def2480d59227"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of a <a class="el" href="classgame_1_1LevelController.html" title="A controller to handle changes in the Level.">LevelController</a> with given settings.  <a href="classgame_1_1LevelController.html#a9ecd25510f63e855fd5def2480d59227">More...</a><br /></td></tr>
-<tr class="separator:a9ecd25510f63e855fd5def2480d59227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09342c57e7188120b68a161ba659f254"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a09342c57e7188120b68a161ba659f254">LevelController</a> (std::shared_ptr&lt; <a class="el" href="structgame_1_1LevelWithTiles.html">game::LevelWithTiles</a> &gt; level, std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; heroHealth, std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; militaryBaseHealth, std::queue&lt; <a class="el" href="structgame_1_1WaveData.html">game::WaveData</a> &gt; waves, std::shared_ptr&lt; <a class="el" href="structgame_1_1LevelData.html">game::LevelData</a> &gt; levelData, std::shared_ptr&lt; <a class="el" href="structgame_1_1HudData.html">game::HudData</a> &gt; hudData)</td></tr>
+<tr class="memdesc:a09342c57e7188120b68a161ba659f254"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of a <a class="el" href="classgame_1_1LevelController.html" title="A controller to handle changes in the Level.">LevelController</a> with given settings.  <a href="classgame_1_1LevelController.html#a09342c57e7188120b68a161ba659f254">More...</a><br /></td></tr>
+<tr class="separator:a09342c57e7188120b68a161ba659f254"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e63dc844f35c2ca64bf268b6472c11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a79e63dc844f35c2ca64bf268b6472c11">OnStart</a> () override</td></tr>
 <tr class="memdesc:a79e63dc844f35c2ca64bf268b6472c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers when the scripts starts for the first time.  <a href="classgame_1_1LevelController.html#a79e63dc844f35c2ca64bf268b6472c11">More...</a><br /></td></tr>
 <tr class="separator:a79e63dc844f35c2ca64bf268b6472c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,9 +114,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ef5fe2b6732ac8dae8b6e1deb92c301"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a1ef5fe2b6732ac8dae8b6e1deb92c301">BuildLevel</a> (const std::shared_ptr&lt; <a class="el" href="classgame_1_1HealthBehaviour.html">game::HealthBehaviour</a> &gt; &amp;endTowerHealthBehaviour, const std::shared_ptr&lt; <a class="el" href="classspic_1_1Animator.html">spic::Animator</a> &gt; &amp;animator)</td></tr>
 <tr class="memdesc:a1ef5fe2b6732ac8dae8b6e1deb92c301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a level with a given health for the end tower.  <a href="classgame_1_1LevelController.html#a1ef5fe2b6732ac8dae8b6e1deb92c301">More...</a><br /></td></tr>
 <tr class="separator:a1ef5fe2b6732ac8dae8b6e1deb92c301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6cb000537e06503b4d1a81d3a839221"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#ac6cb000537e06503b4d1a81d3a839221">CreateHUD</a> ()</td></tr>
-<tr class="memdesc:ac6cb000537e06503b4d1a81d3a839221"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a HUD for the level.  <a href="classgame_1_1LevelController.html#ac6cb000537e06503b4d1a81d3a839221">More...</a><br /></td></tr>
-<tr class="separator:ac6cb000537e06503b4d1a81d3a839221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a205d906b7ef1bdcc4524f21d3fce238e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a205d906b7ef1bdcc4524f21d3fce238e">CreateMapButton</a> ()</td></tr>
 <tr class="memdesc:a205d906b7ef1bdcc4524f21d3fce238e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a button for the map.  <a href="classgame_1_1LevelController.html#a205d906b7ef1bdcc4524f21d3fce238e">More...</a><br /></td></tr>
 <tr class="separator:a205d906b7ef1bdcc4524f21d3fce238e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,12 +184,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad85e6a360f08352cf01cada1da7db450"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#ad85e6a360f08352cf01cada1da7db450">CreateLevelBorder</a> (double x, double y, double width, double height)</td></tr>
 <tr class="memdesc:ad85e6a360f08352cf01cada1da7db450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a border for the level with given settings.  <a href="classgame_1_1LevelController.html#ad85e6a360f08352cf01cada1da7db450">More...</a><br /></td></tr>
 <tr class="separator:ad85e6a360f08352cf01cada1da7db450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b32f9c845f9298d7191e9a69dfa27cf"><td class="memItemLeft" align="right" valign="top">static std::tuple&lt; bool, std::queue&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#a1b32f9c845f9298d7191e9a69dfa27cf">CheckIfPathIsComplete</a> (std::map&lt; std::string, <a class="el" href="structgame_1_1MapNode.html">MapNode</a> &gt; graphCopy)</td></tr>
+<tr class="memdesc:a1b32f9c845f9298d7191e9a69dfa27cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if there is a path from the start tile to the end tile.  <a href="classgame_1_1LevelController.html#a1b32f9c845f9298d7191e9a69dfa27cf">More...</a><br /></td></tr>
+<tr class="separator:a1b32f9c845f9298d7191e9a69dfa27cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A controller to handle changes in the <a class="el" href="structgame_1_1Level.html" title="A model for storing level data.">Level</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9ecd25510f63e855fd5def2480d59227"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ecd25510f63e855fd5def2480d59227">&#9670;&nbsp;</a></span>LevelController()</h2>
+<a id="a09342c57e7188120b68a161ba659f254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09342c57e7188120b68a161ba659f254">&#9670;&nbsp;</a></span>LevelController()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +200,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">LevelController::LevelController </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structgame_1_1LevelWithTiles.html">game::LevelWithTiles</a>&#160;</td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structgame_1_1LevelWithTiles.html">game::LevelWithTiles</a> &gt;&#160;</td>
           <td class="paramname"><em>level</em>, </td>
         </tr>
         <tr>
@@ -219,7 +219,19 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::queue&lt; <a class="el" href="structgame_1_1WaveData.html">game::WaveData</a> &gt;&#160;</td>
-          <td class="paramname"><em>waves</em>&#160;</td>
+          <td class="paramname"><em>waves</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structgame_1_1LevelData.html">game::LevelData</a> &gt;&#160;</td>
+          <td class="paramname"><em>levelData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="structgame_1_1HudData.html">game::HudData</a> &gt;&#160;</td>
+          <td class="paramname"><em>hudData</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -236,6 +248,8 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">heroHealth</td><td>The health of the hero. </td></tr>
     <tr><td class="paramname">militaryBaseHealth</td><td>The health of the end point. </td></tr>
     <tr><td class="paramname">waves</td><td>The waves of the level. </td></tr>
+    <tr><td class="paramname">levelData</td><td>The data object of the current level </td></tr>
+    <tr><td class="paramname">hudData</td><td>The shared data with the HUD controller </td></tr>
   </table>
   </dd>
 </dl>
@@ -326,23 +340,38 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac6cb000537e06503b4d1a81d3a839221"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6cb000537e06503b4d1a81d3a839221">&#9670;&nbsp;</a></span>CreateHUD()</h2>
+<a id="a1b32f9c845f9298d7191e9a69dfa27cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b32f9c845f9298d7191e9a69dfa27cf">&#9670;&nbsp;</a></span>CheckIfPathIsComplete()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt; LevelController::CreateHUD </td>
+          <td class="memname">std::tuple&lt; bool, std::queue&lt; std::string &gt; &gt; LevelController::CheckIfPathIsComplete </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::map&lt; std::string, <a class="el" href="structgame_1_1MapNode.html">MapNode</a> &gt;&#160;</td>
+          <td class="paramname"><em>graphCopy</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Creates a HUD for the level. </p>
-<dl class="section return"><dt>Returns</dt><dd>The game object containing the hud. </dd></dl>
+<p>Check if there is a path from the start tile to the end tile. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graphCopy</td><td>A graph with all the map tiles </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a bool if the path is complete and a queue with the path follow instructions </dd></dl>
 
 </div>
 </div>

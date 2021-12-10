@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_74',['B',['../classspic_1_1Color.html#abe5e763a90f296221a9ecb3c26a9407a',1,'spic::Color::B()'],['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a9d5ed678fe57bcca610140957afab571',1,'spic::Input::B()']]],
+  ['b_74',['B',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a9d5ed678fe57bcca610140957afab571',1,'spic::Input::B()'],['../classspic_1_1Color.html#abe5e763a90f296221a9ecb3c26a9407a',1,'spic::Color::B()']]],
   ['background_75',['Background',['../namespacegame.html#a0948dcfcb993397486973759731fe8f8aa4c8090b696cf3c58be8a73c0ec42b06',1,'game']]],
   ['backgroundcolor_76',['BackgroundColor',['../classspic_1_1Camera.html#a75f3cf4d59a27a327419d4526d45efca',1,'spic::Camera::BackgroundColor() const'],['../classspic_1_1Camera.html#ac19faaea243af52a6c39bd9c29de5ce0',1,'spic::Camera::BackgroundColor(const Color &amp;newBackgroundColor)']]],
   ['backgroundname_77',['BackgroundName',['../namespacegame.html#a0cd277b9fbc7cef808cd001ae66ecd0a',1,'game']]],
@@ -52,7 +52,7 @@ var searchData=
   ['bulletfactory_2ecpp_123',['BulletFactory.cpp',['../BulletFactory_8cpp.html',1,'']]],
   ['bulletfactory_2ehpp_124',['BulletFactory.hpp',['../BulletFactory_8hpp.html',1,'']]],
   ['bulletspeed_125',['BulletSpeed',['../classgame_1_1AttackBehaviour.html#a128dd7a4f5a245e25220099312368a3f',1,'game::AttackBehaviour::BulletSpeed(double bulletSpeed)'],['../classgame_1_1AttackBehaviour.html#af4b1bed22883979cbcf5c6d12c4ca671',1,'game::AttackBehaviour::BulletSpeed() const']]],
-  ['bullettype_126',['BulletType',['../classgame_1_1AttackBehaviour.html#a825e51e6c3f34d5d047c70934f34268f',1,'game::AttackBehaviour::BulletType(game::BulletType bulletType)'],['../classgame_1_1AttackBehaviour.html#a7c0b04e26fe757e5134b1bd9d264b0b0',1,'game::AttackBehaviour::BulletType() const'],['../namespacegame.html#aa55c9d017973af7646d9f46bff0af608',1,'game::BulletType()']]],
+  ['bullettype_126',['BulletType',['../classgame_1_1AttackBehaviour.html#a7c0b04e26fe757e5134b1bd9d264b0b0',1,'game::AttackBehaviour::BulletType()'],['../namespacegame.html#aa55c9d017973af7646d9f46bff0af608',1,'game::BulletType()'],['../classgame_1_1AttackBehaviour.html#a825e51e6c3f34d5d047c70934f34268f',1,'game::AttackBehaviour::BulletType()']]],
   ['bullettype_2ehpp_127',['BulletType.hpp',['../BulletType_8hpp.html',1,'']]],
   ['bushes_128',['Bushes',['../namespacegame.html#a9fb4c421008a80703a39c1ec82f3059da6457be67e8caebcc42cdda67bcb6a6c3',1,'game']]],
   ['butcher_129',['Butcher',['../CheatManager_8cpp.html#a5c3a0bdc7ea18f301206fae2ca7bb567',1,'CheatManager.cpp']]],
@@ -67,5 +67,7 @@ var searchData=
   ['buttonmouselistener_2ehpp_138',['ButtonMouseListener.hpp',['../ButtonMouseListener_8hpp.html',1,'']]],
   ['buttonprefabfactory_139',['ButtonPrefabFactory',['../classgame_1_1ButtonPrefabFactory.html',1,'game']]],
   ['buttonprefabfactory_2ecpp_140',['ButtonPrefabFactory.cpp',['../ButtonPrefabFactory_8cpp.html',1,'']]],
-  ['buttonprefabfactory_2ehpp_141',['ButtonPrefabFactory.hpp',['../ButtonPrefabFactory_8hpp.html',1,'']]]
+  ['buttonprefabfactory_2ehpp_141',['ButtonPrefabFactory.hpp',['../ButtonPrefabFactory_8hpp.html',1,'']]],
+  ['buttontileamounts_142',['ButtonTileAmounts',['../structgame_1_1HudData.html#ab1e9a1feba40c344ec4f104fc45f403c',1,'game::HudData']]],
+  ['buttontowercosts_143',['ButtonTowerCosts',['../structgame_1_1HudData.html#a355c21d530b220878ac5d0dbfab21073',1,'game::HudData']]]
 ];
