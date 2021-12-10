@@ -80,7 +80,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for engine::Window:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1Window__coll__graph.svg" width="236" height="543"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classengine_1_1Window__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <table class="memberdecls">
@@ -110,9 +110,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9904449165571eff36b106148ec1279f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1Window.html#a9904449165571eff36b106148ec1279f">Clear</a> ()</td></tr>
 <tr class="memdesc:a9904449165571eff36b106148ec1279f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the window before rendering all the textures and text.  <a href="classengine_1_1Window.html#a9904449165571eff36b106148ec1279f">More...</a><br /></td></tr>
 <tr class="separator:a9904449165571eff36b106148ec1279f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae786b07f35fe10d5eb025dbb087784cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1Window.html#ae786b07f35fe10d5eb025dbb087784cf">RenderColor</a> (const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;color)</td></tr>
+<tr class="memdesc:ae786b07f35fe10d5eb025dbb087784cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the render color of the sdl renderer.  <a href="classengine_1_1Window.html#ae786b07f35fe10d5eb025dbb087784cf">More...</a><br /></td></tr>
+<tr class="separator:ae786b07f35fe10d5eb025dbb087784cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96c21050147160582cad83c22e62ae8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1Window.html#a96c21050147160582cad83c22e62ae8b">RenderScale</a> (float *xScale, float *yScale) const</td></tr>
 <tr class="memdesc:a96c21050147160582cad83c22e62ae8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Has 2 out parameters that return the y and x scale.  <a href="classengine_1_1Window.html#a96c21050147160582cad83c22e62ae8b">More...</a><br /></td></tr>
 <tr class="separator:a96c21050147160582cad83c22e62ae8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6ad3d7f6ebc01a6fb74a01dca55520"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1Window.html#a3a6ad3d7f6ebc01a6fb74a01dca55520">BackgroundColor</a> (const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;backgroundColor)</td></tr>
+<tr class="memdesc:a3a6ad3d7f6ebc01a6fb74a01dca55520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the background color of the window.  <a href="classengine_1_1Window.html#a3a6ad3d7f6ebc01a6fb74a01dca55520">More...</a><br /></td></tr>
+<tr class="separator:a3a6ad3d7f6ebc01a6fb74a01dca55520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classengine_1_1Window.html" title="The Window that will be shown to the end user.">Window</a> that will be shown to the end user. </p>
@@ -183,6 +189,32 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3a6ad3d7f6ebc01a6fb74a01dca55520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6ad3d7f6ebc01a6fb74a01dca55520">&#9670;&nbsp;</a></span>BackgroundColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Window::BackgroundColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>backgroundColor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Change the background color of the window. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backgroundColor</td><td>The background color to use. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a9904449165571eff36b106148ec1279f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9904449165571eff36b106148ec1279f">&#9670;&nbsp;</a></span>Clear()</h2>
 
@@ -247,6 +279,32 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">transform</td><td>The location where the texture needs to be placed. </td></tr>
     <tr><td class="paramname">flip</td><td>In which directions the textures needs to be flipped (horizontal, vertical, both). </td></tr>
     <tr><td class="paramname">color</td><td>The color to render over the texture (transparent to disable). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae786b07f35fe10d5eb025dbb087784cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae786b07f35fe10d5eb025dbb087784cf">&#9670;&nbsp;</a></span>RenderColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Window::RenderColor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classspic_1_1Color.html">spic::Color</a> &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the render color of the sdl renderer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>The color to render. </td></tr>
   </table>
   </dd>
 </dl>
