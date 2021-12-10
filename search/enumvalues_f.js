@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['p_2374',['P',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a44c29edb103a2872f519ad0c9a0fdaaa',1,'spic::Input']]],
-  ['page_5fdown_2375',['PAGE_DOWN',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ae9a23c5ce3d34b40123d65ca14b2e88f',1,'spic::Input']]],
-  ['page_5fup_2376',['PAGE_UP',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ae791d936f894ce58dd18bf603edcb9b4',1,'spic::Input']]],
-  ['panzer_2377',['Panzer',['../namespacegame.html#afb72ed4034fa83d241a5874b0e61a9afaece0092fb1bbf9fc6d314a07343401ff',1,'game']]],
+  ['p_2375',['P',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a44c29edb103a2872f519ad0c9a0fdaaa',1,'spic::Input']]],
+  ['page_5fdown_2376',['PAGE_DOWN',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ae9a23c5ce3d34b40123d65ca14b2e88f',1,'spic::Input']]],
+  ['page_5fup_2377',['PAGE_UP',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2ae791d936f894ce58dd18bf603edcb9b4',1,'spic::Input']]],
   ['paste_2378',['PASTE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2aac9aa1bcf28331716951265820a5c0c1',1,'spic::Input']]],
   ['pause_2379',['PAUSE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a291554596c183e837f0a6bec3767c891',1,'spic::Input']]],
   ['pause_2380',['Pause',['../namespacegame.html#a0cd277b9fbc7cef808cd001ae66ecd0aa105b296a83f9c105355403f3332af50f',1,'game']]],

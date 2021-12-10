@@ -748,31 +748,32 @@ var sectionId = 'dynsection-0';
 <g id="node18" class="node">
 <title>Node18</title>
 <g id="a_node18"><a xlink:href="classgame_1_1EnemyTroopTruckBehaviour.html" target="_top" xlink:title="A behaviour script that spawns a given amount of enemies when the current entity dies.">
-<polygon fill="none" stroke="black" points="2276,-242.5 2276,-431.5 2453,-431.5 2453,-242.5 2276,-242.5"/>
-<text text-anchor="middle" x="2364.5" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::EnemyTroopTruckBehaviour</text>
-<polyline fill="none" stroke="black" points="2276,-412.5 2453,-412.5 "/>
-<text text-anchor="middle" x="2364.5" y="-400.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="2276,-393.5 2453,-393.5 "/>
-<text text-anchor="start" x="2284" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EnemyTroopTruckBehaviour</text>
-<text text-anchor="start" x="2284" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">(EnemyName enemyName, int count)</text>
-<text text-anchor="start" x="2284" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
-<text text-anchor="start" x="2284" y="-348.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
-<text text-anchor="start" x="2284" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
-<text text-anchor="start" x="2284" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2284" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2284" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
-<text text-anchor="start" x="2284" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2284" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2284" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
-<text text-anchor="start" x="2284" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2284" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<polygon fill="none" stroke="black" points="2276,-237 2276,-437 2453,-437 2453,-237 2276,-237"/>
+<text text-anchor="middle" x="2364.5" y="-425" font-family="Helvetica,sans-Serif" font-size="10.00">game::EnemyTroopTruckBehaviour</text>
+<polyline fill="none" stroke="black" points="2276,-418 2453,-418 "/>
+<text text-anchor="middle" x="2364.5" y="-406" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="2276,-399 2453,-399 "/>
+<text text-anchor="start" x="2284" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">+ EnemyTroopTruckBehaviour</text>
+<text text-anchor="start" x="2284" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">(EnemyName enemyName, int count)</text>
+<text text-anchor="start" x="2284" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
+<text text-anchor="start" x="2284" y="-354" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<text text-anchor="start" x="2284" y="-343" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
+<text text-anchor="start" x="2284" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2284" y="-321" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2284" y="-310" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
+<text text-anchor="start" x="2284" y="-299" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2284" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2284" y="-277" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
+<text text-anchor="start" x="2284" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2284" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2284" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool Spawned() const</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node18 -->
 <g id="edge17" class="edge">
 <title>Node4&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M2671.92,-799.78C2659.64,-767.17 2641.11,-732.93 2613.5,-710 2560.42,-665.92 2512.48,-721.56 2462.5,-674 2396.69,-611.38 2374.32,-507.31 2367.1,-431.56"/>
+<path fill="none" stroke="midnightblue" d="M2671.92,-799.78C2659.64,-767.17 2641.11,-732.93 2613.5,-710 2560.42,-665.92 2512.48,-721.56 2462.5,-674 2398.34,-612.95 2375.47,-512.51 2367.67,-437.31"/>
 <polygon fill="none" stroke="midnightblue" points="2668.7,-801.16 2675.38,-809.38 2675.28,-798.79 2668.7,-801.16"/>
 </g>
 <!-- Node19 -->

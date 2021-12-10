@@ -72,7 +72,7 @@ var searchData=
   ['createbackground_213',['CreateBackground',['../classgame_1_1BackgroundPrefabFactory.html#abc95bba46064b740afdda1b5d597fb8b',1,'game::BackgroundPrefabFactory']]],
   ['createbullet_214',['CreateBullet',['../classgame_1_1BulletFactory.html#a773e3305031913f07d0bbcb6444b6f39',1,'game::BulletFactory']]],
   ['createclosebutton_215',['CreateCloseButton',['../classgame_1_1ButtonPrefabFactory.html#a96cd18c234c6a0eb0472334c3288c052',1,'game::ButtonPrefabFactory']]],
-  ['createenemy_216',['CreateEnemy',['../classgame_1_1EnemyPrefabFactory.html#af2e1e457fc7ba34c32f57794e1e6ec87',1,'game::EnemyPrefabFactory']]],
+  ['createenemy_216',['CreateEnemy',['../classgame_1_1EnemyPrefabFactory.html#a6022c33cd4f836fd98baecdb71cbfd84',1,'game::EnemyPrefabFactory']]],
   ['createhealthbar_217',['CreateHealthBar',['../classgame_1_1HealthBarFactory.html#a63032597b557c609c5f2a8528233da07',1,'game::HealthBarFactory']]],
   ['createhero_218',['CreateHero',['../classgame_1_1HeroPrefabFactory.html#a2a12f7b16e2ebe3538e820019228e787',1,'game::HeroPrefabFactory']]],
   ['createhud_219',['CreateHUD',['../classgame_1_1HUDController.html#a866f27ed4a3d31001fa59b7e73ca56d8',1,'game::HUDController']]],
