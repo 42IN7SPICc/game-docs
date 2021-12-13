@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['game_1338',['game',['../namespacegame.html',1,'']]],
-  ['types_1339',['types',['../namespacegame_1_1types.html',1,'game']]]
+  ['game_1351',['game',['../namespacegame.html',1,'']]],
+  ['types_1352',['types',['../namespacegame_1_1types.html',1,'game']]]
 ];
