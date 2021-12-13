@@ -93,6 +93,12 @@ Variables</h2></td></tr>
 <tr class="separator:a65b4c91571a26ac7ef519beacdc19bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6786cde6bb9174ef46de3845f4301327"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a6786cde6bb9174ef46de3845f4301327">ScreenHeight</a> = 768</td></tr>
 <tr class="separator:a6786cde6bb9174ef46de3845f4301327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad727af34e162bb07882154d3695965ad"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#ad727af34e162bb07882154d3695965ad">HudWidth</a> = 250</td></tr>
+<tr class="separator:ad727af34e162bb07882154d3695965ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2110c728babd45377cf1a9ed9ef00f"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#ada2110c728babd45377cf1a9ed9ef00f">VerticalTileCount</a> = 25</td></tr>
+<tr class="separator:ada2110c728babd45377cf1a9ed9ef00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cf216dc4ad5ff100bfe1cb0071afae5"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a4cf216dc4ad5ff100bfe1cb0071afae5">HorizontalTileCount</a> = 25</td></tr>
+<tr class="separator:a4cf216dc4ad5ff100bfe1cb0071afae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb6fc032b955551c2711770d9cdbbf92"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a> = 128</td></tr>
 <tr class="separator:adb6fc032b955551c2711770d9cdbbf92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31b7fdfc94a4d2a65e9f7ba74ddf3407"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a31b7fdfc94a4d2a65e9f7ba74ddf3407">TileButtonScale</a> = 0.5</td></tr>
@@ -101,14 +107,12 @@ Variables</h2></td></tr>
 <tr class="separator:a051dc9b2170b696983571443461e3974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b399f3c11fc3d9f2558d0a3ec7e3c9d"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a0b399f3c11fc3d9f2558d0a3ec7e3c9d">TowerSpriteSize</a> = 550</td></tr>
 <tr class="separator:a0b399f3c11fc3d9f2558d0a3ec7e3c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b26f883a22ed02be42381c932106ece"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a3b26f883a22ed02be42381c932106ece">TileMapScale</a> = 0.246</td></tr>
+<tr class="memitem:a3b26f883a22ed02be42381c932106ece"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a3b26f883a22ed02be42381c932106ece">TileMapScale</a> = static_cast&lt;double&gt;(<a class="el" href="Constants_8hpp.html#a6786cde6bb9174ef46de3845f4301327">ScreenHeight</a>) / <a class="el" href="Constants_8hpp.html#ada2110c728babd45377cf1a9ed9ef00f">VerticalTileCount</a> / <a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a></td></tr>
 <tr class="separator:a3b26f883a22ed02be42381c932106ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d5b1cbdf975182318867eede39b3a6"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a53d5b1cbdf975182318867eede39b3a6">MapX</a> = static_cast&lt;int&gt;(<a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a>) / 2 + 155</td></tr>
-<tr class="separator:a53d5b1cbdf975182318867eede39b3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab46824fb07e7f128310b746ebdaf19d0"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#ab46824fb07e7f128310b746ebdaf19d0">MapY</a> = 32 / 2</td></tr>
+<tr class="memitem:ab46824fb07e7f128310b746ebdaf19d0"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#ab46824fb07e7f128310b746ebdaf19d0">MapY</a> = static_cast&lt;int&gt;(<a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a> * <a class="el" href="Constants_8hpp.html#a3b26f883a22ed02be42381c932106ece">TileMapScale</a> / 2.0)</td></tr>
 <tr class="separator:ab46824fb07e7f128310b746ebdaf19d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad727af34e162bb07882154d3695965ad"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#ad727af34e162bb07882154d3695965ad">HudWidth</a> = 250</td></tr>
-<tr class="separator:ad727af34e162bb07882154d3695965ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53d5b1cbdf975182318867eede39b3a6"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a53d5b1cbdf975182318867eede39b3a6">MapX</a> = static_cast&lt;int&gt;((<a class="el" href="Constants_8hpp.html#a65b4c91571a26ac7ef519beacdc19bbf">ScreenWidth</a> - <a class="el" href="Constants_8hpp.html#ad727af34e162bb07882154d3695965ad">HudWidth</a>) / 2.0 - (<a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a> * <a class="el" href="Constants_8hpp.html#a3b26f883a22ed02be42381c932106ece">TileMapScale</a> * (<a class="el" href="Constants_8hpp.html#a4cf216dc4ad5ff100bfe1cb0071afae5">HorizontalTileCount</a> - 1)) / 2.0 - <a class="el" href="Constants_8hpp.html#ab46824fb07e7f128310b746ebdaf19d0">MapY</a>)</td></tr>
+<tr class="separator:a53d5b1cbdf975182318867eede39b3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2307948d7997de99c8bd49988f843366"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a2307948d7997de99c8bd49988f843366">EndTowerHealth</a> = 10</td></tr>
 <tr class="separator:a2307948d7997de99c8bd49988f843366"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b132803f4ad8cf398399d5a1070bb7b"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Constants_8hpp.html#a1b132803f4ad8cf398399d5a1070bb7b">AmountOfConfetti</a> = 100</td></tr>
@@ -287,6 +291,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a4cf216dc4ad5ff100bfe1cb0071afae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cf216dc4ad5ff100bfe1cb0071afae5">&#9670;&nbsp;</a></span>HorizontalTileCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int HorizontalTileCount = 25</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad727af34e162bb07882154d3695965ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad727af34e162bb07882154d3695965ad">&#9670;&nbsp;</a></span>HudWidth</h2>
 
@@ -308,7 +326,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int MapX = static_cast&lt;int&gt;(<a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a>) / 2 + 155</td>
+          <td class="memname">const int MapX = static_cast&lt;int&gt;((<a class="el" href="Constants_8hpp.html#a65b4c91571a26ac7ef519beacdc19bbf">ScreenWidth</a> - <a class="el" href="Constants_8hpp.html#ad727af34e162bb07882154d3695965ad">HudWidth</a>) / 2.0 - (<a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a> * <a class="el" href="Constants_8hpp.html#a3b26f883a22ed02be42381c932106ece">TileMapScale</a> * (<a class="el" href="Constants_8hpp.html#a4cf216dc4ad5ff100bfe1cb0071afae5">HorizontalTileCount</a> - 1)) / 2.0 - <a class="el" href="Constants_8hpp.html#ab46824fb07e7f128310b746ebdaf19d0">MapY</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -322,7 +340,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const int MapY = 32 / 2</td>
+          <td class="memname">const int MapY = static_cast&lt;int&gt;(<a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a> * <a class="el" href="Constants_8hpp.html#a3b26f883a22ed02be42381c932106ece">TileMapScale</a> / 2.0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -378,7 +396,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const double TileMapScale = 0.246</td>
+          <td class="memname">const double TileMapScale = static_cast&lt;double&gt;(<a class="el" href="Constants_8hpp.html#a6786cde6bb9174ef46de3845f4301327">ScreenHeight</a>) / <a class="el" href="Constants_8hpp.html#ada2110c728babd45377cf1a9ed9ef00f">VerticalTileCount</a> / <a class="el" href="Constants_8hpp.html#adb6fc032b955551c2711770d9cdbbf92">TileSize</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -421,6 +439,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const double TowerSpriteSize = 550</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada2110c728babd45377cf1a9ed9ef00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2110c728babd45377cf1a9ed9ef00f">&#9670;&nbsp;</a></span>VerticalTileCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int VerticalTileCount = 25</td>
         </tr>
       </table>
 </div><div class="memdoc">
