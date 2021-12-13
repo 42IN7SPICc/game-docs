@@ -67,7 +67,6 @@ var searchData=
   ['errormessage_343',['ErrorMessage',['../main_8cpp.html#ad3fb0ab3b8ed27c1629f09ee81d28055',1,'main.cpp']]],
   ['escape_344',['ESCAPE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2adaaedac409335b869929ea43fa44be5d',1,'spic::Input']]],
   ['execute_345',['EXECUTE',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2a5d76688e2261e6805ee36ad961b3fa7a',1,'spic::Input']]],
-  ['expboost_346',['ExpBoost',['../CheatManager_8cpp.html#a963b0bdc65df6bb47b7eac95e557532c',1,'CheatManager.cpp']]],
-  ['explosion_347',['Explosion',['../namespacegame.html#a1af0f48deb664b3da117cc7a1f0add60a8a36c0d6cc2e31990ea4fb2d597db968',1,'game']]],
-  ['exsel_348',['EXSEL',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2adeef77e3f3bc57e49c7cf50c3099d09e',1,'spic::Input']]]
+  ['explosion_346',['Explosion',['../namespacegame.html#a1af0f48deb664b3da117cc7a1f0add60a8a36c0d6cc2e31990ea4fb2d597db968',1,'game']]],
+  ['exsel_347',['EXSEL',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2adeef77e3f3bc57e49c7cf50c3099d09e',1,'spic::Input']]]
 ];
