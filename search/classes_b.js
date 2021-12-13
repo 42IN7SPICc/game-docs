@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['mainscene_1303',['MainScene',['../classgame_1_1MainScene.html',1,'game']]],
-  ['mapnode_1304',['MapNode',['../classgame_1_1MapNode.html',1,'game']]],
-  ['menuscene_1305',['MenuScene',['../classgame_1_1MenuScene.html',1,'game']]]
+  ['mainscene_1307',['MainScene',['../classgame_1_1MainScene.html',1,'game']]],
+  ['mapnode_1308',['MapNode',['../classgame_1_1MapNode.html',1,'game']]],
+  ['menuscene_1309',['MenuScene',['../classgame_1_1MenuScene.html',1,'game']]],
+  ['mousecolliderscript_1310',['MouseColliderScript',['../classgame_1_1MouseColliderScript.html',1,'game']]]
 ];
