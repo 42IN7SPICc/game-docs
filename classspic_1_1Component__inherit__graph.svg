@@ -989,7 +989,7 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="3466.5" y="-442" font-family="Helvetica,sans-Serif" font-size="10.00">+ HealthBehaviour(std</text>
 <text text-anchor="start" x="3466.5" y="-431" font-family="Helvetica,sans-Serif" font-size="10.00">::shared_ptr&lt; spic::Animator</text>
 <text text-anchor="start" x="3466.5" y="-420" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; diedAnimator, int maxHealth,</text>
-<text text-anchor="start" x="3466.5" y="-409" font-family="Helvetica,sans-Serif" font-size="10.00"> double despawnTime=0)</text>
+<text text-anchor="start" x="3466.5" y="-409" font-family="Helvetica,sans-Serif" font-size="10.00"> double despawnTime)</text>
 <text text-anchor="start" x="3466.5" y="-398" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
 <text text-anchor="start" x="3466.5" y="-387" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
 <text text-anchor="start" x="3466.5" y="-376" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
