@@ -80,7 +80,7 @@ $(function() {
 <div class="dynheader">
 Collaboration diagram for game::HeroUtil:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1HeroUtil__coll__graph.svg" width="279" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classgame_1_1HeroUtil__coll__graph.svg" width="279" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -89,6 +89,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a69b4b0f3f6ee474c94d34ab65a42fc7e"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HeroUtil.html#a69b4b0f3f6ee474c94d34ab65a42fc7e">NameToString</a> (<a class="el" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a> heroName)</td></tr>
 <tr class="memdesc:a69b4b0f3f6ee474c94d34ab65a42fc7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns hero enum into std::string.  <a href="classgame_1_1HeroUtil.html#a69b4b0f3f6ee474c94d34ab65a42fc7e">More...</a><br /></td></tr>
 <tr class="separator:a69b4b0f3f6ee474c94d34ab65a42fc7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a154354d73a3b2e0117761fda6259f9d9"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HeroUtil.html#a154354d73a3b2e0117761fda6259f9d9">NameToAbilityString</a> (<a class="el" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a> heroName)</td></tr>
+<tr class="memdesc:a154354d73a3b2e0117761fda6259f9d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns ability of a hero enum into std::string.  <a href="classgame_1_1HeroUtil.html#a154354d73a3b2e0117761fda6259f9d9">More...</a><br /></td></tr>
+<tr class="separator:a154354d73a3b2e0117761fda6259f9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c68233e7abcfcdeb5abf59e02cc0df4"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classgame_1_1CoolDownBehaviour.html">game::CoolDownBehaviour</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HeroUtil.html#a6c68233e7abcfcdeb5abf59e02cc0df4">GetAbilityCoolDownBehaviour</a> (std::shared_ptr&lt; <a class="el" href="classspic_1_1GameObject.html">spic::GameObject</a> &gt; hero)</td></tr>
 <tr class="memdesc:a6c68233e7abcfcdeb5abf59e02cc0df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the abilityCooldownBehaviour of a hero.  <a href="classgame_1_1HeroUtil.html#a6c68233e7abcfcdeb5abf59e02cc0df4">More...</a><br /></td></tr>
 <tr class="separator:a6c68233e7abcfcdeb5abf59e02cc0df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,6 +131,41 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classgame_1_1CoolDownBehaviour.html" title="A script to handle a cool down for other scripts.">CoolDownBehaviour</a> of the ability </dd></dl>
+
+</div>
+</div>
+<a id="a154354d73a3b2e0117761fda6259f9d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a154354d73a3b2e0117761fda6259f9d9">&#9670;&nbsp;</a></span>NameToAbilityString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string game::HeroUtil::NameToAbilityString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145">game::HeroName</a>&#160;</td>
+          <td class="paramname"><em>heroName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Turns ability of a hero enum into std::string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">heroName</td><td>Name of the hero </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>String of the hero ability </dd></dl>
 
 </div>
 </div>
