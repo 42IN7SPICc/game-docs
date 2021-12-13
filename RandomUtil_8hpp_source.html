@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SPICPRJ Game: src/Utils/RandomUtil.hpp Source File</title>
+<title>SPICPRJ Game: libs/spic-engine/includes/spic-api-headers/Utils/RandomUtil.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a7363e98f9e0bdd87618633653859815.html">Utils</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_9974ec0867326232720279efba291a23.html">spic-engine</a></li><li class="navelem"><a class="el" href="dir_4f186f038b17a7ee674550d24e4eff05.html">includes</a></li><li class="navelem"><a class="el" href="dir_aba4a49ba75ce8e61d343651bd2042cb.html">spic-api-headers</a></li><li class="navelem"><a class="el" href="dir_b1ce97659b5afd5125c328c733318617.html">Utils</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,40 +69,40 @@ $(function() {
 <div class="title">RandomUtil.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="RandomUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_GAME_RANDOMUTIL_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAME_RANDOMUTIL_HPP</span></div>
+<a href="RandomUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_RANDOMUTIL_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_RANDOMUTIL_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classgame_1_1RandomUtil.html">   11</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1RandomUtil.html">RandomUtil</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classspic_1_1RandomUtil.html">   11</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1RandomUtil.html">RandomUtil</a></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <span class="keyword">static</span> <a class="code" href="classgame_1_1RandomUtil.html">RandomUtil</a> _instance;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <span class="keyword">static</span> <a class="code" href="classspic_1_1RandomUtil.html">RandomUtil</a> _instance;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            std::random_device _randomDevice;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            std::default_random_engine _engine;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <a class="code" href="classgame_1_1RandomUtil.html">RandomUtil</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <a class="code" href="classspic_1_1RandomUtil.html">RandomUtil</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classgame_1_1RandomUtil.html#a4e52f3d7e4aa6a330fb7e387685c7aa7">Next</a>(<span class="keywordtype">int</span> min, <span class="keywordtype">int</span> max);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="classspic_1_1RandomUtil.html#a4e52f3d7e4aa6a330fb7e387685c7aa7">Next</a>(<span class="keywordtype">int</span> min, <span class="keywordtype">int</span> max);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">double</span> <a class="code" href="classgame_1_1RandomUtil.html#a541fe61645cfebd8dd86b623b04bac4a">NextDouble</a>(<span class="keywordtype">double</span> min, <span class="keywordtype">double</span> max);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">double</span> <a class="code" href="classspic_1_1RandomUtil.html#a541fe61645cfebd8dd86b623b04bac4a">NextDouble</a>(<span class="keywordtype">double</span> min, <span class="keywordtype">double</span> max);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classgame_1_1RandomUtil.html#adb622ea25e0a1c0bcafe555d9664d29e">NextBool</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classspic_1_1RandomUtil.html#adb622ea25e0a1c0bcafe555d9664d29e">NextBool</a>();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keyword">static</span> std::string <a class="code" href="classgame_1_1RandomUtil.html#aeec100ae2cc2de2e94aead0cca9784f1">NextString</a>(<span class="keywordtype">int</span> maxLength);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keyword">static</span> std::string <a class="code" href="classspic_1_1RandomUtil.html#aeec100ae2cc2de2e94aead0cca9784f1">NextString</a>(<span class="keywordtype">int</span> maxLength);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    };</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_RANDOMUTIL_HPP</span></div>
-<div class="ttc" id="aclassgame_1_1RandomUtil_html"><div class="ttname"><a href="classgame_1_1RandomUtil.html">game::RandomUtil</a></div><div class="ttdoc">An util for generating Random content.</div><div class="ttdef"><b>Definition:</b> RandomUtil.hpp:12</div></div>
-<div class="ttc" id="aclassgame_1_1RandomUtil_html_a4e52f3d7e4aa6a330fb7e387685c7aa7"><div class="ttname"><a href="classgame_1_1RandomUtil.html#a4e52f3d7e4aa6a330fb7e387685c7aa7">game::RandomUtil::Next</a></div><div class="ttdeci">static int Next(int min, int max)</div><div class="ttdoc">Get a random int between a minimum and maximum value.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:12</div></div>
-<div class="ttc" id="aclassgame_1_1RandomUtil_html_a541fe61645cfebd8dd86b623b04bac4a"><div class="ttname"><a href="classgame_1_1RandomUtil.html#a541fe61645cfebd8dd86b623b04bac4a">game::RandomUtil::NextDouble</a></div><div class="ttdeci">static double NextDouble(double min, double max)</div><div class="ttdoc">Get a random double between a minimum and maximum value.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:18</div></div>
-<div class="ttc" id="aclassgame_1_1RandomUtil_html_adb622ea25e0a1c0bcafe555d9664d29e"><div class="ttname"><a href="classgame_1_1RandomUtil.html#adb622ea25e0a1c0bcafe555d9664d29e">game::RandomUtil::NextBool</a></div><div class="ttdeci">static bool NextBool()</div><div class="ttdoc">Get a random bool.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:37</div></div>
-<div class="ttc" id="aclassgame_1_1RandomUtil_html_aeec100ae2cc2de2e94aead0cca9784f1"><div class="ttname"><a href="classgame_1_1RandomUtil.html#aeec100ae2cc2de2e94aead0cca9784f1">game::RandomUtil::NextString</a></div><div class="ttdeci">static std::string NextString(int maxLength)</div><div class="ttdoc">Generate a random string with a given length.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:24</div></div>
-<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_RANDOMUTIL_HPP</span></div>
+<div class="ttc" id="aclassspic_1_1RandomUtil_html"><div class="ttname"><a href="classspic_1_1RandomUtil.html">spic::RandomUtil</a></div><div class="ttdoc">An util for generating Random content.</div><div class="ttdef"><b>Definition:</b> RandomUtil.hpp:12</div></div>
+<div class="ttc" id="aclassspic_1_1RandomUtil_html_a4e52f3d7e4aa6a330fb7e387685c7aa7"><div class="ttname"><a href="classspic_1_1RandomUtil.html#a4e52f3d7e4aa6a330fb7e387685c7aa7">spic::RandomUtil::Next</a></div><div class="ttdeci">static int Next(int min, int max)</div><div class="ttdoc">Get a random int between a minimum and maximum value.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:12</div></div>
+<div class="ttc" id="aclassspic_1_1RandomUtil_html_a541fe61645cfebd8dd86b623b04bac4a"><div class="ttname"><a href="classspic_1_1RandomUtil.html#a541fe61645cfebd8dd86b623b04bac4a">spic::RandomUtil::NextDouble</a></div><div class="ttdeci">static double NextDouble(double min, double max)</div><div class="ttdoc">Get a random double between a minimum and maximum value.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:18</div></div>
+<div class="ttc" id="aclassspic_1_1RandomUtil_html_adb622ea25e0a1c0bcafe555d9664d29e"><div class="ttname"><a href="classspic_1_1RandomUtil.html#adb622ea25e0a1c0bcafe555d9664d29e">spic::RandomUtil::NextBool</a></div><div class="ttdeci">static bool NextBool()</div><div class="ttdoc">Get a random bool.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:37</div></div>
+<div class="ttc" id="aclassspic_1_1RandomUtil_html_aeec100ae2cc2de2e94aead0cca9784f1"><div class="ttname"><a href="classspic_1_1RandomUtil.html#aeec100ae2cc2de2e94aead0cca9784f1">spic::RandomUtil::NextString</a></div><div class="ttdeci">static std::string NextString(int maxLength)</div><div class="ttdoc">Generate a random string with a given length.</div><div class="ttdef"><b>Definition:</b> RandomUtil.cpp:24</div></div>
+<div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> Animator.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -74,7 +74,7 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;../Enums/TowerName.hpp&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;../Scripts/Common/AttackBehaviour.hpp&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../Utils/AnimatorUtil.hpp&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="AnimatorUtil_8hpp.html">Utils/AnimatorUtil.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="GameObject_8hpp.html">GameObject.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
@@ -91,7 +91,7 @@ $(function() {
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateSniper();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateBaseTower(<span class="keyword">const</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a>&amp; shootingSprites, std::shared_ptr&lt;AttackBehaviour&gt; attackBehaviour);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; CreateBaseTower(<span class="keyword">const</span> <a class="code" href="namespacespic_1_1types.html#a46e7856aebb0175f28b94fdc0d71eb29">spic::types::sprite_vector</a>&amp; shootingSprites, std::shared_ptr&lt;AttackBehaviour&gt; attackBehaviour);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keyword">static</span> std::shared_ptr&lt;spic::GameObject&gt; <a class="code" href="classgame_1_1TowerPrefabFactory.html#af74c2ae38423e99547097c605bec1a57">CreateTower</a>(<a class="code" href="namespacegame.html#aee446077b0bb25985a1c614ed693de89">TowerName</a> name);</div>
@@ -99,12 +99,13 @@ $(function() {
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_TOWERPREFABFACTORY_HPP</span></div>
+<div class="ttc" id="aAnimatorUtil_8hpp_html"><div class="ttname"><a href="AnimatorUtil_8hpp.html">AnimatorUtil.hpp</a></div></div>
 <div class="ttc" id="aGameObject_8hpp_html"><div class="ttname"><a href="GameObject_8hpp.html">GameObject.hpp</a></div></div>
 <div class="ttc" id="aclassgame_1_1TowerPrefabFactory_html"><div class="ttname"><a href="classgame_1_1TowerPrefabFactory.html">game::TowerPrefabFactory</a></div><div class="ttdoc">Factory for tower.</div><div class="ttdef"><b>Definition:</b> TowerPrefabFactory.hpp:16</div></div>
 <div class="ttc" id="aclassgame_1_1TowerPrefabFactory_html_af74c2ae38423e99547097c605bec1a57"><div class="ttname"><a href="classgame_1_1TowerPrefabFactory.html#af74c2ae38423e99547097c605bec1a57">game::TowerPrefabFactory::CreateTower</a></div><div class="ttdeci">static std::shared_ptr&lt; spic::GameObject &gt; CreateTower(TowerName name)</div><div class="ttdoc">Create a new tower object based on a given name.</div><div class="ttdef"><b>Definition:</b> TowerPrefabFactory.cpp:13</div></div>
-<div class="ttc" id="anamespacegame_1_1types_html_a45f01ce73c860544f42f770d91cc43eb"><div class="ttname"><a href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">game::types::sprite_vector</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; spic::Sprite &gt; &gt; sprite_vector</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.hpp:14</div></div>
 <div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
 <div class="ttc" id="anamespacegame_html_aee446077b0bb25985a1c614ed693de89"><div class="ttname"><a href="namespacegame.html#aee446077b0bb25985a1c614ed693de89">game::TowerName</a></div><div class="ttdeci">TowerName</div><div class="ttdoc">Enum for tower names.</div><div class="ttdef"><b>Definition:</b> TowerName.hpp:10</div></div>
+<div class="ttc" id="anamespacespic_1_1types_html_a46e7856aebb0175f28b94fdc0d71eb29"><div class="ttname"><a href="namespacespic_1_1types.html#a46e7856aebb0175f28b94fdc0d71eb29">spic::types::sprite_vector</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; spic::Sprite &gt; &gt; sprite_vector</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.hpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

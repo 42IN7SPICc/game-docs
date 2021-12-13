@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SPICPRJ Game: src/Utils/GameObjectUtil.hpp Source File</title>
+<title>SPICPRJ Game: libs/spic-engine/includes/spic-api-headers/Utils/GameObjectUtil.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a7363e98f9e0bdd87618633653859815.html">Utils</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_9974ec0867326232720279efba291a23.html">spic-engine</a></li><li class="navelem"><a class="el" href="dir_4f186f038b17a7ee674550d24e4eff05.html">includes</a></li><li class="navelem"><a class="el" href="dir_aba4a49ba75ce8e61d343651bd2042cb.html">spic-api-headers</a></li><li class="navelem"><a class="el" href="dir_b1ce97659b5afd5125c328c733318617.html">Utils</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,29 +69,29 @@ $(function() {
 <div class="title">GameObjectUtil.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="GameObjectUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_GAME_GAMEOBJECTUTIL_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAME_GAMEOBJECTUTIL_HPP</span></div>
+<a href="GameObjectUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_GAMEOBJECTUTIL_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAMEOBJECTUTIL_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="GameObject_8hpp.html">GameObject.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classgame_1_1GameObjectUtil.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1GameObjectUtil.html">GameObjectUtil</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classspic_1_1GameObjectUtil.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1GameObjectUtil.html">GameObjectUtil</a></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classgame_1_1GameObjectUtil.html#a447ea30b5d3acbfa92e61573863df9ee">LinkComponent</a>(<span class="keyword">const</span> std::shared_ptr&lt;spic::GameObject&gt;&amp; gameObject, <span class="keyword">const</span> std::shared_ptr&lt;spic::Component&gt;&amp; component);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classspic_1_1GameObjectUtil.html#a385b50f1d20b5590b9108ac66d8faed1">LinkComponent</a>(<span class="keyword">const</span> std::shared_ptr&lt;spic::GameObject&gt;&amp; gameObject, <span class="keyword">const</span> std::shared_ptr&lt;spic::Component&gt;&amp; component);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classgame_1_1GameObjectUtil.html#a8fbcdacbb61f4fbed50791eba01e9195">LinkChild</a>(<span class="keyword">const</span> std::shared_ptr&lt;spic::GameObject&gt;&amp; parent, <span class="keyword">const</span> std::shared_ptr&lt;spic::GameObject&gt;&amp; child);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classspic_1_1GameObjectUtil.html#abbffe59ad688f71010dc916fdf3b7886">LinkChild</a>(<span class="keyword">const</span> std::shared_ptr&lt;spic::GameObject&gt;&amp; parent, <span class="keyword">const</span> std::shared_ptr&lt;spic::GameObject&gt;&amp; child);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aGameObject_8hpp_html"><div class="ttname"><a href="GameObject_8hpp.html">GameObject.hpp</a></div></div>
-<div class="ttc" id="aclassgame_1_1GameObjectUtil_html"><div class="ttname"><a href="classgame_1_1GameObjectUtil.html">game::GameObjectUtil</a></div><div class="ttdoc">A util linking components and children to game objects.</div><div class="ttdef"><b>Definition:</b> GameObjectUtil.hpp:13</div></div>
-<div class="ttc" id="aclassgame_1_1GameObjectUtil_html_a447ea30b5d3acbfa92e61573863df9ee"><div class="ttname"><a href="classgame_1_1GameObjectUtil.html#a447ea30b5d3acbfa92e61573863df9ee">game::GameObjectUtil::LinkComponent</a></div><div class="ttdeci">static void LinkComponent(const std::shared_ptr&lt; spic::GameObject &gt; &amp;gameObject, const std::shared_ptr&lt; spic::Component &gt; &amp;component)</div><div class="ttdoc">Link a component to a given game object.</div><div class="ttdef"><b>Definition:</b> GameObjectUtil.cpp:3</div></div>
-<div class="ttc" id="aclassgame_1_1GameObjectUtil_html_a8fbcdacbb61f4fbed50791eba01e9195"><div class="ttname"><a href="classgame_1_1GameObjectUtil.html#a8fbcdacbb61f4fbed50791eba01e9195">game::GameObjectUtil::LinkChild</a></div><div class="ttdeci">static void LinkChild(const std::shared_ptr&lt; spic::GameObject &gt; &amp;parent, const std::shared_ptr&lt; spic::GameObject &gt; &amp;child)</div><div class="ttdoc">Link a game object to a given game object.</div><div class="ttdef"><b>Definition:</b> GameObjectUtil.cpp:9</div></div>
-<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
+<div class="ttc" id="aclassspic_1_1GameObjectUtil_html"><div class="ttname"><a href="classspic_1_1GameObjectUtil.html">spic::GameObjectUtil</a></div><div class="ttdoc">A util linking components and children to game objects.</div><div class="ttdef"><b>Definition:</b> GameObjectUtil.hpp:13</div></div>
+<div class="ttc" id="aclassspic_1_1GameObjectUtil_html_a385b50f1d20b5590b9108ac66d8faed1"><div class="ttname"><a href="classspic_1_1GameObjectUtil.html#a385b50f1d20b5590b9108ac66d8faed1">spic::GameObjectUtil::LinkComponent</a></div><div class="ttdeci">static void LinkComponent(const std::shared_ptr&lt; spic::GameObject &gt; &amp;gameObject, const std::shared_ptr&lt; spic::Component &gt; &amp;component)</div><div class="ttdoc">Link a component to a given game object.</div><div class="ttdef"><b>Definition:</b> GameObjectUtil.cpp:5</div></div>
+<div class="ttc" id="aclassspic_1_1GameObjectUtil_html_abbffe59ad688f71010dc916fdf3b7886"><div class="ttname"><a href="classspic_1_1GameObjectUtil.html#abbffe59ad688f71010dc916fdf3b7886">spic::GameObjectUtil::LinkChild</a></div><div class="ttdeci">static void LinkChild(const std::shared_ptr&lt; spic::GameObject &gt; &amp;parent, const std::shared_ptr&lt; spic::GameObject &gt; &amp;child)</div><div class="ttdoc">Link a game object to a given game object.</div><div class="ttdef"><b>Definition:</b> GameObjectUtil.cpp:11</div></div>
+<div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> Animator.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

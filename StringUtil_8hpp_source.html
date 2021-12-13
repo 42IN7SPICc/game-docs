@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SPICPRJ Game: src/Utils/StringUtil.hpp Source File</title>
+<title>SPICPRJ Game: libs/spic-engine/includes/spic-api-headers/Utils/StringUtil.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a7363e98f9e0bdd87618633653859815.html">Utils</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_9974ec0867326232720279efba291a23.html">spic-engine</a></li><li class="navelem"><a class="el" href="dir_4f186f038b17a7ee674550d24e4eff05.html">includes</a></li><li class="navelem"><a class="el" href="dir_aba4a49ba75ce8e61d343651bd2042cb.html">spic-api-headers</a></li><li class="navelem"><a class="el" href="dir_b1ce97659b5afd5125c328c733318617.html">Utils</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,31 +69,31 @@ $(function() {
 <div class="title">StringUtil.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="StringUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_GAME_STRINGHELPER_H</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAME_STRINGHELPER_H</span></div>
+<a href="StringUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_STRINGHELPER_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_STRINGHELPER_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classgame_1_1StringUtil.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1StringUtil.html">StringUtil</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classspic_1_1StringUtil.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1StringUtil.html">StringUtil</a></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classgame_1_1StringUtil.html#a9d8af7a4661dbf2fa64b87e4d885611a">EndsWith</a>(<span class="keyword">const</span> std::string&amp; haystack, <span class="keyword">const</span> std::string&amp; needle);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classspic_1_1StringUtil.html#a9d8af7a4661dbf2fa64b87e4d885611a">EndsWith</a>(<span class="keyword">const</span> std::string&amp; haystack, <span class="keyword">const</span> std::string&amp; needle);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classgame_1_1StringUtil.html#abe6eedde4d41c451d2737fffb613a83a">StartsWith</a>(<span class="keyword">const</span> std::string&amp; haystack, <span class="keyword">const</span> std::string&amp; needle);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classspic_1_1StringUtil.html#abe6eedde4d41c451d2737fffb613a83a">StartsWith</a>(<span class="keyword">const</span> std::string&amp; haystack, <span class="keyword">const</span> std::string&amp; needle);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classgame_1_1StringUtil.html#a1d1318f4ecdfc4ddbd14efd66165795a">Split</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">string</span>, <span class="keyword">const</span> std::string&amp; delimiter);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classspic_1_1StringUtil.html#a1d1318f4ecdfc4ddbd14efd66165795a">Split</a>(<span class="keyword">const</span> std::string&amp; <span class="keywordtype">string</span>, <span class="keyword">const</span> std::string&amp; delimiter);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    };</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclassgame_1_1StringUtil_html"><div class="ttname"><a href="classgame_1_1StringUtil.html">game::StringUtil</a></div><div class="ttdoc">A util to manipulate string.</div><div class="ttdef"><b>Definition:</b> StringUtil.hpp:13</div></div>
-<div class="ttc" id="aclassgame_1_1StringUtil_html_a1d1318f4ecdfc4ddbd14efd66165795a"><div class="ttname"><a href="classgame_1_1StringUtil.html#a1d1318f4ecdfc4ddbd14efd66165795a">game::StringUtil::Split</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; Split(const std::string &amp;string, const std::string &amp;delimiter)</div><div class="ttdoc">Split a string into parts with a given delimiter.</div><div class="ttdef"><b>Definition:</b> StringUtil.cpp:25</div></div>
-<div class="ttc" id="aclassgame_1_1StringUtil_html_a9d8af7a4661dbf2fa64b87e4d885611a"><div class="ttname"><a href="classgame_1_1StringUtil.html#a9d8af7a4661dbf2fa64b87e4d885611a">game::StringUtil::EndsWith</a></div><div class="ttdeci">static bool EndsWith(const std::string &amp;haystack, const std::string &amp;needle)</div><div class="ttdoc">Check whether a string end with a given end.</div><div class="ttdef"><b>Definition:</b> StringUtil.cpp:5</div></div>
-<div class="ttc" id="aclassgame_1_1StringUtil_html_abe6eedde4d41c451d2737fffb613a83a"><div class="ttname"><a href="classgame_1_1StringUtil.html#abe6eedde4d41c451d2737fffb613a83a">game::StringUtil::StartsWith</a></div><div class="ttdeci">static bool StartsWith(const std::string &amp;haystack, const std::string &amp;needle)</div><div class="ttdoc">Check whether a string starts with a given start.</div><div class="ttdef"><b>Definition:</b> StringUtil.cpp:15</div></div>
-<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
+<div class="ttc" id="aclassspic_1_1StringUtil_html"><div class="ttname"><a href="classspic_1_1StringUtil.html">spic::StringUtil</a></div><div class="ttdoc">A util to manipulate string.</div><div class="ttdef"><b>Definition:</b> StringUtil.hpp:13</div></div>
+<div class="ttc" id="aclassspic_1_1StringUtil_html_a1d1318f4ecdfc4ddbd14efd66165795a"><div class="ttname"><a href="classspic_1_1StringUtil.html#a1d1318f4ecdfc4ddbd14efd66165795a">spic::StringUtil::Split</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; Split(const std::string &amp;string, const std::string &amp;delimiter)</div><div class="ttdoc">Split a string into parts with a given delimiter.</div><div class="ttdef"><b>Definition:</b> StringUtil.cpp:25</div></div>
+<div class="ttc" id="aclassspic_1_1StringUtil_html_a9d8af7a4661dbf2fa64b87e4d885611a"><div class="ttname"><a href="classspic_1_1StringUtil.html#a9d8af7a4661dbf2fa64b87e4d885611a">spic::StringUtil::EndsWith</a></div><div class="ttdeci">static bool EndsWith(const std::string &amp;haystack, const std::string &amp;needle)</div><div class="ttdoc">Check whether a string end with a given end.</div><div class="ttdef"><b>Definition:</b> StringUtil.cpp:5</div></div>
+<div class="ttc" id="aclassspic_1_1StringUtil_html_abe6eedde4d41c451d2737fffb613a83a"><div class="ttname"><a href="classspic_1_1StringUtil.html#abe6eedde4d41c451d2737fffb613a83a">spic::StringUtil::StartsWith</a></div><div class="ttdeci">static bool StartsWith(const std::string &amp;haystack, const std::string &amp;needle)</div><div class="ttdoc">Check whether a string starts with a given start.</div><div class="ttdef"><b>Definition:</b> StringUtil.cpp:15</div></div>
+<div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> Animator.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

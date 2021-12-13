@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SPICPRJ Game: src/Utils/QueueUtil.hpp Source File</title>
+<title>SPICPRJ Game: libs/spic-engine/includes/spic-api-headers/Utils/QueueUtil.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a7363e98f9e0bdd87618633653859815.html">Utils</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_9974ec0867326232720279efba291a23.html">spic-engine</a></li><li class="navelem"><a class="el" href="dir_4f186f038b17a7ee674550d24e4eff05.html">includes</a></li><li class="navelem"><a class="el" href="dir_aba4a49ba75ce8e61d343651bd2042cb.html">spic-api-headers</a></li><li class="navelem"><a class="el" href="dir_b1ce97659b5afd5125c328c733318617.html">Utils</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,42 +69,31 @@ $(function() {
 <div class="title">QueueUtil.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="QueueUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_GAME_QUEUEUTIL_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAME_QUEUEUTIL_HPP</span></div>
+<a href="QueueUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_QUEUEUTIL_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_QUEUEUTIL_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;queue&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;stack&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classgame_1_1QueueUtil.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1QueueUtil.html">QueueUtil</a></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classspic_1_1QueueUtil.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1QueueUtil.html">QueueUtil</a></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classgame_1_1QueueUtil.html#a54539cccd6bf66814b21bf9bf6517b1c">   21</a></span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classgame_1_1QueueUtil.html#a54539cccd6bf66814b21bf9bf6517b1c">Reverse</a>(std::queue&lt;T&gt;&amp; queue)</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                std::stack&lt;T&gt; stack;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classspic_1_1QueueUtil.html#a79bb81a258fff9baf277d7aa081973fd">Reverse</a>(std::queue&lt;T&gt;&amp; queue);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    };</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">while</span> (!queue.empty())</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    stack.push(queue.front());</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    queue.pop();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">while</span> (!stack.empty())</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                    queue.push(stack.top());</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                    stack.pop();</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_QUEUEUTIL_HPP</span></div>
-<div class="ttc" id="aclassgame_1_1QueueUtil_html"><div class="ttname"><a href="classgame_1_1QueueUtil.html">game::QueueUtil</a></div><div class="ttdoc">A util for std queue.</div><div class="ttdef"><b>Definition:</b> QueueUtil.hpp:13</div></div>
-<div class="ttc" id="aclassgame_1_1QueueUtil_html_a54539cccd6bf66814b21bf9bf6517b1c"><div class="ttname"><a href="classgame_1_1QueueUtil.html#a54539cccd6bf66814b21bf9bf6517b1c">game::QueueUtil::Reverse</a></div><div class="ttdeci">static void Reverse(std::queue&lt; T &gt; &amp;queue)</div><div class="ttdoc">Reverse a queue.</div><div class="ttdef"><b>Definition:</b> QueueUtil.hpp:21</div></div>
-<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#if __has_include(&quot;QueueUtil_templates.hpp&quot;</span>)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="QueueUtil__templates_8hpp.html">QueueUtil_templates.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_QUEUEUTIL_HPP</span></div>
+<div class="ttc" id="aQueueUtil__templates_8hpp_html"><div class="ttname"><a href="QueueUtil__templates_8hpp.html">QueueUtil_templates.hpp</a></div></div>
+<div class="ttc" id="aclassspic_1_1QueueUtil_html"><div class="ttname"><a href="classspic_1_1QueueUtil.html">spic::QueueUtil</a></div><div class="ttdoc">A util for std queue.</div><div class="ttdef"><b>Definition:</b> QueueUtil.hpp:13</div></div>
+<div class="ttc" id="aclassspic_1_1QueueUtil_html_a79bb81a258fff9baf277d7aa081973fd"><div class="ttname"><a href="classspic_1_1QueueUtil.html#a79bb81a258fff9baf277d7aa081973fd">spic::QueueUtil::Reverse</a></div><div class="ttdeci">static void Reverse(std::queue&lt; T &gt; &amp;queue)</div><div class="ttdoc">Reverse a queue.</div><div class="ttdef"><b>Definition:</b> QueueUtil_templates.hpp:4</div></div>
+<div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> Animator.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SPICPRJ Game: src/Persistence/FileManager.hpp Source File</title>
+<title>SPICPRJ Game: libs/spic-engine/includes/spic-api-headers/Managers/FileManager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c04391f011249a815ab0ebd9bc734b9b.html">Persistence</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_9974ec0867326232720279efba291a23.html">spic-engine</a></li><li class="navelem"><a class="el" href="dir_4f186f038b17a7ee674550d24e4eff05.html">includes</a></li><li class="navelem"><a class="el" href="dir_aba4a49ba75ce8e61d343651bd2042cb.html">spic-api-headers</a></li><li class="navelem"><a class="el" href="dir_3683d5efeef657f03aef3e0e2d3baaf0.html">Managers</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,33 +69,33 @@ $(function() {
 <div class="title">FileManager.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="FileManager_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_GAME_FILEMANAGER_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAME_FILEMANAGER_HPP</span></div>
+<a href="FileManager_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_FILEMANAGER_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_FILEMANAGER_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;../Structs/FolderFile.hpp&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classgame_1_1FileManager.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1FileManager.html">FileManager</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classspic_1_1FileManager.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1FileManager.html">FileManager</a></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">static</span> std::string <a class="code" href="classgame_1_1FileManager.html#abf6a7102e5d2ebb76e7dd4dd47d3abc9">Load</a>(<span class="keyword">const</span> std::string&amp; file);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keyword">static</span> std::string <a class="code" href="classspic_1_1FileManager.html#abf6a7102e5d2ebb76e7dd4dd47d3abc9">Load</a>(<span class="keyword">const</span> std::string&amp; file);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classgame_1_1FileManager.html#a5a88905639e4b3395a0e83b0c60d2e60">Save</a>(<span class="keyword">const</span> std::string&amp; file, <span class="keyword">const</span> std::string&amp; contents);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classspic_1_1FileManager.html#a5a88905639e4b3395a0e83b0c60d2e60">Save</a>(<span class="keyword">const</span> std::string&amp; file, <span class="keyword">const</span> std::string&amp; contents);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keyword">static</span> std::vector&lt;FolderFile&gt; <a class="code" href="classgame_1_1FileManager.html#af4c7874dc39c8e7f79aed2b3a3e4d696">GetFolderFiles</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; extension);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keyword">static</span> std::vector&lt;FolderFile&gt; <a class="code" href="classspic_1_1FileManager.html#af4c7874dc39c8e7f79aed2b3a3e4d696">GetFolderFiles</a>(<span class="keyword">const</span> std::string&amp; path, <span class="keyword">const</span> std::string&amp; extension);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    };</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_FILEMANAGER_HPP</span></div>
-<div class="ttc" id="aclassgame_1_1FileManager_html"><div class="ttname"><a href="classgame_1_1FileManager.html">game::FileManager</a></div><div class="ttdoc">Manager for interacting with the filesystem.</div><div class="ttdef"><b>Definition:</b> FileManager.hpp:15</div></div>
-<div class="ttc" id="aclassgame_1_1FileManager_html_a5a88905639e4b3395a0e83b0c60d2e60"><div class="ttname"><a href="classgame_1_1FileManager.html#a5a88905639e4b3395a0e83b0c60d2e60">game::FileManager::Save</a></div><div class="ttdeci">static void Save(const std::string &amp;file, const std::string &amp;contents)</div><div class="ttdoc">Save a contents to a file.</div><div class="ttdef"><b>Definition:</b> FileManager.cpp:26</div></div>
-<div class="ttc" id="aclassgame_1_1FileManager_html_abf6a7102e5d2ebb76e7dd4dd47d3abc9"><div class="ttname"><a href="classgame_1_1FileManager.html#abf6a7102e5d2ebb76e7dd4dd47d3abc9">game::FileManager::Load</a></div><div class="ttdeci">static std::string Load(const std::string &amp;file)</div><div class="ttdoc">Load the contents of a file and return it as a string.</div><div class="ttdef"><b>Definition:</b> FileManager.cpp:10</div></div>
-<div class="ttc" id="aclassgame_1_1FileManager_html_af4c7874dc39c8e7f79aed2b3a3e4d696"><div class="ttname"><a href="classgame_1_1FileManager.html#af4c7874dc39c8e7f79aed2b3a3e4d696">game::FileManager::GetFolderFiles</a></div><div class="ttdeci">static std::vector&lt; FolderFile &gt; GetFolderFiles(const std::string &amp;path, const std::string &amp;extension)</div><div class="ttdoc">List all the files in a folder.</div><div class="ttdef"><b>Definition:</b> FileManager.cpp:41</div></div>
-<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_FILEMANAGER_HPP</span></div>
+<div class="ttc" id="aclassspic_1_1FileManager_html"><div class="ttname"><a href="classspic_1_1FileManager.html">spic::FileManager</a></div><div class="ttdoc">Manager for interacting with the filesystem.</div><div class="ttdef"><b>Definition:</b> FileManager.hpp:15</div></div>
+<div class="ttc" id="aclassspic_1_1FileManager_html_a5a88905639e4b3395a0e83b0c60d2e60"><div class="ttname"><a href="classspic_1_1FileManager.html#a5a88905639e4b3395a0e83b0c60d2e60">spic::FileManager::Save</a></div><div class="ttdeci">static void Save(const std::string &amp;file, const std::string &amp;contents)</div><div class="ttdoc">Save a contents to a file.</div><div class="ttdef"><b>Definition:</b> FileManager.cpp:26</div></div>
+<div class="ttc" id="aclassspic_1_1FileManager_html_abf6a7102e5d2ebb76e7dd4dd47d3abc9"><div class="ttname"><a href="classspic_1_1FileManager.html#abf6a7102e5d2ebb76e7dd4dd47d3abc9">spic::FileManager::Load</a></div><div class="ttdeci">static std::string Load(const std::string &amp;file)</div><div class="ttdoc">Load the contents of a file and return it as a string.</div><div class="ttdef"><b>Definition:</b> FileManager.cpp:10</div></div>
+<div class="ttc" id="aclassspic_1_1FileManager_html_af4c7874dc39c8e7f79aed2b3a3e4d696"><div class="ttname"><a href="classspic_1_1FileManager.html#af4c7874dc39c8e7f79aed2b3a3e4d696">spic::FileManager::GetFolderFiles</a></div><div class="ttdeci">static std::vector&lt; FolderFile &gt; GetFolderFiles(const std::string &amp;path, const std::string &amp;extension)</div><div class="ttdoc">List all the files in a folder.</div><div class="ttdef"><b>Definition:</b> FileManager.cpp:41</div></div>
+<div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> Animator.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

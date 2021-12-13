@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>SPICPRJ Game: src/Utils/AnimatorUtil.hpp Source File</title>
+<title>SPICPRJ Game: libs/spic-engine/includes/spic-api-headers/Utils/AnimatorUtil.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a7363e98f9e0bdd87618633653859815.html">Utils</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_9974ec0867326232720279efba291a23.html">spic-engine</a></li><li class="navelem"><a class="el" href="dir_4f186f038b17a7ee674550d24e4eff05.html">includes</a></li><li class="navelem"><a class="el" href="dir_aba4a49ba75ce8e61d343651bd2042cb.html">spic-api-headers</a></li><li class="navelem"><a class="el" href="dir_b1ce97659b5afd5125c328c733318617.html">Utils</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -69,8 +69,8 @@ $(function() {
 <div class="title">AnimatorUtil.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="AnimatorUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_GAME_ANIMATORUTIL_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_GAME_ANIMATORUTIL_HPP</span></div>
+<a href="AnimatorUtil_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIC_ANIMATORUTIL_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIC_ANIMATORUTIL_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Sprite_8hpp.html">Sprite.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
@@ -78,29 +78,29 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegame.html">game</a></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacespic.html">spic</a></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="namespacegame_1_1types.html">   12</a></span>&#160;    <span class="keyword">namespace </span>types</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="namespacespic_1_1types.html">   12</a></span>&#160;    <span class="keyword">namespace </span>types</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">   14</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">sprite_vector</a> = std::vector&lt;std::shared_ptr&lt;spic::Sprite&gt;&gt;;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="namespacespic_1_1types.html#a46e7856aebb0175f28b94fdc0d71eb29">   14</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="namespacespic_1_1types.html#a46e7856aebb0175f28b94fdc0d71eb29">sprite_vector</a> = std::vector&lt;std::shared_ptr&lt;spic::Sprite&gt;&gt;;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classgame_1_1AnimatorUtil.html">   20</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classgame_1_1AnimatorUtil.html">AnimatorUtil</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classspic_1_1AnimatorUtil.html">   20</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classspic_1_1AnimatorUtil.html">AnimatorUtil</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keyword">static</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a> <a class="code" href="classgame_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">CreateSpriteVector</a>(<span class="keywordtype">int</span> max, <span class="keyword">const</span> std::string&amp; prefix, <span class="keywordtype">int</span> sortingLayer = 0, <span class="keyword">const</span> std::string&amp; extension = <span class="stringliteral">&quot;.png&quot;</span>, <span class="keywordtype">bool</span> flipX = <span class="keyword">false</span>, <span class="keywordtype">bool</span> flipY = <span class="keyword">false</span>, <span class="keywordtype">int</span> orderLayer = 0);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keyword">static</span> <a class="code" href="namespacespic_1_1types.html#a46e7856aebb0175f28b94fdc0d71eb29">types::sprite_vector</a> <a class="code" href="classspic_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">CreateSpriteVector</a>(<span class="keywordtype">int</span> max, <span class="keyword">const</span> std::string&amp; prefix, <span class="keywordtype">int</span> sortingLayer = 0, <span class="keyword">const</span> std::string&amp; extension = <span class="stringliteral">&quot;.png&quot;</span>, <span class="keywordtype">bool</span> flipX = <span class="keyword">false</span>, <span class="keywordtype">bool</span> flipY = <span class="keyword">false</span>, <span class="keywordtype">int</span> orderLayer = 0);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keyword">static</span> <a class="code" href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">types::sprite_vector</a> <a class="code" href="classgame_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">CreateSpriteVector</a>(<span class="keywordtype">int</span> max, <span class="keyword">const</span> std::string&amp; prefix, <a class="code" href="classspic_1_1Color.html">spic::Color</a> color, <span class="keywordtype">int</span> sortingLayer = 0, <span class="keyword">const</span> std::string&amp; extension = <span class="stringliteral">&quot;.png&quot;</span>, <span class="keywordtype">bool</span> flipX = <span class="keyword">false</span>, <span class="keywordtype">bool</span> flipY = <span class="keyword">false</span>, <span class="keywordtype">int</span> orderLayer = 0);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keyword">static</span> <a class="code" href="namespacespic_1_1types.html#a46e7856aebb0175f28b94fdc0d71eb29">types::sprite_vector</a> <a class="code" href="classspic_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">CreateSpriteVector</a>(<span class="keywordtype">int</span> max, <span class="keyword">const</span> std::string&amp; prefix, <a class="code" href="classspic_1_1Color.html">spic::Color</a> color, <span class="keywordtype">int</span> sortingLayer = 0, <span class="keyword">const</span> std::string&amp; extension = <span class="stringliteral">&quot;.png&quot;</span>, <span class="keywordtype">bool</span> flipX = <span class="keyword">false</span>, <span class="keywordtype">bool</span> flipY = <span class="keyword">false</span>, <span class="keywordtype">int</span> orderLayer = 0);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    };</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_GAME_ANIMATORUTIL_HPP</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_ANIMATORUTIL_HPP</span></div>
 <div class="ttc" id="aSprite_8hpp_html"><div class="ttname"><a href="Sprite_8hpp.html">Sprite.hpp</a></div></div>
-<div class="ttc" id="aclassgame_1_1AnimatorUtil_html"><div class="ttname"><a href="classgame_1_1AnimatorUtil.html">game::AnimatorUtil</a></div><div class="ttdoc">A util for animators.</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.hpp:21</div></div>
-<div class="ttc" id="aclassgame_1_1AnimatorUtil_html_ae56d0a6f283990af7c8acbaa6823458d"><div class="ttname"><a href="classgame_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">game::AnimatorUtil::CreateSpriteVector</a></div><div class="ttdeci">static types::sprite_vector CreateSpriteVector(int max, const std::string &amp;prefix, int sortingLayer=0, const std::string &amp;extension=&quot;.png&quot;, bool flipX=false, bool flipY=false, int orderLayer=0)</div><div class="ttdoc">Create a list of sprites by a given file template.</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.cpp:5</div></div>
+<div class="ttc" id="aclassspic_1_1AnimatorUtil_html"><div class="ttname"><a href="classspic_1_1AnimatorUtil.html">spic::AnimatorUtil</a></div><div class="ttdoc">A util for animators.</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.hpp:21</div></div>
+<div class="ttc" id="aclassspic_1_1AnimatorUtil_html_ae56d0a6f283990af7c8acbaa6823458d"><div class="ttname"><a href="classspic_1_1AnimatorUtil.html#ae56d0a6f283990af7c8acbaa6823458d">spic::AnimatorUtil::CreateSpriteVector</a></div><div class="ttdeci">static types::sprite_vector CreateSpriteVector(int max, const std::string &amp;prefix, int sortingLayer=0, const std::string &amp;extension=&quot;.png&quot;, bool flipX=false, bool flipY=false, int orderLayer=0)</div><div class="ttdoc">Create a list of sprites by a given file template.</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.cpp:5</div></div>
 <div class="ttc" id="aclassspic_1_1Color_html"><div class="ttname"><a href="classspic_1_1Color.html">spic::Color</a></div><div class="ttdoc">Color represents a red-green-blue color with alpha. @spicapi.</div><div class="ttdef"><b>Definition:</b> Color.hpp:10</div></div>
-<div class="ttc" id="anamespacegame_1_1types_html_a45f01ce73c860544f42f770d91cc43eb"><div class="ttname"><a href="namespacegame_1_1types.html#a45f01ce73c860544f42f770d91cc43eb">game::types::sprite_vector</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; spic::Sprite &gt; &gt; sprite_vector</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.hpp:14</div></div>
-<div class="ttc" id="anamespacegame_html"><div class="ttname"><a href="namespacegame.html">game</a></div><div class="ttdef"><b>Definition:</b> HUDController.hpp:15</div></div>
+<div class="ttc" id="anamespacespic_1_1types_html_a46e7856aebb0175f28b94fdc0d71eb29"><div class="ttname"><a href="namespacespic_1_1types.html#a46e7856aebb0175f28b94fdc0d71eb29">spic::types::sprite_vector</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; spic::Sprite &gt; &gt; sprite_vector</div><div class="ttdef"><b>Definition:</b> AnimatorUtil.hpp:14</div></div>
+<div class="ttc" id="anamespacespic_html"><div class="ttname"><a href="namespacespic.html">spic</a></div><div class="ttdef"><b>Definition:</b> Animator.hpp:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

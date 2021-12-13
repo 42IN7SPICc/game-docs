@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['save_1910',['Save',['../classgame_1_1SaveGameManager.html#af3ee3acd09cab24a1488fb4c2d3e599b',1,'game::SaveGameManager::Save()'],['../classgame_1_1SaveGameManager.html#a609e7abbde4735a2d4439282103874af',1,'game::SaveGameManager::Save(const PlayerData &amp;playerData)'],['../classgame_1_1FileManager.html#a5a88905639e4b3395a0e83b0c60d2e60',1,'game::FileManager::Save()']]],
+  ['save_1910',['Save',['../classgame_1_1SaveGameManager.html#a609e7abbde4735a2d4439282103874af',1,'game::SaveGameManager::Save()'],['../classspic_1_1FileManager.html#a5a88905639e4b3395a0e83b0c60d2e60',1,'spic::FileManager::Save()'],['../classgame_1_1SaveGameManager.html#af3ee3acd09cab24a1488fb4c2d3e599b',1,'game::SaveGameManager::Save()']]],
   ['saveselectionscene_1911',['SaveSelectionScene',['../classgame_1_1SaveSelectionScene.html#ad68d67c90b39b1a81877a30d9927a2d2',1,'game::SaveSelectionScene']]],
   ['scene_1912',['Scene',['../classspic_1_1Scene.html#ad10176d75a9cc0da56626f682d083507',1,'spic::Scene']]],
   ['sdlexception_1913',['SDLException',['../classengine_1_1SDLException.html#a41698af8724c247a0ab723254ca63969',1,'engine::SDLException']]],
@@ -24,13 +24,13 @@ var searchData=
   ['sortinglayer_1931',['SortingLayer',['../classspic_1_1Sprite.html#a950ae4657c8db9502c9165e1086d3854',1,'spic::Sprite::SortingLayer() const'],['../classspic_1_1Sprite.html#a4d3dfb5a95bc0bc15ca935d87a1f0833',1,'spic::Sprite::SortingLayer(int sortingLayer)']]],
   ['spawned_1932',['Spawned',['../classgame_1_1EnemyTroopTruckBehaviour.html#ad01bf0412879990203e00cba632661ec',1,'game::EnemyTroopTruckBehaviour']]],
   ['spic_5fgameobject_5flistobjects_1933',['spic_GameObject_ListObjects',['../GameObject_8cpp.html#ac7747c26afa7cc9196f2262baa138e99',1,'GameObject.cpp']]],
-  ['split_1934',['Split',['../classgame_1_1StringUtil.html#a1d1318f4ecdfc4ddbd14efd66165795a',1,'game::StringUtil']]],
+  ['split_1934',['Split',['../classspic_1_1StringUtil.html#a1d1318f4ecdfc4ddbd14efd66165795a',1,'spic::StringUtil']]],
   ['sprite_1935',['Sprite',['../classspic_1_1Sprite.html#af88e13e699830cfdc5e417987683242d',1,'spic::Sprite::Sprite(const std::string &amp;sprite, bool flipX, bool flipY, int sortingLayer, int orderLayer)'],['../classspic_1_1Sprite.html#a819c44eb8a38e743c4ac1b1d058258a8',1,'spic::Sprite::Sprite(const std::string &amp;sprite, const Color &amp;color, bool flipX, bool flipY, int sortingLayer, int orderInLayer)']]],
   ['stabsarztcolor_1936',['StabsarztColor',['../EnemyConstants_8hpp.html#abae722a2c1e96f166c5eff2cc9a873fd',1,'EnemyConstants.hpp']]],
   ['start_1937',['Start',['../classspic_1_1Engine.html#a1fbe9f5cb4abc3572e432cae1f154817',1,'spic::Engine']]],
   ['started_1938',['Started',['../classspic_1_1BehaviourScript.html#abcd3fb78e07a84dac935c6a499d92658',1,'spic::BehaviourScript::Started() const'],['../classspic_1_1BehaviourScript.html#ae8293b5aa68c4394518737df352e0a07',1,'spic::BehaviourScript::Started(bool started)']]],
   ['startnewphysicssession_1939',['StartNewPhysicsSession',['../classengine_1_1ContactListener.html#a246267e5648b51cb00be99597c437410',1,'engine::ContactListener']]],
-  ['startswith_1940',['StartsWith',['../classgame_1_1StringUtil.html#abe6eedde4d41c451d2737fffb613a83a',1,'game::StringUtil']]],
+  ['startswith_1940',['StartsWith',['../classspic_1_1StringUtil.html#abe6eedde4d41c451d2737fffb613a83a',1,'spic::StringUtil']]],
   ['statsscene_1941',['StatsScene',['../classgame_1_1StatsScene.html#a7301fb4cef3bcf802d84692955b1cc08',1,'game::StatsScene']]],
   ['stop_1942',['Stop',['../classengine_1_1AudioManager.html#a8a7059eab9311963f2270d01396eca9c',1,'engine::AudioManager::Stop()'],['../classspic_1_1Animator.html#aa72b0fd991a674cc85f46666431a8bd8',1,'spic::Animator::Stop()'],['../classspic_1_1AudioSource.html#afcfa9a28255f0aac30aa218d4e293123',1,'spic::AudioSource::Stop()']]],
   ['surface_1943',['Surface',['../classengine_1_1Texture.html#a28976ff7603bd7221133d27921f7ed20',1,'engine::Texture']]],

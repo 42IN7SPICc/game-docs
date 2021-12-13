@@ -1,7 +1,7 @@
 var searchData=
 [
   ['endcontact_1718',['EndContact',['../classengine_1_1ContactListener.html#a12e3afd23843ef1be4721f643706498f',1,'engine::ContactListener']]],
-  ['endswith_1719',['EndsWith',['../classgame_1_1StringUtil.html#a9d8af7a4661dbf2fa64b87e4d885611a',1,'game::StringUtil']]],
+  ['endswith_1719',['EndsWith',['../classspic_1_1StringUtil.html#a9d8af7a4661dbf2fa64b87e4d885611a',1,'spic::StringUtil']]],
   ['enemyinvisiblebehaviour_1720',['EnemyInvisibleBehaviour',['../classgame_1_1EnemyInvisibleBehaviour.html#a82f208c054397367c6b381aa178f0c49',1,'game::EnemyInvisibleBehaviour']]],
   ['enemymedicbehaviour_1721',['EnemyMedicBehaviour',['../classgame_1_1EnemyMedicBehaviour.html#ac73899d25199fd26535f99716adefb26',1,'game::EnemyMedicBehaviour']]],
   ['enemymovementbehaviour_1722',['EnemyMovementBehaviour',['../classgame_1_1EnemyMovementBehaviour.html#a0a7437d32468a4a98f7eb2f5af1dd705',1,'game::EnemyMovementBehaviour']]],
