@@ -386,29 +386,31 @@
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="classgame_1_1CloseSceneBehaviour.html" target="_top" xlink:title="A script to close the scene when pressing the ESC ky.">
-<polygon fill="none" stroke="black" points="720,-264.5 720,-431.5 861,-431.5 861,-264.5 720,-264.5"/>
-<text text-anchor="middle" x="790.5" y="-419.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::CloseSceneBehaviour</text>
-<polyline fill="none" stroke="black" points="720,-412.5 861,-412.5 "/>
-<text text-anchor="middle" x="790.5" y="-400.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="720,-393.5 861,-393.5 "/>
-<text text-anchor="start" x="728" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
-<text text-anchor="start" x="728" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
-<text text-anchor="start" x="728" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
-<text text-anchor="start" x="728" y="-348.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="728" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="728" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
-<text text-anchor="start" x="728" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="728" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="728" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
-<text text-anchor="start" x="728" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="728" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<polygon fill="none" stroke="black" points="720,-253.5 720,-442.5 861,-442.5 861,-253.5 720,-253.5"/>
+<text text-anchor="middle" x="790.5" y="-430.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::CloseSceneBehaviour</text>
+<polyline fill="none" stroke="black" points="720,-423.5 861,-423.5 "/>
+<text text-anchor="middle" x="790.5" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="720,-404.5 861,-404.5 "/>
+<text text-anchor="start" x="728" y="-392.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ CloseSceneBehaviour</text>
+<text text-anchor="start" x="728" y="-381.5" font-family="Helvetica,sans-Serif" font-size="10.00">(int popAmount=1)</text>
+<text text-anchor="start" x="728" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
+<text text-anchor="start" x="728" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<text text-anchor="start" x="728" y="-348.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
+<text text-anchor="start" x="728" y="-337.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="728" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="728" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
+<text text-anchor="start" x="728" y="-304.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="728" y="-293.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="728" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
+<text text-anchor="start" x="728" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="728" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node4&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M2675.43,-821.56C2663.51,-787.6 2644.31,-752.47 2613.5,-732 2532.82,-678.41 945.66,-757.08 870.5,-696 793.5,-633.42 781.6,-512.91 783.44,-431.71"/>
+<path fill="none" stroke="midnightblue" d="M2675.43,-821.56C2663.51,-787.6 2644.31,-752.47 2613.5,-732 2532.82,-678.41 945.66,-757.08 870.5,-696 796.85,-636.15 782.76,-523.32 783.29,-442.55"/>
 <polygon fill="none" stroke="midnightblue" points="2672.13,-822.72 2678.6,-831.1 2678.77,-820.51 2672.13,-822.72"/>
 </g>
 <!-- Node10 -->
