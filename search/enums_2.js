@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['enemyname_2233',['EnemyName',['../namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af',1,'game']]]
+  ['enemyname_2237',['EnemyName',['../namespacegame.html#afb72ed4034fa83d241a5874b0e61a9af',1,'game']]]
 ];
