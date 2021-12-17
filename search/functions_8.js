@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['increasetowerfirerateabilitybehaviour_1806',['IncreaseTowerFireRateAbilityBehaviour',['../classgame_1_1IncreaseTowerFireRateAbilityBehaviour.html#a9c8b970ca24b59a3e3a04347bc31531a',1,'game::IncreaseTowerFireRateAbilityBehaviour']]],
-  ['increasetowerrangeabilitybehaviour_1807',['IncreaseTowerRangeAbilityBehaviour',['../classgame_1_1IncreaseTowerRangeAbilityBehaviour.html#a4d089c8e0b404fe2429e3ee065b0a474',1,'game::IncreaseTowerRangeAbilityBehaviour']]],
+  ['increasetowerfirerateabilitybehaviour_1807',['IncreaseTowerFireRateAbilityBehaviour',['../classgame_1_1IncreaseTowerFireRateAbilityBehaviour.html#a9c8b970ca24b59a3e3a04347bc31531a',1,'game::IncreaseTowerFireRateAbilityBehaviour']]],
   ['init_1808',['Init',['../classspic_1_1Engine.html#a7ee4563bd5288266018952ff96e3ecad',1,'spic::Engine']]],
   ['initializelevels_1809',['InitializeLevels',['../classgame_1_1LevelSelectionController.html#ab97fc9841738fd8c69b5cf8ef931e9ec',1,'game::LevelSelectionController']]],
   ['inputmanager_1810',['InputManager',['../classengine_1_1InputManager.html#a8be46886da639b26d67181c29dab6d6c',1,'engine::InputManager::InputManager()'],['../classengine_1_1InputManager.html#a1ce949f8239ba768127d321dc88a7d73',1,'engine::InputManager::InputManager(const InputManager &amp;manager)=delete'],['../classengine_1_1InputManager.html#aea3df3eef98005bdeaa1b06c84406f8d',1,'engine::InputManager::InputManager(InputManager &amp;&amp;manager)=delete']]],
