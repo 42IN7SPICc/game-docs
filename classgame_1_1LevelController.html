@@ -181,6 +181,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af87efa352fc3ab677120a335011dcf21"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#af87efa352fc3ab677120a335011dcf21">InitializeWorldColliders</a> (const <a class="el" href="structgame_1_1LevelData.html">game::LevelData</a> &amp;levelData)</td></tr>
+<tr class="memdesc:af87efa352fc3ab677120a335011dcf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the in world colliders to prevent the hero and enemies of walking on non walkable tiles.  <a href="classgame_1_1LevelController.html#af87efa352fc3ab677120a335011dcf21">More...</a><br /></td></tr>
+<tr class="separator:af87efa352fc3ab677120a335011dcf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf6934b1090ea924d08e41c1290c9194"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1LevelController.html#adf6934b1090ea924d08e41c1290c9194">Walkable</a> (const <a class="el" href="namespacegame.html#a9fb4c421008a80703a39c1ec82f3059d">TileType</a> &amp;tileType, bool isHero=true)</td></tr>
 <tr class="memdesc:adf6934b1090ea924d08e41c1290c9194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the a given tile is walkable.  <a href="classgame_1_1LevelController.html#adf6934b1090ea924d08e41c1290c9194">More...</a><br /></td></tr>
 <tr class="separator:adf6934b1090ea924d08e41c1290c9194"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -512,6 +515,40 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the path for enemies to walk on. </p>
 <dl class="section return"><dt>Returns</dt><dd>The path to walk on. </dd></dl>
+
+</div>
+</div>
+<a id="af87efa352fc3ab677120a335011dcf21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af87efa352fc3ab677120a335011dcf21">&#9670;&nbsp;</a></span>InitializeWorldColliders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LevelController::InitializeWorldColliders </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structgame_1_1LevelData.html">game::LevelData</a> &amp;&#160;</td>
+          <td class="paramname"><em>levelData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Builds the in world colliders to prevent the hero and enemies of walking on non walkable tiles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">levelData</td><td>the level data to build the colliders for </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
