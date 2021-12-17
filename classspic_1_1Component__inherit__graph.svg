@@ -134,29 +134,30 @@ var sectionId = 'dynsection-0';
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classspic_1_1BehaviourScript.html" target="_top" xlink:title="Base class for script running in the game.">
-<polygon fill="none" stroke="black" points="2619.5,-991.5 2619.5,-1158.5 2763.5,-1158.5 2763.5,-991.5 2619.5,-991.5"/>
-<text text-anchor="middle" x="2691.5" y="-1146.5" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BehaviourScript</text>
-<polyline fill="none" stroke="black" points="2619.5,-1139.5 2763.5,-1139.5 "/>
-<text text-anchor="middle" x="2691.5" y="-1127.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="2619.5,-1120.5 2763.5,-1120.5 "/>
-<text text-anchor="start" x="2627.5" y="-1108.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ BehaviourScript()</text>
-<text text-anchor="start" x="2627.5" y="-1097.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnStart()</text>
-<text text-anchor="start" x="2627.5" y="-1086.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnUpdate()</text>
-<text text-anchor="start" x="2627.5" y="-1075.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnTriggerEnter2</text>
-<text text-anchor="start" x="2627.5" y="-1064.5" font-family="Helvetica,sans-Serif" font-size="10.00">D(const Collider &amp;collider)</text>
-<text text-anchor="start" x="2627.5" y="-1053.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnTriggerExit2</text>
-<text text-anchor="start" x="2627.5" y="-1042.5" font-family="Helvetica,sans-Serif" font-size="10.00">D(const Collider &amp;collider)</text>
-<text text-anchor="start" x="2627.5" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnTriggerStay2</text>
-<text text-anchor="start" x="2627.5" y="-1020.5" font-family="Helvetica,sans-Serif" font-size="10.00">D(const Collider &amp;collider)</text>
-<text text-anchor="start" x="2627.5" y="-1009.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Started(bool started)</text>
-<text text-anchor="start" x="2627.5" y="-998.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool Started() const</text>
+<polygon fill="none" stroke="black" points="2619.5,-986 2619.5,-1164 2763.5,-1164 2763.5,-986 2619.5,-986"/>
+<text text-anchor="middle" x="2691.5" y="-1152" font-family="Helvetica,sans-Serif" font-size="10.00">spic::BehaviourScript</text>
+<polyline fill="none" stroke="black" points="2619.5,-1145 2763.5,-1145 "/>
+<text text-anchor="middle" x="2691.5" y="-1133" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="2619.5,-1126 2763.5,-1126 "/>
+<text text-anchor="start" x="2627.5" y="-1114" font-family="Helvetica,sans-Serif" font-size="10.00">+ BehaviourScript()</text>
+<text text-anchor="start" x="2627.5" y="-1103" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnStart()</text>
+<text text-anchor="start" x="2627.5" y="-1092" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnUpdate()</text>
+<text text-anchor="start" x="2627.5" y="-1081" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnLateUpdate()</text>
+<text text-anchor="start" x="2627.5" y="-1070" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnTriggerEnter2</text>
+<text text-anchor="start" x="2627.5" y="-1059" font-family="Helvetica,sans-Serif" font-size="10.00">D(const Collider &amp;collider)</text>
+<text text-anchor="start" x="2627.5" y="-1048" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnTriggerExit2</text>
+<text text-anchor="start" x="2627.5" y="-1037" font-family="Helvetica,sans-Serif" font-size="10.00">D(const Collider &amp;collider)</text>
+<text text-anchor="start" x="2627.5" y="-1026" font-family="Helvetica,sans-Serif" font-size="10.00">+ virtual void OnTriggerStay2</text>
+<text text-anchor="start" x="2627.5" y="-1015" font-family="Helvetica,sans-Serif" font-size="10.00">D(const Collider &amp;collider)</text>
+<text text-anchor="start" x="2627.5" y="-1004" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Started(bool started)</text>
+<text text-anchor="start" x="2627.5" y="-993" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool Started() const</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M2742.77,-1284.56C2732.9,-1244.4 2721.43,-1197.72 2711.84,-1158.72"/>
+<path fill="none" stroke="midnightblue" d="M2742.7,-1284.26C2733.31,-1246.05 2722.47,-1201.99 2713.2,-1164.26"/>
 <polygon fill="none" stroke="midnightblue" points="2739.4,-1285.48 2745.18,-1294.35 2746.19,-1283.81 2739.4,-1285.48"/>
 </g>
 <!-- Node35 -->
@@ -296,8 +297,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M2672.47,-981.51C2660.56,-947.53 2641.35,-912.41 2610.5,-892 2512.45,-827.12 585.21,-930.8 494.5,-856 429.55,-802.44 410.81,-709.03 408.04,-630.31"/>
-<polygon fill="none" stroke="midnightblue" points="2669.16,-982.66 2675.64,-991.05 2675.81,-980.45 2669.16,-982.66"/>
+<path fill="none" stroke="midnightblue" d="M2670.59,-976.29C2658.56,-943.98 2639.77,-911.37 2610.5,-892 2512.45,-827.12 585.21,-930.8 494.5,-856 429.55,-802.44 410.81,-709.03 408.04,-630.31"/>
+<polygon fill="none" stroke="midnightblue" points="2667.33,-977.57 2673.95,-985.84 2673.93,-975.25 2667.33,-977.57"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
@@ -369,8 +370,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node11 -->
 <g id="edge10" class="edge">
 <title>Node4&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M2672.45,-981.54C2660.53,-947.57 2641.33,-912.44 2610.5,-892 2523.12,-834.05 807.41,-918.87 723.5,-856 708.55,-844.8 695.51,-831.64 684.14,-817.1"/>
-<polygon fill="none" stroke="midnightblue" points="2669.14,-982.69 2675.62,-991.08 2675.78,-980.48 2669.14,-982.69"/>
+<path fill="none" stroke="midnightblue" d="M2670.56,-976.33C2658.54,-944.02 2639.75,-911.4 2610.5,-892 2523.12,-834.05 807.41,-918.87 723.5,-856 708.55,-844.8 695.51,-831.64 684.14,-817.1"/>
+<polygon fill="none" stroke="midnightblue" points="2667.3,-977.61 2673.93,-985.87 2673.91,-975.28 2667.3,-977.61"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
@@ -402,8 +403,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node4&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M2672.43,-981.57C2660.51,-947.6 2641.31,-912.47 2610.5,-892 2531.13,-839.25 969.62,-915.9 895.5,-856 820.1,-795.06 803.43,-681.33 802.62,-597.25"/>
-<polygon fill="none" stroke="midnightblue" points="2669.12,-982.72 2675.6,-991.11 2675.76,-980.51 2669.12,-982.72"/>
+<path fill="none" stroke="midnightblue" d="M2670.54,-976.36C2658.52,-944.05 2639.73,-911.43 2610.5,-892 2531.13,-839.25 969.62,-915.9 895.5,-856 820.1,-795.06 803.43,-681.33 802.62,-597.25"/>
+<polygon fill="none" stroke="midnightblue" points="2667.28,-977.64 2673.91,-985.9 2673.88,-975.31 2667.28,-977.64"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
@@ -431,8 +432,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node4&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M2672.41,-981.6C2660.48,-947.64 2641.28,-912.5 2610.5,-892 2538.12,-843.79 1112.29,-911.7 1045.5,-856 964.96,-788.83 956.52,-660.15 961.05,-575.32"/>
-<polygon fill="none" stroke="midnightblue" points="2669.1,-982.75 2675.58,-991.14 2675.74,-980.54 2669.1,-982.75"/>
+<path fill="none" stroke="midnightblue" d="M2670.52,-976.39C2658.49,-944.09 2639.71,-911.46 2610.5,-892 2538.12,-843.79 1112.29,-911.7 1045.5,-856 964.96,-788.83 956.52,-660.15 961.05,-575.32"/>
+<polygon fill="none" stroke="midnightblue" points="2667.26,-977.67 2673.89,-985.93 2673.86,-975.34 2667.26,-977.67"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
@@ -462,8 +463,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
 <title>Node4&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M2672.38,-981.64C2660.45,-947.68 2641.26,-912.54 2610.5,-892 2480.64,-805.27 1325.95,-955.39 1205.5,-856 1127.75,-791.84 1115.05,-670.9 1116.99,-586.2"/>
-<polygon fill="none" stroke="midnightblue" points="2669.07,-982.79 2675.55,-991.18 2675.72,-980.58 2669.07,-982.79"/>
+<path fill="none" stroke="midnightblue" d="M2670.49,-976.43C2658.46,-944.13 2639.69,-911.49 2610.5,-892 2480.64,-805.27 1325.95,-955.39 1205.5,-856 1127.75,-791.84 1115.05,-670.9 1116.99,-586.2"/>
+<polygon fill="none" stroke="midnightblue" points="2667.23,-977.71 2673.86,-985.97 2673.83,-975.38 2667.23,-977.71"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
@@ -491,8 +492,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node15 -->
 <g id="edge14" class="edge">
 <title>Node4&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M2672.35,-981.69C2660.42,-947.74 2641.23,-912.59 2610.5,-892 2494.61,-814.34 1462.38,-945.66 1355.5,-856 1275.16,-788.6 1266.65,-659.98 1271.12,-575.23"/>
-<polygon fill="none" stroke="midnightblue" points="2669.04,-982.84 2675.52,-991.22 2675.68,-980.63 2669.04,-982.84"/>
+<path fill="none" stroke="midnightblue" d="M2670.3,-976.05C2658.26,-943.89 2639.53,-911.45 2610.5,-892 2494.61,-814.34 1462.38,-945.66 1355.5,-856 1275.16,-788.6 1266.65,-659.98 1271.12,-575.23"/>
+<polygon fill="none" stroke="midnightblue" points="2667.03,-977.29 2673.67,-985.55 2673.62,-974.95 2667.03,-977.29"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
@@ -532,8 +533,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
 <title>Node4&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M2672.3,-981.75C2660.37,-947.81 2641.18,-912.65 2610.5,-892 2509.14,-823.78 1605.25,-934.34 1511.5,-856 1449.96,-804.58 1429.78,-717.44 1425.31,-641.37"/>
-<polygon fill="none" stroke="midnightblue" points="2669,-982.9 2675.48,-991.28 2675.64,-980.69 2669,-982.9"/>
+<path fill="none" stroke="midnightblue" d="M2670.26,-976.11C2658.21,-943.96 2639.49,-911.51 2610.5,-892 2509.14,-823.78 1605.25,-934.34 1511.5,-856 1449.96,-804.58 1429.78,-717.44 1425.31,-641.37"/>
+<polygon fill="none" stroke="midnightblue" points="2666.98,-977.36 2673.63,-985.61 2673.58,-975.01 2666.98,-977.36"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
@@ -578,8 +579,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node17 -->
 <g id="edge16" class="edge">
 <title>Node4&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M2672.23,-981.86C2660.28,-947.94 2641.11,-912.76 2610.5,-892 2527.21,-835.52 1784.07,-918.88 1705.5,-856 1649.4,-811.11 1623.61,-737.68 1612.43,-668.53"/>
-<polygon fill="none" stroke="midnightblue" points="2668.92,-983.01 2675.41,-991.39 2675.56,-980.79 2668.92,-983.01"/>
+<path fill="none" stroke="midnightblue" d="M2670.18,-976.22C2658.13,-944.09 2639.42,-911.61 2610.5,-892 2527.21,-835.52 1784.07,-918.88 1705.5,-856 1649.4,-811.11 1623.61,-737.68 1612.43,-668.53"/>
+<polygon fill="none" stroke="midnightblue" points="2666.91,-977.47 2673.56,-985.72 2673.5,-975.12 2666.91,-977.47"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
@@ -609,8 +610,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node18 -->
 <g id="edge17" class="edge">
 <title>Node4&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M2671.97,-981.58C2660,-947.81 2640.88,-912.82 2610.5,-892 2544.16,-846.52 1949.66,-907.05 1887.5,-856 1809.08,-791.59 1792.44,-670.7 1791.41,-586.08"/>
-<polygon fill="none" stroke="midnightblue" points="2668.65,-982.7 2675.16,-991.06 2675.29,-980.47 2668.65,-982.7"/>
+<path fill="none" stroke="midnightblue" d="M2670.07,-976.38C2658.01,-944.26 2639.32,-911.76 2610.5,-892 2544.16,-846.52 1949.66,-907.05 1887.5,-856 1809.08,-791.59 1792.44,-670.7 1791.41,-586.08"/>
+<polygon fill="none" stroke="midnightblue" points="2666.8,-977.62 2673.45,-985.87 2673.39,-975.27 2666.8,-977.62"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
@@ -642,48 +643,50 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node19 -->
 <g id="edge18" class="edge">
 <title>Node4&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M2671.66,-981.37C2659.66,-947.77 2640.6,-912.95 2610.5,-892 2507.97,-820.63 2144.41,-937.22 2049.5,-856 1976.3,-793.36 1960.87,-680.5 1960.76,-597.1"/>
-<polygon fill="none" stroke="midnightblue" points="2668.49,-982.92 2675.02,-991.27 2675.12,-980.68 2668.49,-982.92"/>
+<path fill="none" stroke="midnightblue" d="M2669.75,-976.17C2657.67,-944.22 2639.05,-911.87 2610.5,-892 2507.97,-820.63 2144.41,-937.22 2049.5,-856 1976.3,-793.36 1960.87,-680.5 1960.76,-597.1"/>
+<polygon fill="none" stroke="midnightblue" points="2666.47,-977.38 2673.14,-985.61 2673.06,-975.02 2666.47,-977.38"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
 <g id="a_node20"><a xlink:href="classgame_1_1EnemyMovementBehaviour.html" target="_top" xlink:title="A script to handle movement for the enemy.">
-<polygon fill="none" stroke="black" points="2058.5,-347.5 2058.5,-635.5 2222.5,-635.5 2222.5,-347.5 2058.5,-347.5"/>
-<text text-anchor="middle" x="2140.5" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::EnemyMovementBehaviour</text>
-<polyline fill="none" stroke="black" points="2058.5,-616.5 2222.5,-616.5 "/>
-<text text-anchor="middle" x="2140.5" y="-604.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="2058.5,-597.5 2222.5,-597.5 "/>
-<text text-anchor="start" x="2066.5" y="-585.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EnemyMovementBehaviour</text>
-<text text-anchor="start" x="2066.5" y="-574.5" font-family="Helvetica,sans-Serif" font-size="10.00">(std::shared_ptr&lt; spic</text>
-<text text-anchor="start" x="2066.5" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Animator &gt; walkingAnimator,</text>
-<text text-anchor="start" x="2066.5" y="-552.5" font-family="Helvetica,sans-Serif" font-size="10.00"> float velocity)</text>
-<text text-anchor="start" x="2066.5" y="-541.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Boost(int time,</text>
-<text text-anchor="start" x="2066.5" y="-530.5" font-family="Helvetica,sans-Serif" font-size="10.00"> double multiplier)</text>
-<text text-anchor="start" x="2066.5" y="-519.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
-<text text-anchor="start" x="2066.5" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
-<text text-anchor="start" x="2066.5" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
-<text text-anchor="start" x="2066.5" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2066.5" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2066.5" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
-<text text-anchor="start" x="2066.5" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2066.5" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2066.5" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
-<text text-anchor="start" x="2066.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="2066.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="2066.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ const std::queue&lt; std</text>
-<text text-anchor="start" x="2066.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">::string &gt; &amp; Path() const</text>
-<text text-anchor="start" x="2066.5" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Path(const std</text>
-<text text-anchor="start" x="2066.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">::queue&lt; std::string</text>
-<text text-anchor="start" x="2066.5" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &amp;path)</text>
+<polygon fill="none" stroke="black" points="2058.5,-336.5 2058.5,-646.5 2222.5,-646.5 2222.5,-336.5 2058.5,-336.5"/>
+<text text-anchor="middle" x="2140.5" y="-634.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::EnemyMovementBehaviour</text>
+<polyline fill="none" stroke="black" points="2058.5,-627.5 2222.5,-627.5 "/>
+<text text-anchor="middle" x="2140.5" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="2058.5,-608.5 2222.5,-608.5 "/>
+<text text-anchor="start" x="2066.5" y="-596.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ EnemyMovementBehaviour</text>
+<text text-anchor="start" x="2066.5" y="-585.5" font-family="Helvetica,sans-Serif" font-size="10.00">(std::shared_ptr&lt; spic</text>
+<text text-anchor="start" x="2066.5" y="-574.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Animator &gt; walkingAnimator,</text>
+<text text-anchor="start" x="2066.5" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00"> float velocity)</text>
+<text text-anchor="start" x="2066.5" y="-552.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Boost(int time,</text>
+<text text-anchor="start" x="2066.5" y="-541.5" font-family="Helvetica,sans-Serif" font-size="10.00"> double multiplier)</text>
+<text text-anchor="start" x="2066.5" y="-530.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
+<text text-anchor="start" x="2066.5" y="-519.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<text text-anchor="start" x="2066.5" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
+<text text-anchor="start" x="2066.5" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2066.5" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2066.5" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
+<text text-anchor="start" x="2066.5" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2066.5" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2066.5" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
+<text text-anchor="start" x="2066.5" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="2066.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="2066.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ const std::queue&lt; std</text>
+<text text-anchor="start" x="2066.5" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">::string &gt; &amp; Path() const</text>
+<text text-anchor="start" x="2066.5" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Path(const std</text>
+<text text-anchor="start" x="2066.5" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">::queue&lt; std::string</text>
+<text text-anchor="start" x="2066.5" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; &amp;path)</text>
+<text text-anchor="start" x="2066.5" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnLateUpdate()</text>
+<text text-anchor="start" x="2066.5" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node20 -->
 <g id="edge19" class="edge">
 <title>Node4&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M2671.17,-981.41C2659.12,-948.01 2640.15,-913.32 2610.5,-892 2541.81,-842.61 2295.65,-911.15 2231.5,-856 2168.97,-802.25 2146.05,-712.61 2138.85,-635.81"/>
-<polygon fill="none" stroke="midnightblue" points="2667.99,-982.93 2674.55,-991.25 2674.62,-980.66 2667.99,-982.93"/>
+<path fill="none" stroke="midnightblue" d="M2669.09,-975.81C2656.97,-944.18 2638.49,-912.13 2610.5,-892 2541.81,-842.61 2295.65,-911.15 2231.5,-856 2171.93,-804.79 2148.31,-721.02 2139.98,-646.79"/>
+<polygon fill="none" stroke="midnightblue" points="2665.94,-977.4 2672.65,-985.6 2672.52,-975.01 2665.94,-977.4"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node">
@@ -715,8 +718,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node21 -->
 <g id="edge20" class="edge">
 <title>Node4&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M2669.64,-981.52C2657.43,-948.69 2638.76,-914.37 2610.5,-892 2543.11,-838.65 2483.24,-914.74 2420.5,-856 2350.2,-790.18 2329.73,-679.25 2325,-597.21"/>
-<polygon fill="none" stroke="midnightblue" points="2666.43,-982.93 2673.07,-991.19 2673.03,-980.59 2666.43,-982.93"/>
+<path fill="none" stroke="midnightblue" d="M2667.51,-975.95C2655.29,-944.85 2637.16,-913.11 2610.5,-892 2543.11,-838.65 2483.24,-914.74 2420.5,-856 2350.2,-790.18 2329.73,-679.25 2325,-597.21"/>
+<polygon fill="none" stroke="midnightblue" points="2664.33,-977.43 2671.12,-985.56 2670.88,-974.97 2664.33,-977.43"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node">
@@ -747,8 +750,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node22 -->
 <g id="edge21" class="edge">
 <title>Node4&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M2658.19,-981.69C2644.65,-943.05 2629.23,-897.54 2616.5,-856 2589.31,-767.26 2562.13,-665.13 2543.32,-591.76"/>
-<polygon fill="none" stroke="midnightblue" points="2654.97,-983.09 2661.59,-991.36 2661.57,-980.77 2654.97,-983.09"/>
+<path fill="none" stroke="midnightblue" d="M2656.2,-976C2643.15,-938.63 2628.61,-895.52 2616.5,-856 2589.31,-767.26 2562.13,-665.13 2543.32,-591.76"/>
+<polygon fill="none" stroke="midnightblue" points="2653.05,-977.6 2659.66,-985.88 2659.66,-975.29 2653.05,-977.6"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
@@ -779,8 +782,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node23 -->
 <g id="edge22" class="edge">
 <title>Node4&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M2691.5,-981.21C2691.5,-874.74 2691.5,-700.81 2691.5,-591.7"/>
-<polygon fill="none" stroke="midnightblue" points="2688,-981.3 2691.5,-991.3 2695,-981.3 2688,-981.3"/>
+<path fill="none" stroke="midnightblue" d="M2691.5,-975.85C2691.5,-868.91 2691.5,-698.79 2691.5,-591.52"/>
+<polygon fill="none" stroke="midnightblue" points="2688,-976 2691.5,-986 2695,-976 2688,-976"/>
 </g>
 <!-- Node24 -->
 <g id="node24" class="node">
@@ -813,8 +816,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node24 -->
 <g id="edge23" class="edge">
 <title>Node4&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M2725.76,-981.7C2739.41,-943.15 2754.66,-897.71 2766.5,-856 2790.4,-771.83 2811.93,-675.13 2826.93,-602.64"/>
-<polygon fill="none" stroke="midnightblue" points="2722.38,-980.75 2722.33,-991.34 2728.98,-983.1 2722.38,-980.75"/>
+<path fill="none" stroke="midnightblue" d="M2727.77,-976.01C2740.89,-938.73 2755.24,-895.67 2766.5,-856 2790.4,-771.83 2811.93,-675.13 2826.93,-602.64"/>
+<polygon fill="none" stroke="midnightblue" points="2724.32,-975.27 2724.28,-985.87 2730.92,-977.61 2724.32,-975.27"/>
 </g>
 <!-- Node25 -->
 <g id="node25" class="node">
@@ -846,8 +849,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node25 -->
 <g id="edge24" class="edge">
 <title>Node4&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M2713.96,-981.63C2726.22,-949 2744.78,-914.79 2772.5,-892 2828.14,-846.26 2879.83,-907.18 2930.5,-856 2997.29,-788.54 3013.43,-678.69 3015.06,-597.39"/>
-<polygon fill="none" stroke="midnightblue" points="2710.59,-980.65 2710.51,-991.24 2717.18,-983.01 2710.59,-980.65"/>
+<path fill="none" stroke="midnightblue" d="M2716.1,-976.07C2728.36,-945.16 2746.35,-913.5 2772.5,-892 2828.14,-846.26 2879.83,-907.18 2930.5,-856 2997.29,-788.54 3013.43,-678.69 3015.06,-597.39"/>
+<polygon fill="none" stroke="midnightblue" points="2712.75,-975.04 2712.48,-985.63 2719.3,-977.52 2712.75,-975.04"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node">
@@ -883,8 +886,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node26 -->
 <g id="edge25" class="edge">
 <title>Node4&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M2712.19,-981.26C2724.28,-948.03 2743.18,-913.5 2772.5,-892 2886.86,-808.17 2983.2,-949.84 3089.5,-856 3155.58,-797.67 3176.33,-698.99 3181.23,-619.15"/>
-<polygon fill="none" stroke="midnightblue" points="2708.76,-980.46 2708.8,-991.05 2715.38,-982.75 2708.76,-980.46"/>
+<path fill="none" stroke="midnightblue" d="M2714.12,-976.1C2726.26,-944.49 2744.69,-912.38 2772.5,-892 2886.86,-808.17 2983.2,-949.84 3089.5,-856 3155.58,-797.67 3176.33,-698.99 3181.23,-619.15"/>
+<polygon fill="none" stroke="midnightblue" points="2710.69,-975.28 2710.55,-985.88 2717.26,-977.68 2710.69,-975.28"/>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node">
@@ -915,8 +918,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node27 -->
 <g id="edge26" class="edge">
 <title>Node4&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M2711.43,-981.51C2723.45,-947.92 2742.49,-913.08 2772.5,-892 2862.38,-828.85 3181.43,-926.7 3265.5,-856 3341.31,-792.25 3359.13,-675.76 3361.13,-591.81"/>
-<polygon fill="none" stroke="midnightblue" points="2707.97,-980.81 2708.07,-991.4 2714.6,-983.06 2707.97,-980.81"/>
+<path fill="none" stroke="midnightblue" d="M2713.35,-976.31C2725.44,-944.37 2744.04,-912 2772.5,-892 2862.38,-828.85 3181.43,-926.7 3265.5,-856 3341.31,-792.25 3359.13,-675.76 3361.13,-591.81"/>
+<polygon fill="none" stroke="midnightblue" points="2710.04,-975.15 2709.95,-985.75 2716.63,-977.52 2710.04,-975.15"/>
 </g>
 <!-- Node28 -->
 <g id="node28" class="node">
@@ -956,8 +959,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node28 -->
 <g id="edge27" class="edge">
 <title>Node4&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M2711.07,-981.64C2723.04,-947.88 2742.16,-912.88 2772.5,-892 2896.25,-806.85 3332.34,-952.45 3447.5,-856 3509.24,-804.3 3531.07,-717.15 3537.19,-641.15"/>
-<polygon fill="none" stroke="midnightblue" points="2707.75,-980.52 2707.87,-991.11 2714.38,-982.76 2707.75,-980.52"/>
+<path fill="none" stroke="midnightblue" d="M2712.97,-976.44C2725.03,-944.32 2743.72,-911.81 2772.5,-892 2896.25,-806.85 3332.34,-952.45 3447.5,-856 3509.24,-804.3 3531.07,-717.15 3537.19,-641.15"/>
+<polygon fill="none" stroke="midnightblue" points="2709.65,-975.33 2709.58,-985.92 2716.24,-977.68 2709.65,-975.33"/>
 </g>
 <!-- Node29 -->
 <g id="node29" class="node">
@@ -1036,8 +1039,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node29 -->
 <g id="edge28" class="edge">
 <title>Node4&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M2710.8,-981.91C2722.75,-947.99 2741.92,-912.8 2772.5,-892 2850.2,-839.15 3542.53,-912.67 3617.5,-856 3620.68,-853.6 3623.78,-851.1 3626.8,-848.53"/>
-<polygon fill="none" stroke="midnightblue" points="2707.47,-980.83 2707.62,-991.43 2714.11,-983.05 2707.47,-980.83"/>
+<path fill="none" stroke="midnightblue" d="M2712.85,-976.27C2724.91,-944.14 2743.61,-911.65 2772.5,-892 2850.2,-839.15 3542.53,-912.67 3617.5,-856 3620.68,-853.6 3623.78,-851.1 3626.8,-848.53"/>
+<polygon fill="none" stroke="midnightblue" points="2709.53,-975.16 2709.47,-985.76 2716.12,-977.51 2709.53,-975.16"/>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node">
@@ -1062,8 +1065,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node30 -->
 <g id="edge29" class="edge">
 <title>Node4&#45;&gt;Node30</title>
-<path fill="none" stroke="#8b1a1a" d="M2710.7,-981.76C2722.64,-947.82 2741.82,-912.66 2772.5,-892 2872.55,-824.63 3764.35,-932.63 3857.5,-856 3944.41,-784.5 3952.04,-642.61 3947.97,-558.82"/>
-<polygon fill="none" stroke="#8b1a1a" points="2707.37,-980.69 2707.52,-991.29 2714.01,-982.91 2707.37,-980.69"/>
+<path fill="none" stroke="#8b1a1a" d="M2712.75,-976.12C2724.8,-943.97 2743.52,-911.52 2772.5,-892 2872.55,-824.63 3764.35,-932.63 3857.5,-856 3944.41,-784.5 3952.04,-642.61 3947.97,-558.82"/>
+<polygon fill="none" stroke="#8b1a1a" points="2709.42,-975.02 2709.37,-985.61 2716.02,-977.36 2709.42,-975.02"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node">
@@ -1091,8 +1094,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node31 -->
 <g id="edge30" class="edge">
 <title>Node4&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M2710.65,-981.69C2722.58,-947.74 2741.77,-912.59 2772.5,-892 2888.3,-814.4 3919.71,-945.59 4026.5,-856 4106.84,-788.6 4115.34,-659.98 4110.88,-575.23"/>
-<polygon fill="none" stroke="midnightblue" points="2707.32,-980.63 2707.48,-991.22 2713.96,-982.84 2707.32,-980.63"/>
+<path fill="none" stroke="midnightblue" d="M2712.7,-976.05C2724.74,-943.89 2743.47,-911.45 2772.5,-892 2888.3,-814.4 3919.71,-945.59 4026.5,-856 4106.84,-788.6 4115.34,-659.98 4110.88,-575.23"/>
+<polygon fill="none" stroke="midnightblue" points="2709.38,-974.95 2709.33,-985.55 2715.97,-977.29 2709.38,-974.95"/>
 </g>
 <!-- Node32 -->
 <g id="node32" class="node">
@@ -1120,8 +1123,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node32 -->
 <g id="edge31" class="edge">
 <title>Node4&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M2710.62,-981.64C2722.55,-947.68 2741.74,-912.54 2772.5,-892 2902.27,-805.33 4056.01,-955.16 4176.5,-856 4257.87,-789.03 4268.46,-659.98 4265.42,-575.05"/>
-<polygon fill="none" stroke="midnightblue" points="2707.29,-980.58 2707.45,-991.18 2713.93,-982.79 2707.29,-980.58"/>
+<path fill="none" stroke="midnightblue" d="M2712.51,-976.43C2724.54,-944.13 2743.31,-911.49 2772.5,-892 2902.27,-805.33 4056.01,-955.16 4176.5,-856 4257.87,-789.03 4268.46,-659.98 4265.42,-575.05"/>
+<polygon fill="none" stroke="midnightblue" points="2709.17,-975.38 2709.14,-985.97 2715.77,-977.71 2709.17,-975.38"/>
 </g>
 <!-- Node33 -->
 <g id="node33" class="node">
@@ -1153,48 +1156,50 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node33 -->
 <g id="edge32" class="edge">
 <title>Node4&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M2710.59,-981.6C2722.51,-947.64 2741.71,-912.5 2772.5,-892 2844.93,-843.76 4268.96,-908.31 4338.5,-856 4417.78,-796.36 4443.29,-681.81 4450.83,-597.18"/>
-<polygon fill="none" stroke="midnightblue" points="2707.26,-980.54 2707.42,-991.14 2713.9,-982.75 2707.26,-980.54"/>
+<path fill="none" stroke="midnightblue" d="M2712.48,-976.39C2724.51,-944.09 2743.29,-911.45 2772.5,-892 2844.93,-843.76 4268.96,-908.31 4338.5,-856 4417.78,-796.36 4443.29,-681.81 4450.83,-597.18"/>
+<polygon fill="none" stroke="midnightblue" points="2709.14,-975.34 2709.11,-985.93 2715.74,-977.67 2709.14,-975.34"/>
 </g>
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
 <g id="a_node34"><a xlink:href="classgame_1_1UserMovementBehaviour.html" target="_top" xlink:title="A script to allow the user to move the hero thru the level.">
-<polygon fill="none" stroke="black" points="4575,-347.5 4575,-635.5 4766,-635.5 4766,-347.5 4575,-347.5"/>
-<text text-anchor="middle" x="4670.5" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::UserMovementBehaviour</text>
-<polyline fill="none" stroke="black" points="4575,-616.5 4766,-616.5 "/>
-<text text-anchor="middle" x="4670.5" y="-604.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
-<polyline fill="none" stroke="black" points="4575,-597.5 4766,-597.5 "/>
-<text text-anchor="start" x="4583" y="-585.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UserMovementBehaviour</text>
-<text text-anchor="start" x="4583" y="-574.5" font-family="Helvetica,sans-Serif" font-size="10.00">(float velocity, std::</text>
-<text text-anchor="start" x="4583" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">shared_ptr&lt; spic::Animator</text>
-<text text-anchor="start" x="4583" y="-552.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; idleAnimator, std::shared</text>
-<text text-anchor="start" x="4583" y="-541.5" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; spic::Animator &gt; walkingAnimator,</text>
-<text text-anchor="start" x="4583" y="-530.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; game::HealthBehaviour</text>
-<text text-anchor="start" x="4583" y="-519.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; healthBehaviour)</text>
-<text text-anchor="start" x="4583" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool Controllable()</text>
-<text text-anchor="start" x="4583" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const</text>
-<text text-anchor="start" x="4583" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Controllable(bool</text>
-<text text-anchor="start" x="4583" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00"> controllable)</text>
-<text text-anchor="start" x="4583" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
-<text text-anchor="start" x="4583" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
-<text text-anchor="start" x="4583" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
-<text text-anchor="start" x="4583" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="4583" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="4583" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
-<text text-anchor="start" x="4583" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="4583" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
-<text text-anchor="start" x="4583" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
-<text text-anchor="start" x="4583" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
-<text text-anchor="start" x="4583" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<polygon fill="none" stroke="black" points="4575,-336.5 4575,-646.5 4766,-646.5 4766,-336.5 4575,-336.5"/>
+<text text-anchor="middle" x="4670.5" y="-634.5" font-family="Helvetica,sans-Serif" font-size="10.00">game::UserMovementBehaviour</text>
+<polyline fill="none" stroke="black" points="4575,-627.5 4766,-627.5 "/>
+<text text-anchor="middle" x="4670.5" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00"> </text>
+<polyline fill="none" stroke="black" points="4575,-608.5 4766,-608.5 "/>
+<text text-anchor="start" x="4583" y="-596.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ UserMovementBehaviour</text>
+<text text-anchor="start" x="4583" y="-585.5" font-family="Helvetica,sans-Serif" font-size="10.00">(float velocity, std::</text>
+<text text-anchor="start" x="4583" y="-574.5" font-family="Helvetica,sans-Serif" font-size="10.00">shared_ptr&lt; spic::Animator</text>
+<text text-anchor="start" x="4583" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; idleAnimator, std::shared</text>
+<text text-anchor="start" x="4583" y="-552.5" font-family="Helvetica,sans-Serif" font-size="10.00">_ptr&lt; spic::Animator &gt; walkingAnimator,</text>
+<text text-anchor="start" x="4583" y="-541.5" font-family="Helvetica,sans-Serif" font-size="10.00"> std::shared_ptr&lt; game::HealthBehaviour</text>
+<text text-anchor="start" x="4583" y="-530.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &gt; healthBehaviour)</text>
+<text text-anchor="start" x="4583" y="-519.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ bool Controllable()</text>
+<text text-anchor="start" x="4583" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00"> const</text>
+<text text-anchor="start" x="4583" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void Controllable(bool</text>
+<text text-anchor="start" x="4583" y="-486.5" font-family="Helvetica,sans-Serif" font-size="10.00"> controllable)</text>
+<text text-anchor="start" x="4583" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnStart() override</text>
+<text text-anchor="start" x="4583" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnUpdate() override</text>
+<text text-anchor="start" x="4583" y="-453.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerEnter2D</text>
+<text text-anchor="start" x="4583" y="-442.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="4583" y="-431.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="4583" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerExit2D</text>
+<text text-anchor="start" x="4583" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="4583" y="-398.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="4583" y="-387.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnTriggerStay2D</text>
+<text text-anchor="start" x="4583" y="-376.5" font-family="Helvetica,sans-Serif" font-size="10.00">(const spic::Collider</text>
+<text text-anchor="start" x="4583" y="-365.5" font-family="Helvetica,sans-Serif" font-size="10.00"> &amp;collider) override</text>
+<text text-anchor="start" x="4583" y="-354.5" font-family="Helvetica,sans-Serif" font-size="10.00">+ void OnLateUpdate()</text>
+<text text-anchor="start" x="4583" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00"> override</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node34 -->
 <g id="edge33" class="edge">
 <title>Node4&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M2710.56,-981.56C2722.48,-947.58 2741.68,-912.46 2772.5,-892 2855.55,-836.86 4487.51,-916.81 4566.5,-856 4633.07,-804.75 4659.07,-713.87 4668.43,-635.81"/>
-<polygon fill="none" stroke="midnightblue" points="2707.23,-980.5 2707.39,-991.09 2713.87,-982.71 2707.23,-980.5"/>
+<path fill="none" stroke="midnightblue" d="M2712.45,-976.34C2724.47,-944.03 2743.26,-911.41 2772.5,-892 2855.55,-836.86 4487.51,-916.81 4566.5,-856 4629.95,-807.15 4656.55,-722.3 4667,-646.87"/>
+<polygon fill="none" stroke="midnightblue" points="2709.11,-975.29 2709.08,-985.89 2715.71,-977.62 2709.11,-975.29"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">

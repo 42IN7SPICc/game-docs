@@ -67,9 +67,10 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classengine_1_1BehaviourScriptSubsystem-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">engine::BehaviourScriptSubsystem Class Reference</div>  </div>
+<div class="title">engine::BehaviourScriptSubsystem Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -80,13 +81,13 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for engine::BehaviourScriptSubsystem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1BehaviourScriptSubsystem__inherit__graph.svg" width="234" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1BehaviourScriptSubsystem__inherit__graph.svg" width="427" height="456"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for engine::BehaviourScriptSubsystem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1BehaviourScriptSubsystem__coll__graph.svg" width="234" height="214"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1BehaviourScriptSubsystem__coll__graph.svg" width="234" height="272"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -95,10 +96,52 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a316ffd27269574ff2efe8f09ef167faf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1BehaviourScriptSubsystem.html#a316ffd27269574ff2efe8f09ef167faf">Update</a> () override</td></tr>
 <tr class="memdesc:a316ffd27269574ff2efe8f09ef167faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers the OnStart method for unstarted scripts and the OnUpdate method for scripts that have been started.  <a href="classengine_1_1BehaviourScriptSubsystem.html#a316ffd27269574ff2efe8f09ef167faf">More...</a><br /></td></tr>
 <tr class="separator:a316ffd27269574ff2efe8f09ef167faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a69dd7b624f33866e9e3e331ad843b63b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1BehaviourScriptSubsystem.html#a69dd7b624f33866e9e3e331ad843b63b">Handle</a> (const std::shared_ptr&lt; <a class="el" href="classspic_1_1BehaviourScript.html">spic::BehaviourScript</a> &gt; &amp;behaviourScript)=0</td></tr>
+<tr class="memdesc:a69dd7b624f33866e9e3e331ad843b63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the stuff to be done for a script in the current <a class="el" href="classengine_1_1BehaviourScriptSubsystem.html" title="Subsystem to handle BehaviourScript components.">BehaviourScriptSubsystem</a>.  <a href="classengine_1_1BehaviourScriptSubsystem.html#a69dd7b624f33866e9e3e331ad843b63b">More...</a><br /></td></tr>
+<tr class="separator:a69dd7b624f33866e9e3e331ad843b63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Subsystem to handle BehaviourScript components. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a69dd7b624f33866e9e3e331ad843b63b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dd7b624f33866e9e3e331ad843b63b">&#9670;&nbsp;</a></span>Handle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void engine::BehaviourScriptSubsystem::Handle </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classspic_1_1BehaviourScript.html">spic::BehaviourScript</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>behaviourScript</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles the stuff to be done for a script in the current <a class="el" href="classengine_1_1BehaviourScriptSubsystem.html" title="Subsystem to handle BehaviourScript components.">BehaviourScriptSubsystem</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">behaviourScript</td><td>The script to handle. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="classengine_1_1UpdateBehaviourScriptSubsystem.html#a8111486bdf6bb4296e382a34250c509b">engine::UpdateBehaviourScriptSubsystem</a>, and <a class="el" href="classengine_1_1LateUpdateBehaviourScriptSubsystem.html#a23e0685f7e5bb12ff8f2ec2bf944938d">engine::LateUpdateBehaviourScriptSubsystem</a>.</p>
+
+</div>
+</div>
 <a id="a316ffd27269574ff2efe8f09ef167faf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a316ffd27269574ff2efe8f09ef167faf">&#9670;&nbsp;</a></span>Update()</h2>
 

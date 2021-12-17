@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['j_614',['J',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2aff44570aca8241914870afbc310cdb85',1,'spic::Input']]],
-  ['josephstalin_615',['JosephStalin',['../namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145a9e81be76637f74f3238e8041679aff97',1,'game']]],
-  ['josephstalinabilitycooldown_616',['JosephStalinAbilityCooldown',['../HeroConstants_8hpp.html#a8973a3283d8ea39b743c6d2805359c3a',1,'HeroConstants.hpp']]],
-  ['josephstalinabilityduration_617',['JosephStalinAbilityDuration',['../HeroConstants_8hpp.html#a3489fe0343dca823d0a1e970cc86ceac',1,'HeroConstants.hpp']]],
-  ['josephstalincolor_618',['JosephStalinColor',['../HeroConstants_8hpp.html#aac588a88f03f01e8cc53f39fe5ef1e86',1,'HeroConstants.hpp']]],
-  ['josephstalindamage_619',['JosephStalinDamage',['../HeroConstants_8hpp.html#a191ff9f0c46a026dd377aab61f5acf3e',1,'HeroConstants.hpp']]],
-  ['josephstalindefense_620',['JosephStalinDefense',['../HeroConstants_8hpp.html#ab361cd3564fe7406eee6e8be63618186',1,'HeroConstants.hpp']]],
-  ['jsonfacade_621',['JsonFacade',['../classspic_1_1JsonFacade.html',1,'spic']]],
-  ['jsonfacade_2ehpp_622',['JsonFacade.hpp',['../JsonFacade_8hpp.html',1,'']]],
-  ['jsonfacade_5ftemplates_2ehpp_623',['JsonFacade_templates.hpp',['../JsonFacade__templates_8hpp.html',1,'']]]
+  ['j_616',['J',['../namespacespic_1_1Input.html#aed95f16c86236940a2ad1d84ef8c25d2aff44570aca8241914870afbc310cdb85',1,'spic::Input']]],
+  ['josephstalin_617',['JosephStalin',['../namespacegame.html#a25df4723bfcfbc50fff6c76512bc4145a9e81be76637f74f3238e8041679aff97',1,'game']]],
+  ['josephstalinabilitycooldown_618',['JosephStalinAbilityCooldown',['../HeroConstants_8hpp.html#a8973a3283d8ea39b743c6d2805359c3a',1,'HeroConstants.hpp']]],
+  ['josephstalinabilityduration_619',['JosephStalinAbilityDuration',['../HeroConstants_8hpp.html#a3489fe0343dca823d0a1e970cc86ceac',1,'HeroConstants.hpp']]],
+  ['josephstalincolor_620',['JosephStalinColor',['../HeroConstants_8hpp.html#aac588a88f03f01e8cc53f39fe5ef1e86',1,'HeroConstants.hpp']]],
+  ['josephstalindamage_621',['JosephStalinDamage',['../HeroConstants_8hpp.html#a191ff9f0c46a026dd377aab61f5acf3e',1,'HeroConstants.hpp']]],
+  ['josephstalindefense_622',['JosephStalinDefense',['../HeroConstants_8hpp.html#ab361cd3564fe7406eee6e8be63618186',1,'HeroConstants.hpp']]],
+  ['jsonfacade_623',['JsonFacade',['../classspic_1_1JsonFacade.html',1,'spic']]],
+  ['jsonfacade_2ehpp_624',['JsonFacade.hpp',['../JsonFacade_8hpp.html',1,'']]],
+  ['jsonfacade_5ftemplates_2ehpp_625',['JsonFacade_templates.hpp',['../JsonFacade__templates_8hpp.html',1,'']]]
 ];

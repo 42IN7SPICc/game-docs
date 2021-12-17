@@ -86,7 +86,7 @@ Inheritance diagram for spic::BehaviourScript:</div>
 <div class="dynheader">
 Collaboration diagram for spic::BehaviourScript:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classspic_1_1BehaviourScript__coll__graph.svg" width="206" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classspic_1_1BehaviourScript__coll__graph.svg" width="206" height="522"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -101,6 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a23e6fc57ffe64b760dfb801d10f634ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1BehaviourScript.html#a23e6fc57ffe64b760dfb801d10f634ff">OnUpdate</a> ()</td></tr>
 <tr class="memdesc:a23e6fc57ffe64b760dfb801d10f634ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO @spicapi.  <a href="classspic_1_1BehaviourScript.html#a23e6fc57ffe64b760dfb801d10f634ff">More...</a><br /></td></tr>
 <tr class="separator:a23e6fc57ffe64b760dfb801d10f634ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abacb79f7c6f9e3d4188e14c6b54c22d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1BehaviourScript.html#abacb79f7c6f9e3d4188e14c6b54c22d5">OnLateUpdate</a> ()</td></tr>
+<tr class="memdesc:abacb79f7c6f9e3d4188e14c6b54c22d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers after all Update functions have been called. @sharedapi.  <a href="classspic_1_1BehaviourScript.html#abacb79f7c6f9e3d4188e14c6b54c22d5">More...</a><br /></td></tr>
+<tr class="separator:abacb79f7c6f9e3d4188e14c6b54c22d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3979d4d8de424b94121af67fbeafa888"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classspic_1_1BehaviourScript.html#a3979d4d8de424b94121af67fbeafa888">OnTriggerEnter2D</a> (const <a class="el" href="classspic_1_1Collider.html">Collider</a> &amp;collider)</td></tr>
 <tr class="memdesc:a3979d4d8de424b94121af67fbeafa888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sent when another object enters a trigger collider attached to this object (2D physics only). @spicapi.  <a href="classspic_1_1BehaviourScript.html#a3979d4d8de424b94121af67fbeafa888">More...</a><br /></td></tr>
 <tr class="separator:a3979d4d8de424b94121af67fbeafa888"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,6 +162,35 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="abacb79f7c6f9e3d4188e14c6b54c22d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abacb79f7c6f9e3d4188e14c6b54c22d5">&#9670;&nbsp;</a></span>OnLateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void spic::BehaviourScript::OnLateUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triggers after all Update functions have been called. @sharedapi. </p>
+
+<p>Reimplemented in <a class="el" href="classgame_1_1UserMovementBehaviour.html#ac9bbace3acac30c382e2e5ecb2dd3224">game::UserMovementBehaviour</a>, and <a class="el" href="classgame_1_1EnemyMovementBehaviour.html#a1e6ba96e3b0080349ca4973a81e45001">game::EnemyMovementBehaviour</a>.</p>
+
+</div>
+</div>
 <a id="a80bffa3fec52a1131a1fbdc11417540b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80bffa3fec52a1131a1fbdc11417540b">&#9670;&nbsp;</a></span>OnStart()</h2>
 

@@ -74,19 +74,28 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="ISubsystem_8hpp.html">ISubsystem.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceengine.html">engine</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classengine_1_1BehaviourScriptSubsystem.html">   11</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classengine_1_1BehaviourScriptSubsystem.html">BehaviourScriptSubsystem</a> : <span class="keyword">public</span> <a class="code" href="classengine_1_1ISubsystem.html">ISubsystem</a></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classengine_1_1BehaviourScriptSubsystem.html#a316ffd27269574ff2efe8f09ef167faf">Update</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    };</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_ENGINE_BEHAVIOURSCRIPTSUBSYSTEM_HPP</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="BehaviourScript_8hpp.html">BehaviourScript.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceengine.html">engine</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classengine_1_1BehaviourScriptSubsystem.html">   15</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classengine_1_1BehaviourScriptSubsystem.html">BehaviourScriptSubsystem</a> : <span class="keyword">public</span> <a class="code" href="classengine_1_1ISubsystem.html">ISubsystem</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordtype">void</span> <a class="code" href="classengine_1_1BehaviourScriptSubsystem.html#a316ffd27269574ff2efe8f09ef167faf">Update</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="classengine_1_1BehaviourScriptSubsystem.html#a69dd7b624f33866e9e3e331ad843b63b">   28</a></span>&#160;            <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classengine_1_1BehaviourScriptSubsystem.html#a69dd7b624f33866e9e3e331ad843b63b">Handle</a>(<span class="keyword">const</span> std::shared_ptr&lt;spic::BehaviourScript&gt;&amp; behaviourScript) = 0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    };</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//SPIC_ENGINE_BEHAVIOURSCRIPTSUBSYSTEM_HPP</span></div>
+<div class="ttc" id="aBehaviourScript_8hpp_html"><div class="ttname"><a href="BehaviourScript_8hpp.html">BehaviourScript.hpp</a></div></div>
 <div class="ttc" id="aISubsystem_8hpp_html"><div class="ttname"><a href="ISubsystem_8hpp.html">ISubsystem.hpp</a></div></div>
-<div class="ttc" id="aclassengine_1_1BehaviourScriptSubsystem_html"><div class="ttname"><a href="classengine_1_1BehaviourScriptSubsystem.html">engine::BehaviourScriptSubsystem</a></div><div class="ttdoc">Subsystem to handle BehaviourScript components.</div><div class="ttdef"><b>Definition:</b> BehaviourScriptSubsystem.hpp:12</div></div>
+<div class="ttc" id="aclassengine_1_1BehaviourScriptSubsystem_html"><div class="ttname"><a href="classengine_1_1BehaviourScriptSubsystem.html">engine::BehaviourScriptSubsystem</a></div><div class="ttdoc">Subsystem to handle BehaviourScript components.</div><div class="ttdef"><b>Definition:</b> BehaviourScriptSubsystem.hpp:16</div></div>
 <div class="ttc" id="aclassengine_1_1BehaviourScriptSubsystem_html_a316ffd27269574ff2efe8f09ef167faf"><div class="ttname"><a href="classengine_1_1BehaviourScriptSubsystem.html#a316ffd27269574ff2efe8f09ef167faf">engine::BehaviourScriptSubsystem::Update</a></div><div class="ttdeci">void Update() override</div><div class="ttdoc">Triggers the OnStart method for unstarted scripts and the OnUpdate method for scripts that have been ...</div><div class="ttdef"><b>Definition:</b> BehaviourScriptSubsystem.cpp:10</div></div>
+<div class="ttc" id="aclassengine_1_1BehaviourScriptSubsystem_html_a69dd7b624f33866e9e3e331ad843b63b"><div class="ttname"><a href="classengine_1_1BehaviourScriptSubsystem.html#a69dd7b624f33866e9e3e331ad843b63b">engine::BehaviourScriptSubsystem::Handle</a></div><div class="ttdeci">virtual void Handle(const std::shared_ptr&lt; spic::BehaviourScript &gt; &amp;behaviourScript)=0</div><div class="ttdoc">Handles the stuff to be done for a script in the current BehaviourScriptSubsystem.</div></div>
 <div class="ttc" id="aclassengine_1_1ISubsystem_html"><div class="ttname"><a href="classengine_1_1ISubsystem.html">engine::ISubsystem</a></div><div class="ttdoc">Interface for subsystems.</div><div class="ttdef"><b>Definition:</b> ISubsystem.hpp:10</div></div>
 <div class="ttc" id="anamespaceengine_html"><div class="ttname"><a href="namespaceengine.html">engine</a></div><div class="ttdef"><b>Definition:</b> EngineException.hpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
