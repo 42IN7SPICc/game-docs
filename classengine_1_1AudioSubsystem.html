@@ -81,13 +81,13 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for engine::AudioSubsystem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1AudioSubsystem__inherit__graph.svg" width="191" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1AudioSubsystem__inherit__graph.svg" width="203" height="331"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Collaboration diagram for engine::AudioSubsystem:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1AudioSubsystem__coll__graph.svg" width="191" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classengine_1_1AudioSubsystem__coll__graph.svg" width="203" height="331"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <table class="memberdecls">
@@ -105,6 +105,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af0bf5d76963d6333ab9db28011787620"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1AudioSubsystem.html#af0bf5d76963d6333ab9db28011787620">PauseAllAudioPlayback</a> ()</td></tr>
 <tr class="memdesc:af0bf5d76963d6333ab9db28011787620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pauses all audio playback for all AudioSource components currently playing.  <a href="classengine_1_1AudioSubsystem.html#af0bf5d76963d6333ab9db28011787620">More...</a><br /></td></tr>
 <tr class="separator:af0bf5d76963d6333ab9db28011787620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c28a6818281fb7cc5a7b834b33b9dc8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classengine_1_1AudioSubsystem.html#a1c28a6818281fb7cc5a7b834b33b9dc8">StopAllAudioPlayback</a> (const std::shared_ptr&lt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &gt; &amp;scene, const std::shared_ptr&lt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &gt; &amp;destinationScene)</td></tr>
+<tr class="memdesc:a1c28a6818281fb7cc5a7b834b33b9dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops all audio playback for all AudioSource components in the active scene.  <a href="classengine_1_1AudioSubsystem.html#a1c28a6818281fb7cc5a7b834b33b9dc8">More...</a><br /></td></tr>
+<tr class="separator:a1c28a6818281fb7cc5a7b834b33b9dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Subsystem to handle AudioSource components. </p>
@@ -153,6 +156,51 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Pauses all audio playback for all AudioSource components currently playing. </p>
+
+</div>
+</div>
+<a id="a1c28a6818281fb7cc5a7b834b33b9dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c28a6818281fb7cc5a7b834b33b9dc8">&#9670;&nbsp;</a></span>StopAllAudioPlayback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void engine::AudioSubsystem::StopAllAudioPlayback </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>scene</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classspic_1_1Scene.html">spic::Scene</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>destinationScene</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops all audio playback for all AudioSource components in the active scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scene</td><td>to process audio components on </td></tr>
+    <tr><td class="paramname">destinationScene</td><td>scene we're transitioning to </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

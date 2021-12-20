@@ -1,13 +1,13 @@
 <map id="engine::ISubsystem" name="engine::ISubsystem">
-<area shape="rect" id="node1" title="Interface for subsystems." alt="" coords="793,5,955,83"/>
-<area shape="rect" id="node2" href="$classengine_1_1AnimatorSubsystem.html" title="Subsystem to handle Animator components." alt="" coords="5,160,188,237"/>
-<area shape="rect" id="node3" href="$classengine_1_1AudioSubsystem.html" title="Subsystem to handle AudioSource components." alt="" coords="212,138,392,259"/>
-<area shape="rect" id="node4" href="$classengine_1_1BehaviourScriptSubsystem.html" title="Subsystem to handle BehaviourScript components." alt="" coords="416,131,639,267"/>
-<area shape="rect" id="node7" href="$classengine_1_1FpsCounterSubsystem.html" title="Subsystem to handle show the FPS counter in the top right corner." alt="" coords="663,145,861,252"/>
-<area shape="rect" id="node8" href="$classengine_1_1GameSpeedSubsystem.html" title="Subsystem to handle game speed changes." alt="" coords="886,160,1089,237"/>
-<area shape="rect" id="node9" href="$classengine_1_1InputSubsystem.html" title="Subsystem to handle Input from the mouse and keyboard." alt="" coords="1113,160,1273,237"/>
-<area shape="rect" id="node10" href="$classengine_1_1PhysicsSubsystem.html" title="Subsystem to handle RigidBody and Collider components." alt="" coords="1297,153,1475,245"/>
-<area shape="rect" id="node11" href="$classengine_1_1RenderSubsystem.html" title="Subsystem to handle Sprite components and Text objects." alt="" coords="1499,145,1689,252"/>
-<area shape="rect" id="node5" href="$classengine_1_1LateUpdateBehaviourScriptSubsystem.html" title=" " alt="" coords="321,315,513,451"/>
-<area shape="rect" id="node6" href="$classengine_1_1UpdateBehaviourScriptSubsystem.html" title=" " alt="" coords="537,315,737,451"/>
+<area shape="rect" id="node1" title="Interface for subsystems." alt="" coords="806,5,969,83"/>
+<area shape="rect" id="node2" href="$classengine_1_1AnimatorSubsystem.html" title="Subsystem to handle Animator components." alt="" coords="5,189,188,267"/>
+<area shape="rect" id="node3" href="$classengine_1_1AudioSubsystem.html" title="Subsystem to handle AudioSource components." alt="" coords="213,131,405,325"/>
+<area shape="rect" id="node4" href="$classengine_1_1BehaviourScriptSubsystem.html" title="Subsystem to handle BehaviourScript components." alt="" coords="429,160,652,296"/>
+<area shape="rect" id="node7" href="$classengine_1_1FpsCounterSubsystem.html" title="Subsystem to handle show the FPS counter in the top right corner." alt="" coords="676,175,875,281"/>
+<area shape="rect" id="node8" href="$classengine_1_1GameSpeedSubsystem.html" title="Subsystem to handle game speed changes." alt="" coords="899,189,1102,267"/>
+<area shape="rect" id="node9" href="$classengine_1_1InputSubsystem.html" title="Subsystem to handle Input from the mouse and keyboard." alt="" coords="1126,189,1286,267"/>
+<area shape="rect" id="node10" href="$classengine_1_1PhysicsSubsystem.html" title="Subsystem to handle RigidBody and Collider components." alt="" coords="1311,182,1488,274"/>
+<area shape="rect" id="node11" href="$classengine_1_1RenderSubsystem.html" title="Subsystem to handle Sprite components and Text objects." alt="" coords="1513,175,1702,281"/>
+<area shape="rect" id="node5" href="$classengine_1_1LateUpdateBehaviourScriptSubsystem.html" title="Handles late updates for the behaviour script components." alt="" coords="334,373,526,509"/>
+<area shape="rect" id="node6" href="$classengine_1_1UpdateBehaviourScriptSubsystem.html" title="Handles updates for the behaviour script components." alt="" coords="550,373,750,509"/>
 </map>

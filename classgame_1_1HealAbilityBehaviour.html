@@ -95,6 +95,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae2c590b5e84de1268fd6221ff07c635a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HealAbilityBehaviour.html#ae2c590b5e84de1268fd6221ff07c635a">HealAbilityBehaviour</a> ()</td></tr>
 <tr class="memdesc:ae2c590b5e84de1268fd6221ff07c635a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new instance of a <a class="el" href="classgame_1_1HealAbilityBehaviour.html" title="A script to heal a hero when activated.">HealAbilityBehaviour</a>.  <a href="classgame_1_1HealAbilityBehaviour.html#ae2c590b5e84de1268fd6221ff07c635a">More...</a><br /></td></tr>
 <tr class="separator:ae2c590b5e84de1268fd6221ff07c635a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a543cb65cc600b36801766331f4a76f70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HealAbilityBehaviour.html#a543cb65cc600b36801766331f4a76f70">OnStart</a> () override</td></tr>
+<tr class="memdesc:a543cb65cc600b36801766331f4a76f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers when the scripts starts for the first time.  <a href="classgame_1_1HealAbilityBehaviour.html#a543cb65cc600b36801766331f4a76f70">More...</a><br /></td></tr>
+<tr class="separator:a543cb65cc600b36801766331f4a76f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22643d9bb8513e5c1922f71432ba1723"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1HealAbilityBehaviour.html#a22643d9bb8513e5c1922f71432ba1723">OnUpdate</a> () override</td></tr>
 <tr class="memdesc:a22643d9bb8513e5c1922f71432ba1723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers every frame when the script is active.  <a href="classgame_1_1HealAbilityBehaviour.html#a22643d9bb8513e5c1922f71432ba1723">More...</a><br /></td></tr>
 <tr class="separator:a22643d9bb8513e5c1922f71432ba1723"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -102,9 +105,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0776ef6c8282d9f90cd67488633c51c inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AbilityBehaviour.html#ac0776ef6c8282d9f90cd67488633c51c">AbilityBehaviour</a> (double coolDown)</td></tr>
 <tr class="memdesc:ac0776ef6c8282d9f90cd67488633c51c inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a empty ability behaviour.  <a href="classgame_1_1AbilityBehaviour.html#ac0776ef6c8282d9f90cd67488633c51c">More...</a><br /></td></tr>
 <tr class="separator:ac0776ef6c8282d9f90cd67488633c51c inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d1ca437c857e03e74052885b0d4df2 inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AbilityBehaviour.html#a24d1ca437c857e03e74052885b0d4df2">OnStart</a> () override</td></tr>
-<tr class="memdesc:a24d1ca437c857e03e74052885b0d4df2 inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers when the scripts starts for the first time.  <a href="classgame_1_1AbilityBehaviour.html#a24d1ca437c857e03e74052885b0d4df2">More...</a><br /></td></tr>
-<tr class="separator:a24d1ca437c857e03e74052885b0d4df2 inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a6bb8d982f5ab4ce5be53114739a23a inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgame_1_1AbilityBehaviour.html#a8a6bb8d982f5ab4ce5be53114739a23a">OnTriggerEnter2D</a> (const <a class="el" href="classspic_1_1Collider.html">spic::Collider</a> &amp;collider) override</td></tr>
 <tr class="memdesc:a8a6bb8d982f5ab4ce5be53114739a23a inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers when the script collides with a collider.  <a href="classgame_1_1AbilityBehaviour.html#a8a6bb8d982f5ab4ce5be53114739a23a">More...</a><br /></td></tr>
 <tr class="separator:a8a6bb8d982f5ab4ce5be53114739a23a inherit pub_methods_classgame_1_1AbilityBehaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,6 +180,35 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a543cb65cc600b36801766331f4a76f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a543cb65cc600b36801766331f4a76f70">&#9670;&nbsp;</a></span>OnStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void game::HealAbilityBehaviour::OnStart </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triggers when the scripts starts for the first time. </p>
+
+<p>Reimplemented from <a class="el" href="classgame_1_1AbilityBehaviour.html#a24d1ca437c857e03e74052885b0d4df2">game::AbilityBehaviour</a>.</p>
+
+</div>
+</div>
 <a id="a22643d9bb8513e5c1922f71432ba1723"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22643d9bb8513e5c1922f71432ba1723">&#9670;&nbsp;</a></span>OnUpdate()</h2>
 
